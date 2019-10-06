@@ -109,7 +109,7 @@ directions = "CIMAT, Office D-304"
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = [
-  {icon = "send", icon_pack = "fab", name = "e-mail", link = "irving.gomez@cimat.mx"},
+  {icon = "gmail", icon_pack = "fab", name = "irving.gomez@cimat.mx"},
   ]
 
 ############################
