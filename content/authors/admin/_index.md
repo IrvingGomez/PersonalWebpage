@@ -61,13 +61,13 @@ social:
   link: "https://irvinggomez.netlify.com/files/CV_Irving.pdf"
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
+#email: ""
   
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
-user_groups:
-- Researchers
-- Visitors
+#user_groups:
+#- Researchers
+#- Visitors
 ---
 
 I am a data scientist and PhD candidate under the direction of <a href="https://www.cimat.mx/es/emilien-joly" target="_blank">Emilien Joly</a>.
