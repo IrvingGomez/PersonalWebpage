@@ -4,14 +4,13 @@ event: Probability and Statistics Seminar CIMAT
 #event_url: https://example.org
 location: Guanajuato, Mexico
 summary: How to appropriate handle missing data throuh random forests avoiding imputation.
-date: "2019-05-13"
 #abstract: ""
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-#date: ""
-#date_end: ""
-#all_day: true
+date: "2019-05-13"
+date_end: "2019-05-13"
+all_day: true
 
 # Schedule page publish date (NOT talk date).
 #publishDate: "2017-01-01T00:00:00Z"
