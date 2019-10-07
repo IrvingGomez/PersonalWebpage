@@ -3,13 +3,13 @@ title: Regresión con datos perdidos usando Bosques Aleatorios
 event: Probability and Statistics Seminar CIMAT
 #event_url: https://example.org
 location: Guanajuato, Mexico
-summary: How to appropriate handle missing data throuh random forests avoiding imputation.
+summary: How to appropriate handle missing data through random forests.
 #abstract: ""
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
 date: "2019-05-13"
-date_end: "2019-05-13"
+date_end: ""
 all_day: true
 
 # Schedule page publish date (NOT talk date).
@@ -31,7 +31,7 @@ featured: false
 #  name: Follow
 #  url: https://twitter.com/georgecushen
 #url_code: ""
-url_pdf: "slides/RF_Missing_es.pdf"
+#url_pdf: "slides/RF_Missing_es.pdf"
 #url_slides: ""
 #url_video: ""
 
