@@ -70,4 +70,4 @@ user_groups:
 - Visitors
 ---
 
-I am a data scientist and PhD candidate under the direction of [Emilien Joly]{{< ref "https://www.cimat.mx/es/emilien-joly" >}}.
+I am a data scientist and PhD candidate under the direction of [Emilien Joly]{{< url "https://www.cimat.mx/es/emilien-joly" >}}.
