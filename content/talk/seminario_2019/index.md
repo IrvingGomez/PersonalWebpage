@@ -8,9 +8,9 @@ summary: How to appropriate handle missing data throuh random forests avoiding i
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: ""
+date: "2019-05"
 date_end: ""
-all_day: false
+all_day: true
 
 # Schedule page publish date (NOT talk date).
 #publishDate: "2017-01-01T00:00:00Z"
@@ -31,8 +31,8 @@ links:
 #  name: Follow
 #  url: https://twitter.com/georgecushen
 #url_code: ""
-#url_pdf: ""
-#url_slides: "https://irvinggomez.netlify.com/static/seminario_2019/RF_Missing_es.pdf"
+#url_pdf: "https://irvinggomez.netlify.com/static/seminario_2019/RF_Missing_es.pdf"
+#url_slides: ""
 #url_video: ""
 
 # Markdown Slides (optional).
