@@ -1,6 +1,6 @@
 ---
 title: Regresión con datos perdidos usando Bosques Aleatorios
-#event: Probability and Statistics Seminar CIMAT
+event: Probability and Statistics Seminar, CIMAT
 #event_url: https://example.org
 #location: Guanajuato, Mexico
 #summary: How to appropriate handle missing data through random forests.
