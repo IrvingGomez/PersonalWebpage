@@ -4,6 +4,7 @@ event: Probability and Statistics Seminar CIMAT
 #event_url: https://example.org
 location: Guanajuato, Mexico
 summary: How to appropriate handle missing data throuh random forests avoiding imputation.
+date: ""
 #abstract: ""
 
 # Talk start and end times.
@@ -25,7 +26,7 @@ featured: false
 #  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
 #  focal_point: Right
 
-links:
+#links:
 #- icon: twitter
 #  icon_pack: fab
 #  name: Follow
@@ -49,7 +50,3 @@ url_pdf: "https://irvinggomez.netlify.com/static/seminario_2019/RF_Missing_es.pd
 #   Otherwise, set `projects = []`.
 #projects:
 #- internal-project
-
-# Enable math on this page?
-math: false
----
