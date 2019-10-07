@@ -50,3 +50,7 @@ url_pdf: "https://irvinggomez.netlify.com/static/seminario_2019/RF_Missing_es.pd
 #   Otherwise, set `projects = []`.
 #projects:
 #- internal-project
+
+# Enable math on this page?
+math: false
+---
