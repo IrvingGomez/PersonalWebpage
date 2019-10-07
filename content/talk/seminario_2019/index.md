@@ -1,9 +1,9 @@
 ---
 title: Regresión con datos perdidos usando Bosques Aleatorios
-event: Probability and Statistics Seminar CIMAT
+#event: Probability and Statistics Seminar CIMAT
 #event_url: https://example.org
-location: Guanajuato, Mexico
-summary: How to appropriate handle missing data through random forests.
+#location: Guanajuato, Mexico
+#summary: How to appropriate handle missing data through random forests.
 #abstract: ""
 
 # Talk start and end times.
@@ -17,7 +17,6 @@ all_day: true
 
 #authors: []
 #tags: []
-profile: false
 
 # Is this a featured talk? (true/false)
 featured: false
