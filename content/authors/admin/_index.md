@@ -15,7 +15,7 @@ superuser: true
 # Organizations/Affiliations
 organizations:
 - name: Centro de Investigación en Matmemáticas (CIMAT)
-  url: "www.cimat.mx"
+  url: "https://www.cimat.mx"
 
 # Short bio (displayed in user profile at end of posts)
 #bio: My research interests include distributed robotics, mobile computing and programmable matter.
@@ -58,7 +58,7 @@ social:
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
 - icon: cv
   icon_pack: ai
-  link: files/CV_Irving.pdf
+  link: "https://irvinggomez.netlify.com/files/CV_Irving.pdf"
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
