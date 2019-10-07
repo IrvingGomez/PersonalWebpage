@@ -157,7 +157,7 @@ docs_section_pager = true  # Display pager in Docs layout (e.g. tutorials)?
 sharing = false
 
 # Link authors to their profile page? (true/false)
-link_authors = false
+link_authors = true
 
 # Load CSS and JS plugins
 #   E.g. To load `/assets/css/custom.css`, set `plugins_css = ["custom"]`.
