@@ -20,19 +20,12 @@ menu:
     name: 
     weight: 1
 ---
-A reference about distributions:
-
-Johnson, Kotz amd Balakrishnan - Continuous Univariate Distributions Vol.1 and 2
+A reference about distributions: Johnson, Kotz amd Balakrishnan - Continuous Univariate Distributions Vol.1 and 2
 
 <ul>
   <li>
     August 23
     <ul>
-      <li>
-        <a href="Ayudantia_1_23_agosto.html">
-          Brief intro to R (how to plot)
-        </a>
-      </li>
       <li>
         <a href="Ayudantia_1_23_agosto.jl">
           Brief intro to Julia (how to plot)
