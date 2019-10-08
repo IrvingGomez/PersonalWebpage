@@ -14,7 +14,7 @@ superuser: true
 
 # Organizations/Affiliations
 organizations:
-- name: Centro de Investigación en Matmemáticas (CIMAT)
+- name: Centro de Investigación en Matemáticas (CIMAT)
   url: "https://www.cimat.mx"
 
 # Short bio (displayed in user profile at end of posts)
