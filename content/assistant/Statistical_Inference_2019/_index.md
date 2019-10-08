@@ -16,7 +16,7 @@ type: docs  # Do not modify.
 # - name: Declare this menu item as a parent with ID `name`.
 # - weight: Position of link in menu.
 menu:
-  Statistical_Inference_2019:
+  example:
     name: Overview
     weight: 1
 ---
