@@ -20,6 +20,9 @@ menu:
     name: 
     weight: 1
 ---
+A reference about distributions:
+
+Johnson, Kotz amd Balakrishnan - Continuous Univariate Distributions Vol.1 and 2
 
 <ul>
   <li>
