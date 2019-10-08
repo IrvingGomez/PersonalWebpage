@@ -28,6 +28,13 @@ Johnson, Kotz amd Balakrishnan - Continuous Univariate Distributions Vol.1 and 2
     August 23
     <ul>
       <li>
+        <a href="https://irvinggomez.github.io/Statistical_Inference_2019/Ayudantia_1_23_agosto.html",
+           target="_blank">
+           Brief intro to R (how to plot)
+        </a>
+      </li>
+      <br>
+      <li>
         <a href="Ayudantia_1_23_agosto.jl">
           Brief intro to Julia (how to plot)
         </a>
