@@ -1,11 +1,11 @@
 ---
 # Course title, summary, and position.
-linktitle: An Example Course
-summary: Learn how to use Academic's docs layout for publishing online courses, software documentation, and tutorials.
+linktitle: Statistical Inference 2019
+summary: 
 weight: 1
 
 # Page metadata.
-title: Overview
+title: Statistical Inference 2019
 date: "2018-09-09T00:00:00Z"
 lastmod: "2018-09-09T00:00:00Z"
 draft: false  # Is this a draft? true/false
@@ -16,7 +16,7 @@ type: docs  # Do not modify.
 # - name: Declare this menu item as a parent with ID `name`.
 # - weight: Position of link in menu.
 menu:
-  example:
+  Statistical_Inference_2019:
     name: Overview
     weight: 1
 ---
