@@ -20,3 +20,22 @@ menu:
     name: 
     weight: 1
 ---
+
+<ul>
+  <li>
+    August 23
+    <ul>
+      <li>
+        <a href="Ayudantia_1_23_agosto.html">
+          Brief intro to R (how to plot)
+        </a>
+      </li>
+      <li>
+        <a href="Ayudantia_1_23_agosto.jl">
+          Brief intro to Julia (how to plot)
+        </a>
+      </li>
+    </ul>
+  </li>
+  <br>
+</ul>
