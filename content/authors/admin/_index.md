@@ -30,6 +30,7 @@ education:
   courses:
   - course: PhD Candidate in Probability and Statistics
     institution: Centro de Investigación en Matemáticas
+    year: 2018
   - course: MSc in Probability and Statistics
     institution: Centro de Investigación en Matemáticas
     year: 2016
