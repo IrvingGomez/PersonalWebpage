@@ -88,6 +88,9 @@ edit_page = {repo_url = "https://github.com/gcushen/hugo-academic", repo_branch 
 email = "irving.gomez@cimat.mx"
 phone = "+52 (473) 732 7155, ext 4729"
 
+# Directions for visitors to locate you.
+directions = "CIMAT, Office D-304"
+
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
 address = {street = "Jalisco S/N", city = "Guanajuato", region = "Guanajuato", postcode = "36023", country = "Mexico", country_code = "MX"}
@@ -95,9 +98,6 @@ address = {street = "Jalisco S/N", city = "Guanajuato", region = "Guanajuato", p
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
 #coordinates = {latitude = "21.042045", longitude = "-101.261128"}
-
-# Directions for visitors to locate you.
-directions = "CIMAT, Office D-304"
 
 # Office hours
 # A list of your office hours. To remove, set to an empty list `[]`.

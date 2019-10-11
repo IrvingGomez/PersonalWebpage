@@ -45,12 +45,12 @@ Johnson, Kotz amd Balakrishnan - Continuous Univariate Distributions Vol.1 and 2
     September 3
     <ul>
       <li>
-        <a href="Statistical_Inference_2019/0_ECDF.py">
+        <a href="0_ECDF.py">
           ECDF with confidence bands with Python
         </a>
       </li>
       <li>
-        <a href="Statistical_Inference_2019/Ayudantia_2_3septiembre.jl">
+        <a href="Ayudantia_2_3septiembre.jl">
           Histograms, ECDF and QQ plots with Julia
         </a>
       </li>
@@ -61,7 +61,7 @@ Johnson, Kotz amd Balakrishnan - Continuous Univariate Distributions Vol.1 and 2
     September 13
     <ul>
       <li>
-        <a href="Statistical_Inference_2019/Inferencia_Normal.R">
+        <a href="Inferencia_Normal.R">
           Normal inference through maximum likelihood
         </a>
       </li>
@@ -72,7 +72,7 @@ Johnson, Kotz amd Balakrishnan - Continuous Univariate Distributions Vol.1 and 2
     October 03
     <ul>
       <li>
-        <a href="Statistical_Inference_2019/guia3_2019.pdf">
+        <a href="guia3_2019.pdf">
           The negative binomial distribution
         </a>
       </li>

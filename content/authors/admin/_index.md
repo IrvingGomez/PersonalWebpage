@@ -44,7 +44,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+  link: 'mailto:irving.gomez@cimat.mx'  # For a direct email link, use "mailto:test@example.org".
 - icon: linkedin
   icon_pack: fab
   link: 'https://www.linkedin.com/in/irving-g%C3%B3mez-3833b711a/'
@@ -70,4 +70,11 @@ social:
 #- Visitors
 ---
 
-I am a data scientist and PhD candidate under the direction of <a href="https://www.cimat.mx/es/emilien-joly" target="_blank">Emilien Joly</a>.
+I am PhD candidate in Probability and Statistics from the <a href="https://www.cimat.mx" target="_blank"> Centro de Investigación en Matemáticas (CIMAT)</a> with the thesis entitled 'Random Forests with Missing Data' under the direction of <a href="https://www.cimat.mx/es/emilien-joly" target="_blank"> Emilien Joly </a>.
+From January 2020, I'm being in a research stay at <a href="https://www.inria.fr/centre/lille" target="_blank"> Inria-Lille</a> in collaboration with <a href="https://jilljenn.github.io/" target="_blank"> Jill-Jênn Vie </a>
+
+
+
+
+
+
