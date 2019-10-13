@@ -85,7 +85,7 @@ Johnson, Kotz amd Balakrishnan - Continuous Univariate Distributions Vol.1 and 2
       <li>
         <a href="Normal_Inference.R">
           Inference of normal distribution thorught maximum likelihood
-        </a>
+        </a> <br>
 	I added some ideas of <a href="https://www.cimat.mx/es/Eloisa_Diaz-Frances_Murguia", target = "_blank"> Eloísa Díaz-Frances <a> such as symmetric reparametrization.
       </li>
     </ul>
