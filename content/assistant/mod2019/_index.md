@@ -30,7 +30,7 @@ Some usefull references:
 
   <li>
    <a href="Notas_Rogelio(2011).pdf">
-      Notes of Prof. Rogelio Ramos Quiroga (2011)
+      Notes of Rogelio Ramos Quiroga (2011)
    </a>
   </li>
 </ul>
@@ -39,7 +39,7 @@ Many of the examples were given to me by
 <a
   href="https://www.cimat.mx/es/Rogelio_Ramos_Quiroga"
   target="_blank">
-   Prof. Rogelio Ramos Quiroga
+   Rogelio Ramos Quiroga
 </a>, in many of them I extended explanation and analysis. <br>
 I have tried to keep the original references inside code.
 
