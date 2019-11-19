@@ -90,4 +90,15 @@ Johnson, Kotz amd Balakrishnan - Continuous Univariate Distributions Vol.1 and 2
       </li>
     </ul>
   </li>
+  <br>
+  <li>
+    November 19
+    <ul>
+      <li>
+        <a href="guia6nov17.pdff">
+          Parametric bootstrap estimation of a gamma quantile
+        </a>
+      </li>
+    </ul>
+  </li>
 </ul>
