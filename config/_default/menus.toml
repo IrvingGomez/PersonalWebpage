@@ -19,8 +19,8 @@
   weight = 60
 
 [[main]]
-  name = "Lille 2020-Blog"
-  url = "blog/"
+  name = "Lille 2020 (Blog)"
+  url = "blog-lille/"
   weight = 70
 
 [[main]]
