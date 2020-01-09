@@ -1,6 +1,6 @@
 ---
-title: Example Blog
-linktitle: Tips 1-2
+title: Inria-Lille 2020
+# linktitle: Tips 1-2
 toc: true
 type: docs
 date: "2019-05-05T00:00:00+01:00"
@@ -13,7 +13,7 @@ menu:
 weight: 1
 ---
 
-In this tutorial, I'll share my top 10 tips for getting started with Academic:
+Este blog está destinado a compartir mis experiencias durante mi estancia de investigación en Inria-Lille 2020
 
 ## Tip 1
 
