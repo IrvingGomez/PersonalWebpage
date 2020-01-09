@@ -13,6 +13,7 @@ weight: 1
 
 Este blog está destinado a compartir mis experiencias durante mi estancia de investigación en Inria-Lille 2020
 
-# Día 1
+# Algo
+## Fecha
 
 Lorem ipsum dolor sit amet,

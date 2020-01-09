@@ -19,7 +19,7 @@
   weight = 60
 
 [[main]]
-  name = "Blog"
+  name = "Lille 2020-Blog"
   url = "blog/"
   weight = 70
 
