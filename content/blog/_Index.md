@@ -1,5 +1,5 @@
 ---
-title: Example Page 1
+title: Example Blog
 linktitle: Tips 1-2
 toc: true
 type: docs
