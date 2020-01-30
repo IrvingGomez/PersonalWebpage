@@ -57,7 +57,7 @@ inglés, tal vez la siguiente vez que alguien quiera hablar inglés conmigo act�
 
 # Galería
 
-##
+## Enero
 
 <b> Mi calle </b>
 
