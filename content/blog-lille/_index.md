@@ -57,6 +57,8 @@ inglés, tal vez la siguiente vez que alguien quiera hablar inglés conmigo act�
 
 # Galería
 
+##
+
 <b> Mi calle </b>
 
 <img src="rue_Eglise.JPG" alt="Rue de l'Église">
