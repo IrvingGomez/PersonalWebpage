@@ -56,7 +56,6 @@ Como cada vez que quiero hablar francés con alguien, terminan cambiando por hab
 inglés, tal vez la siguiente vez que alguien quiera hablar inglés conmigo actúe como que no entiendo para forzarlos a hablar francés.
 
 # Galería
-
 ## Enero
 
 <b> Mi calle </b>
