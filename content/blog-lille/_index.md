@@ -55,5 +55,5 @@ hispanohablante cuando hablo francés. No sé cuál sea ese acento, pero es evid
 Como cada vez que quiero hablar francés con alguien, terminan cambiando por hablar en inglés (o español), así que parece que mi francés no va a mejorar tanto como mi
 inglés, tal vez la siguiente vez que alguien quiera hablar inglés conmigo actúe como que no entiendo para forzarlos a hablar francés.
 
-<img src="rue_Eglise.JPG" alt="Rue de l'Église" width: 50%>
+<img src="rue_Eglise.JPG" alt="Rue de l'Église" width: 50%; height: 50%;>
 <img src="rue_Eglise_2.JPG" alt="Rue de l'Église">
