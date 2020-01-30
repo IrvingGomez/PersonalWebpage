@@ -57,5 +57,4 @@ inglés, tal vez la siguiente vez que alguien quiera hablar inglés conmigo act�
 
 <img src="rue_Eglise.JPG" alt="Rue de l'Église">
 <img src="rue_Eglise_2.JPG" alt="Rue de l'Église">
-<img src="CAM00790.JPG" alt="Rue de l'Église">
 
