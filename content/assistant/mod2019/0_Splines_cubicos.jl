@@ -36,7 +36,7 @@ roundmap(coef(model1), 3)
 
 #0.582
 #-0.019
-#the distribution function is 3*x.-3*x.^2+x.^3-0.1*x.^4
+#the regression function is 3*x.-3*x.^2+x.^3-0.1*x.^4
 
 coef(model1)
 
@@ -61,7 +61,7 @@ roundmap(coef(model2), 3)
 #0.599
 #-0.055
 #0.012
-#the distribution function is 3*x.-3*x.^2+x.^3-0.1*x.^4
+#the regression function is 3*x.-3*x.^2+x.^3-0.1*x.^4
 
 plot(xx, yy,
     seriestype=:scatter,
@@ -86,7 +86,7 @@ roundmap(coef(model3), 3)
 #2.507
 #-2.16
 #0.483
-#the distribution function is 3*x.-3*x.^2+x.^3-0.1*x.^4
+#the regression function is 3*x.-3*x.^2+x.^3-0.1*x.^4
 
 plot(xx, yy,
     seriestype=:scatter,
@@ -111,7 +111,7 @@ roundmap(coef(model4), 3)
 #-3.178
 #1.016
 #-0.089
-#the distribution function is 3*x.-3*x.^2+x.^3-0.1*x.^4
+#the regression function is 3*x.-3*x.^2+x.^3-0.1*x.^4
 
 plot(xx, yy,
     seriestype=:scatter,

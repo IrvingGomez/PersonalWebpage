@@ -55,6 +55,52 @@ hispanohablante cuando hablo francés. No sé cuál sea ese acento, pero es evid
 Como cada vez que quiero hablar francés con alguien, terminan cambiando por hablar en inglés (o español), así que parece que mi francés no va a mejorar tanto como mi
 inglés, tal vez la siguiente vez que alguien quiera hablar inglés conmigo actúe como que no entiendo para forzarlos a hablar francés.
 
+# Febrero
+## 09/02/2020
+
+Hoy tenía pensado salir para mostrarles algo sobre la ciudad. Pero está lloviendo, hace frío y estoy atrasado con mi trabajo. Así que mejor me he quedado a trabajar
+y, mientras me tomo en descanso, les cuento un poco más. Por cierto, he tenido algunos problemas para poner imágines aquí en un tamaño descente, pero mientras tanto les
+dejo unas fotos de mi linda calle, de Inria y de algunas otras calles aleatorias de la ciudad. Después les pondré fotos de edificios más emblemáticos.
+
+<b> Inria </b>
+
+Inria es un instituto de investigación enorme con 8 centros repartidos por todo el país (Brdeaux, Grenoble, Lille, Nancy, Paris, Rennes, Sacle y Sophia Antipolis).
+Con un gran número de equipos de investigación. El centro Inria Lille-Nord Europe cuenta con 14 equipos de investigación, uno de ellos es Sequel
+(pueden saber un poco más sobre el equipo <a href="https://team.inria.fr/sequel">aquí</a>).
+La mayoría de los equipos de investigación de Inria se enfocan en el área del cómputo, pero también hay gente que realiza investigación en genómica y física.
+Sequel se dedica al aprendizaje de las máquinas (por cierto, si alguien sabe cómo hacer jalar un Variational Autoencoder con TensorFlow2, sea buena gente y
+páseme el código para que pueda salir a pasear).
+
+<b> Los horarios </b>
+
+Definitivamente lo más difícil a adaptarse acá son los horarios. Y es que casi todo está cerrado entre las 2pm y las 6pm o 7 pm, por alguna razón extraña.
+Al principio creí que sería porque se van a comer, ¡pero incluso los restaurantes están cerrados a esa hora! Ya me ha pasado comounas 3 veces que quiero ir a comer algo y
+TODO está cerrado, así que tengo que regresar a mi casa con mucha más hambre y a ver qué como. A mí me parecía ridículo que incluso los restaurantes cerraran a la
+hora de la comida, después de todo es su negocio. Pero estaba equivocado, los restaurantes no cierran a la hora de la comida, sino que
+la ENORME mayoría de los franceses come a las 12:00 (los que he visto comen más tarde
+lo hacen por muy tarde a la 1pm o 1:30), y después los restaurantes cierran hasta la noche. 
+Así que o vas a desayunar o vas a cenar, porque a la hora de la comida no hay nada,
+(a menos claro que tu hora de comida sea a medio día). Después de que comen a medio día, no vuelven a comer hasta como las 7 pm. Yo no sé como le hacen, porque si yo como
+a la 1pm paralas 5pm ya tengo hambre y estoy comiendo galletitas o alguna fruta o me voy a mi casa.
+Y si te estás preguntando que hacen los franceses entre las 2pm y las 7pm, pues algunos salen a correr o van a hacer ejercicio.
+
+En otra ocasión, fui al supermercado después de ir al gimnasio (osea eran poco antes de las 8pm). Y era el ÚNICO cliente en la tienda, y me trajeron a la carrera
+porque ya iban a cerrar ¿¡Qué cadena de supermercados cierra a las 8 pm!? Pues aunque hay algunas tiendas que cierran más tarde, la mayoría cierra a las 8pm.
+
+Ah y olvídate de salir lso domingos a comer, TODO está cerrado, ¿en verdad los franceses tienen ganas de cocinar en domingo?
+
+Yo simplemente no entiendo nada el horario de la gente aquí.
+
+<b> El transporte </b>
+
+Si la armas en México, Francia es papita. Igual que en el metro de DF, te compras una tarjetita de unos 2 EUR, y le vas abonando viajes ¡y ya! eso es todo, así de
+simple. Con esa misma tarjetita pagas el metro, el tranvía y los autobuses. En algunas estaciones no hay puertas ni torniquetes que te impidan hacer uso del servicio, 
+pero aun así debes pagar, simplemente presentando la tarjeta a las máquinas que cobran a la entrada. A veces hay inspecciones aleatorias (sobre todo en correspondencias o 
+terminales), en donde unas personas con una maquinita se ponen a leer las tarjetas para asegurarse que pagaste el servicio, y si no lo hiciste, pues te multan.
+La primera vez que vi un grupo de estas personas, como yo no sabía que hacían, me seguí de frente ignorándolos, y uno de ellos me persiguió por la estación para que
+le mostrara mi tarjeta y ya estaba listo para multarme. Y sí, hay algunos franceses que se suben sin pagar, y ya me ha tocado ver como unas 4 veces que le están
+levantando una multa a alguien.
+
 # Galería
 ## Enero
 
@@ -62,4 +108,17 @@ inglés, tal vez la siguiente vez que alguien quiera hablar inglés conmigo act�
 
 <img src="rue_Eglise.JPG" alt="Rue de l'Église">
 <img src="rue_Eglise_2.JPG" alt="Rue de l'Église">
+
+## Febreo
+
+<b> Inria </b>
+
+<img src="Inria.JPG" alt="Rue de l'Église">
+
+<b> Calles de Lille </b>
+
+<img src="Calle Random_2.JPG" alt="Rue de l'Église">
+<img src="Calle Random_3.JPG" alt="Rue de l'Église">
+<img src="Calle Random_4.JPG" alt="Rue de l'Église">
+
 
