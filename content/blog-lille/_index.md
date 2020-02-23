@@ -188,14 +188,14 @@ lugares icónicos de Lille. Por cierto, si se lo preguntaban, hoy el día estuvo
 
 <b> Calles de Lille </b>
 
-<img src="Calle Random_2.JPG" title="Alguna calle lilloise" alt="Rue de l'Église">
+<img src="Calle Random_2.JPG" alt="Rue de l'Église">
 <img src="Calle Random_3.JPG" alt="Rue de l'Église">
 <img src="Calle Random_4.JPG" alt="Rue de l'Église">
 
 <b> París </b>
 
-<img src="Eiffel_3.JPG" title="Eiffel" alt="Eiffel">
-<img src="Eiffel_13.JPG" title="Eiffel" alt="Eiffel">
+<img src="Eiffel_3.JPG" alt="Eiffel">
+<img src="Eiffel_13.JPG" alt="Eiffel">
 <img src="Hotel_invalides_10.JPG" alt="Hotel des invalides">
 <img src="Jardin_Luxemburgo.JPG" alt="Jardin Luxembourg">
 <img src="Mouffetard.JPG" alt="Mouffetard">
