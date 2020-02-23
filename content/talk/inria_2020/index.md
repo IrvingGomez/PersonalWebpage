@@ -2,7 +2,7 @@
 title: Some ideas for random forests with missing values
 event: Sequel Seminar, Inria Lille
 #event_url: https://example.org
-#location: Guanajuato, Mexico
+location: Lille, France
 #summary: How to appropriate handle missing data through random forests.
 #abstract: ""
 

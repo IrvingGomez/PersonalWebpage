@@ -2,7 +2,7 @@
 title: Some ideas for random forests algorithms with missing values
 event: TRIPODS, CIMAT-UA
 #event_url: https://example.org
-#location: Guanajuato, Mexico
+location: Guanajuato, Mexico
 #summary: How to appropriate handle missing data through random forests.
 #abstract: ""
 
