@@ -102,6 +102,76 @@ La primera vez que vi un grupo de estas personas, como yo no sabía que hacían,
 le mostrara mi tarjeta y ya estaba listo para multarme. Y sí, hay algunos franceses que se suben sin pagar, y ya me ha tocado ver como unas 4 veces que le están
 levantando una multa a alguien.
 
+## 23/02/2020
+
+Hoy les quiero platicar de dos cosas. Lo primero de lo que quiero hablar es sobre franglish, una idea gracias a la cual finalmente comienzo a tener una vida social.
+Lo segundo de lo que quiero hablarles es de mi viaje a París el pasado fin de semana.
+
+<b> Franglish </b>
+
+Los franceses pueden ser sumamente fríos. Así que no esperes que te inviten a ninguna fiesta o a salir a tomar algo, ni siquiera esperes que tus compañeros en la
+oficina te saluden o se despidan. Simplemente cuando llegan van directo a su esrcitorio y cuando se van, pues toman sus cosas y se salen. Y cuando es la hora de comer
+(osea medio día), simplemente se levantan y se van, no esperes que te inviten a ir a comer, porque de hecho, ni siquiera entre ellos se invitan a comer. Y según los
+mismos franceses (al menos con los que he podido platicar un poco) los parisinos son los peores. Así que es muy difícil tener vida social por acá.
+
+Y aunque pueda paracer que soy un exagerado drama queen, la verdad es que he podido platicar al menos con otros dos extranjeros que viven aquí y opinan cosas similares.
+Uno de ellos, un marroquí que vino a estudiar la universidad acá me coentaba que cuando llegó, fue él quien tuvo que invitar a sus compañeros a salir para comenzar a
+tener vida social, lo que le parecía ridículo, que una persona que apenas llega a la ciudad y que no la conoce sea la que tiene que invitar a los habitantes de aquí
+y actuar como si él les estuviera dando la bienvenida. Osea que si no te pones las pilas acá puedes terminar solo solo solo. Lo que me lleva a ¡franglish!
+¡la idea para romper ese sistema solitario!
+
+Hay un café en Lille llamado Queen's Head, en donde cada martes después de las 7pm se reune un grupo de personas, pues para echar chisme. Una parte del grupo son
+extranjeros que, como yo, quieren mejorar su francés. La otra parte del grupo son en su mayoría franceses/lillois (lillois es el gentilicio de Lille)
+que quieren mejorar su inglés. Y la dinámica es muy simple, vas, compras una cerveza, una copa de vino o alguna otra cosa y platicas durante 7 minutos en francés con
+alguien y durante 7 minutos en inglés, después cambias de mesa y platicas con la siguiente persona, hasta como las 9pm (o cuando te aburras). ¡Y en 14 minutos supe
+más sobre estas personas que sobre mis compañeros de la oficina durante un mes! Aunque en realidad simplemente con saber sus nombres ya sabía más sobre ellos.
+
+Este martes fue la primera vez que fui y la verdad es que no tenía grandes espectativas, pensé que sería apenas un pequeño grupo de personas y nada más
+(y que sería demasiado aburrido), pero de hecho va una buena cantidad de persona, es divertido y finalmente tengo recomendaciones de restaurantes donde puedo comer
+comida francesa. De lo único que me arrepiento es de no haber ido antes.
+
+Oh, una cosa más, creo que hay otras ciudad en donde también existe el franglish. Si alguna vez están una estancia larga por acá, definitivamente vayan lo más pronto
+posible al franglish.
+
+<b> París </b>
+
+Hay un par de maneras de ir de Lille a París. Puedes tomar un autobús, ir en algún auto compartido o tomar el tren de gran velocidad (TGV), el más rápido claro es el
+TGV, pero también puede ser algo caro. Ahora si vas a tomar el TGV definitivamente te recomiendo que compres primera clase, al menos en los boletos que yo compré,
+la diferencia en precio entre primera clase y segunda clase eran 2EUR, osea te compras 4 limones o 4 jitomates y ya te gastaste 2EUR (sí, el precio de las frutas y
+las verduras es ridículamente alto), pero la diferencia en la comodidad es ENORME.
+
+Siempre creí que la belleza de la ciudad no correspondería con su popularidad. Osea, que París es una ciudad fea pero famosa. Y debo admitir que me equivoqué, el centro
+de París es muy bello. Yo creía que algunos edificios icónicos de la ciudad, como el Louvre, destacarían sobre los edificios de su alrededor, pero la verdad es que todos
+los edificios del centro de París son sumamente bellos. Además, el centro de la ciudad está adornado con varias esculturas por distintos lugares y con varios parques.
+
+La segunda cosa que creí que no correspondería con su popularidad era la torre Eiffel. Y sobre eso no me equivoqué, la Eiffel es FEA, pero fea en serio, horrorosa,
+sin chiste y sin gracia. Los demás edificios del centro están adornados hasta el detalle, mientras que la Eiffel... Bueno, si has visto una antena de radio o una torre
+de alta tensión en la carretera, pues ya viste la Eiffel, imagínatela un poco más alta. Sólo por la noche es que se ve linda la antena, pero eso es porque la
+cantidad de luces que tiene logra ocultar lo fea que es. Aún así, como buen turista me tomé algunas fotos allí xD. Pero, en mi opinión, si alguna vez vas a París,
+no pierdas el tiempo allí, toma una o dos fotos y vete a otro lado. Por ejemplo podrías ir al Hôtel des Invalides (que está por allí cerca) a ver la tumba de Napoleón
+o pasear por sus dstintos museos.
+
+También te recomiendo que te salgas un poco de la calle de atracciones principales, la cual no tengo ni idea de cómo se llama, pero es la que va desde el Arco del Triunfo,
+la Concorde, el Louvre y la Place de Bastilla, y vayas a otros lugares. Por ejemplo, puedes quedarte un rato descansando en el Jardín de Luxemburgo. Y definitivamente
+antes de irte ve al Sacré Coeur, desde donde puedes ver una buena parte del centro y algunos lugares por los que quizás paseaste.
+
+Los mismos franceses creen que en los restaurantes y bares parisinos el servicio es pésimo y que los meseros son sumamente groseros, además de que los platillos por el
+centro de la ciudad son muy caros, están entre los 15EUR o 20EUR (sin incluir bebidas), al menos lo que yo vi.
+Y en opinión de algunos franceses ni siquiera están bien servidos. Así que si viajas con poco dinero, como yo, también te recomiendo que pases por la calle de Mouffetard.
+A ambos lados de la calle hay varios restaurantes a precios accesibles,
+claro que tampoco esperes comida gourmet ni el plato más grande que hayas comido, pero para quitarte el hambre a un precio razonable para seguir paseando, está bien.
+
+Como fui en plan de viajero austero, me hospedé en un cuarto de un departamento ya a las orillas de la ciudad. Y no sé cómo sean en el centro de la ciudad, pero una vez
+comí en un pequeño restaurate por allí y me trataron muy bien. Además que la persona que me hospedó fue muy amigable. Así que si sientes que los parisinos son muy groseros
+a lo mejor simplemente te falta ir un poco más lejos del centro. Hay una cosa más de la que me pude percatar y que pocos te dirán, una vez que sales del centro turístico,
+París es un desmadre. Osea para pasear por su centro esá chido, pero para vivir allí.... pff que horror, a menos que te guste el desmadre (algo así como el DF pues).
+
+<b> Lille </b>
+
+Para conlcuir por su tortura de haber leído toooodo lo que escribí hoy. Remataré diciendo que, aunque el centro de París es bello, Lille me parece una ciudad mucho más
+bella (y no sólo su centro) y definitivamente una mejor ciudad para vivir. Y, aunque ya me han de tachar de mentiroso a estas alturas, prometo subir pronto fotos de
+lugares icónicos de Lille. Por cierto, si se lo preguntaban, hoy el día estuvo nublado, lloviendo, con niebla y con viento; osea como cualquier típico día en Lille.
+
 # Galería
 ## Enero
 
@@ -118,8 +188,18 @@ levantando una multa a alguien.
 
 <b> Calles de Lille </b>
 
-<img src="Calle Random_2.JPG" alt="Rue de l'Église">
+<img src="Calle Random_2.JPG" title="Alguna calle lilloise" alt="Rue de l'Église">
 <img src="Calle Random_3.JPG" alt="Rue de l'Église">
 <img src="Calle Random_4.JPG" alt="Rue de l'Église">
+
+<b> París </b>
+
+<img src="Eiffel_3.JPG" title="Eiffel" alt="Eiffel">
+<img src="Eiffel_13.JPG" title="Eiffel" alt="Eiffel">
+<img src="Hotel_invalides_10.JPG" alt="Hotel des invalides">
+<img src="Jardin_Luxemburgo.JPG" alt="Jardin Luxembourg">
+<img src="Mouffetard.JPG" alt="Mouffetard">
+<img src="Napoleon_13.JPG" alt="Tumba Napoleon">
+<img src="Sacre_Coeur.JPG" alt="Sacre Coeur">
 
 
