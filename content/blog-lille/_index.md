@@ -172,6 +172,8 @@ Para conlcuir por su tortura de haber leído toooodo lo que escribí hoy. Remata
 bella (y no sólo su centro) y definitivamente una mejor ciudad para vivir. Y, aunque ya me han de tachar de mentiroso a estas alturas, prometo subir pronto fotos de
 lugares icónicos de Lille. Por cierto, si se lo preguntaban, hoy el día estuvo nublado, lloviendo, con niebla y con viento; osea como cualquier típico día en Lille.
 
+{{< gallery album="Galeria" >}}
+
 # Galería
 ## Enero
 
@@ -194,8 +196,7 @@ lugares icónicos de Lille. Por cierto, si se lo preguntaban, hoy el día estuvo
 
 <b> París </b>
 
-<img src="Eiffel_3.JPG" alt="Eiffel" rotate="270">
-<img src="Eiffel_13.JPG" alt="Eiffel" rotate="90">
+<img src="Eiffel_13.JPG" alt="Eiffel">
 <img src="Hotel_invalides_10.JPG" alt="Hotel des invalides">
 <img src="Jardin_Luxemburgo.JPG" alt="Jardin Luxembourg">
 <img src="Mouffetard.JPG" alt="Mouffetard">
