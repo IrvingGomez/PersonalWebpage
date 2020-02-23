@@ -194,8 +194,8 @@ lugares icónicos de Lille. Por cierto, si se lo preguntaban, hoy el día estuvo
 
 <b> París </b>
 
-<img src="Eiffel_3.JPG" alt="Eiffel">
-<img src="Eiffel_13.JPG" alt="Eiffel">
+<img src="Eiffel_3.JPG" alt="Eiffel" rotate="270">
+<img src="Eiffel_13.JPG" alt="Eiffel" rotate="90">
 <img src="Hotel_invalides_10.JPG" alt="Hotel des invalides">
 <img src="Jardin_Luxemburgo.JPG" alt="Jardin Luxembourg">
 <img src="Mouffetard.JPG" alt="Mouffetard">
