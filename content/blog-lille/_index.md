@@ -8,6 +8,11 @@ draft: false
 menu:
   blog-lille:
     weight: 1
+
+gallery_item:
+ - album: gallery_Lille
+   image: Jardin_Luxemburgo.JPG
+   caption: A caption
 ---
 
 Este blog está destinado a compartir mis experiencias durante mi estancia de investigación en Inria-Lille 2020
@@ -172,42 +177,6 @@ Para conlcuir por su tortura de haber leído toooodo lo que escribí hoy. Remata
 bella (y no sólo su centro) y definitivamente una mejor ciudad para vivir. Y, aunque ya me han de tachar de mentiroso a estas alturas, prometo subir pronto fotos de
 lugares icónicos de Lille. Por cierto, si se lo preguntaban, hoy el día estuvo nublado, lloviendo, con niebla y con viento; osea como cualquier típico día en Lille.
 
-{{< gallery album="Galeria" >}}
-
-+++
-[[gallery_item]]
-  album = "Galeria"
-  image = "Calle Random_2.JPG"
-  caption = "captione"
-+++
-
-# Galería
-## Enero
-
-<b> Mi calle </b>
-
-<img src="rue_Eglise.JPG" alt="Rue de l'Église">
-<img src="rue_Eglise_2.JPG" alt="Rue de l'Église">
-
-## Febreo
-
-<b> Inria </b>
-
-<img src="Inria.JPG" alt="Rue de l'Église">
-
-<b> Calles de Lille </b>
-
-<img src="Calle Random_2.JPG" alt="Rue de l'Église">
-<img src="Calle Random_3.JPG" alt="Rue de l'Église">
-<img src="Calle Random_4.JPG" alt="Rue de l'Église">
-
-<b> París </b>
-
-<img src="Eiffel_13.JPG" alt="Eiffel">
-<img src="Hotel_invalides_10.JPG" alt="Hotel des invalides">
-<img src="Jardin_Luxemburgo.JPG" alt="Jardin Luxembourg">
-<img src="Mouffetard.JPG" alt="Mouffetard">
-<img src="Napoleon_13.JPG" alt="Tumba Napoleon">
-<img src="Sacre_Coeur.JPG" alt="Sacre Coeur">
+{{< gallery album="gallery_Lille" >}}
 
 
