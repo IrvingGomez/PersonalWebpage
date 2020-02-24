@@ -10,9 +10,8 @@ menu:
     weight: 1
 
 gallery_item:
- - album: gallery_Lille
-   image: Jardin_Luxemburgo.JPG
-   caption: A caption
+ - image: Jardin_Luxemburgo.JPG
+   caption: Jardin de Luxemburgo
 ---
 
 Este blog está destinado a compartir mis experiencias durante mi estancia de investigación en Inria-Lille 2020
