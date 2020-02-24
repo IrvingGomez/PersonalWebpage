@@ -10,7 +10,11 @@ menu:
     weight: 1
 
 gallery_item:
- - image: Jardin_Luxemburgo.JPG
+ - album: gallery_Lille_enero
+   image: rue_Eglise.JPG.JPG
+   caption: Rue de l'Église
+ - album: gallery_Lille_febrero
+   image: Jardin_Luxemburgo.JPG
    caption: Jardin de Luxemburgo
 ---
 
@@ -176,6 +180,8 @@ Para conlcuir por su tortura de haber leído toooodo lo que escribí hoy. Remata
 bella (y no sólo su centro) y definitivamente una mejor ciudad para vivir. Y, aunque ya me han de tachar de mentiroso a estas alturas, prometo subir pronto fotos de
 lugares icónicos de Lille. Por cierto, si se lo preguntaban, hoy el día estuvo nublado, lloviendo, con niebla y con viento; osea como cualquier típico día en Lille.
 
-{{< gallery album="gallery_Lille" >}}
+{{< gallery album="gallery_Lille_enero" >}}
+
+{{< gallery album="gallery_Lille_febrero" >}}
 
 
