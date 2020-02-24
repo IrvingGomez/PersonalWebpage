@@ -174,6 +174,13 @@ lugares icónicos de Lille. Por cierto, si se lo preguntaban, hoy el día estuvo
 
 {{< gallery album="Galeria" >}}
 
++++
+[[gallery_item]]
+  album = "Galeria"
+  image = "Calle Random_2.JPG"
+  caption = "captione"
++++
+
 # Galería
 ## Enero
 
