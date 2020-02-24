@@ -13,7 +13,7 @@ gallery_item:
  - album: gallery_rue_Eglise
    image: rue_Eglise.JPG
    caption: Rue de l'Église
- - album: gallery_Lille_enero
+ - album: gallery_rue_Eglise
    image: rue_Eglise_2.JPG
    caption: Rue de l'Église
  - album: gallery_inria
@@ -29,7 +29,7 @@ gallery_item:
    image: Calle Random_4.JPG
    caption: Rues de Lille
  - album: gallery_Paris
-   image: Eiffel_13.JPG
+   image: Eiffel_13_bis.JPG
    caption: Tour Eiffel
  - album: gallery_Paris
    image: Hotel_invalides_10.JPG
@@ -210,11 +210,24 @@ Para conlcuir por su tortura de haber leído toooodo lo que escribí hoy. Remata
 bella (y no sólo su centro) y definitivamente una mejor ciudad para vivir. Y, aunque ya me han de tachar de mentiroso a estas alturas, prometo subir pronto fotos de
 lugares icónicos de Lille. Por cierto, si se lo preguntaban, hoy el día estuvo nublado, lloviendo, con niebla y con viento; osea como cualquier típico día en Lille.
 
+# Galería
+## Enero
+
+<b> Mi calle </b>
+
 {{< gallery album="gallery_rue_Eglise" >}}
+
+## Febreo
+
+<b> Inria </b>
 
 {{< gallery album="gallery_inria" >}}
 
+<b> Calles de Lille </b>
+
 {{< gallery album="gallery_Lille_calles" >}}
+
+<b> París </b>
 
 {{< gallery album="gallery_Paris" >}}
 
