@@ -210,6 +210,7 @@ Para conlcuir por su tortura de haber leído toooodo lo que escribí hoy. Remata
 bella (y no sólo su centro) y definitivamente una mejor ciudad para vivir. Y, aunque ya me han de tachar de mentiroso a estas alturas, prometo subir pronto fotos de
 lugares icónicos de Lille. Por cierto, si se lo preguntaban, hoy el día estuvo nublado, lloviendo, con niebla y con viento; osea como cualquier típico día en Lille.
 
+# Febrero
 ## 19/03/2020
 
 Bueno, creí que no tendría nada interesante que contarles, pero todo cambió en los últimos días.
