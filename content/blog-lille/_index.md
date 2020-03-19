@@ -210,6 +210,50 @@ Para conlcuir por su tortura de haber leído toooodo lo que escribí hoy. Remata
 bella (y no sólo su centro) y definitivamente una mejor ciudad para vivir. Y, aunque ya me han de tachar de mentiroso a estas alturas, prometo subir pronto fotos de
 lugares icónicos de Lille. Por cierto, si se lo preguntaban, hoy el día estuvo nublado, lloviendo, con niebla y con viento; osea como cualquier típico día en Lille.
 
+## 19/03/2020
+
+Bueno, creí que no tendría nada interesante que contarles, pero todo cambió en los últimos días.
+
+Ya desde mediados de febrero se recomendaba ampliamente el minimizar el contacto físico, evitar dar besos, abrazos o estrechar la mano, etc. Pero, pues lo franceses
+son bien contreras (igual que los españoles y los italianos) y 
+les gusta cuestionar cualquier cosa. Es parte de su cultura no estar satisfechos, hacer paros, huelgas y debatir cualquier medida del gobierno
+(que de mucho les ha servido, dicho sea de paso). Y esta vez no podía ser la excepción.
+Así que desestimaron las medidas de precaución e incluso hasta hace unos pocos días podías encontrar gente en
+la calle saludandose de beso (generalmente dos, uno de cada lado, pero a veces hasta cuatro).
+
+Debo decir que yo también llegué a minimizar el problema de la epidemia por el Covid-19. Lo subestimaba pensando cosas como: "no hay tantos casos",
+"los casos están lejos de donde yo vivo", "eso no me va a pasar", "mi salud está bien", etc. Claro que, aún así siempre seguí las indicaciones de evitar contacto físico
+(lo cual no es difícil cuando realmente no conoces a nadie (que sad)).
+
+Hace una semana se pusieron señalamientos en un gran número de lugares públicos sobre "cómo evitar el contagio del coronavirus". En mi oficina en Inria,
+se puso un cartel justo a lado de "qué hacer en caso de un ataque terrorista". Creo que la mayoría pensó que hasta allí llegaría todo el asunto,
+se seguía conviviendo como siempre se hizo, se seguían ignoranddo las medidas de prevención como siempre.
+Pero todo cambió súbitamente en el fin de semana, el jueves se cerraban todas las escuelas y
+universidades, el viernes cerraba Inria (que no es una universidad, sino un instituto de investigación), el sábado se cerraban todos los establecimientos no vitales
+(cines, museos, restaurantes, bares, etc.), el lunes se cerraban las fronteras para ingresar a Europa (excepto para europeos o residentes).
+
+Además, a partir del mismo lunes, Francia entraba en cuarentena obligatoria por al menos 15 días. Quedaba restringido el desplazamiento, excepto en los siguientes casos:
+Es indispensable que asistas al trabajo, realizar compras de primera necesidad, motivos de salud, motivo familiar imperioso (asistencia de personas
+vulnerables o cuidado de niños), realizar actividades físicas individuales o por necesidades de mascotas (siempre que sea en los alrededores de tu domicilio).
+
+Ahora antes de salir a la calle hay que llenar un formato, en el que escribes tu nombre, tu domicilio y la razón (entre las previamente mencionadas)
+por la que estás afuera. Si sales a pasear o sin el formato debidamente llenado te pueden multar con hasta 130 EUR (creo que ya incrementaron la multa porque todavía
+había gente que salía a la calle como si fueran vacaciones).
+
+Estas medidas no tienen un impacto drástico inmediato en los residentes y en las personas que tenemos un lugar estable donde vivir por las proximas semanas.
+Pero hay personas que ya tenían reservaciones en hoteles y vuelos pagados con varios meses de anticipación, que entraron al país antes de este fin de semana
+sólo para darse cuenta que sus
+hoteles estaban cerrados y que no tenían donde pasar la(s) noche(s). Personas (de todas partes del mundo) que no tienen más remedio que regresar al aeropuerto, pasar días
+enteros allí, hacer filas interminables y cambiar sus vuelos lo más pronto
+posible en medio del caos. La situación ha sobrepasado la capacidad de las aerolíneas, del aeropuerto Charles de Gaulle en París y de la embajada de México (y de otros países).
+Los vuelos cambian a cada momento, suben de precio, son cancelados... Simplemente es un verdadeo lío intentar salir de Francia en estos momentos.
+
+¿Qué podemos aprender de todo esto? Varias cosas, primero dejen de darse besos para saludarse, segundo seguir indicaciones para minimizar el contacto físico,
+tercero dejar de minimizar el problema con pensamientos como "son muy pocos casos", "todo está bajo control", "no va a pasar nada de eso".
+Creo que lo que falló en Europa, fue nuestro egoísmo frente al bien común,
+fue el seguir criticando y despreciando las medidas de prevención que se tenían que seguir cuando se pudo,
+en vez de acatarlas y sacrificar algo de libertad personal por el bien de todos.
+
 # Galería
 ## Enero
 
