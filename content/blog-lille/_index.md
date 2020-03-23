@@ -46,19 +46,19 @@ gallery_item:
  - album: gallery_Paris
    image: Sacre_Coeur.JPG
    caption: Basilique du Sacré Coeur
- - album: gallery_aeropertos
+ - album: gallery_aeropuertos
    image: Munich_1.JPG
    caption: Aeropuerto de Munich
  - album: gallery_aeropertos
    image: Munich_2.JPG
    caption: Aeropuerto de Munich
- - album: gallery_aeropertos
+ - album: gallery_aeropuertos
    image: CDG_1.JPG
    caption: Aeropuerto de París
- - album: gallery_aeropertos
+ - album: gallery_aeropuertos
    image: CDG_2.JPG
    caption: Aeropuerto de París
- - album: gallery_aeropertos
+ - album: gallery_aeropuertos
    image: CDG_3.JPG
    caption: Aeropuerto de París
 ---
