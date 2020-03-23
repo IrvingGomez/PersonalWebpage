@@ -272,7 +272,7 @@ en vez de acatarlas y sacrificar algo de libertad personal por el bien de todos.
 
 ## 23/03/2020
 
-Desde ayer en la madrugada me encuentro en México, estoy haciendo una cuarentena voluntaria de por lo menos dos semanasen casa de mis padres,
+Desde ayer en la madrugada me encuentro en México, estoy haciendo una cuarentena voluntaria de por lo menos dos semanas en casa de mis padres,
 a las únicas personas que he visto son a mis hermanos, a los que ni siquiera abracé a mi llegada y
 de los cuales procuro mantener mi distancia aún en la casa (yo estoy en la planta baja y procuro no subir, ellos están en la planta alta), mis padres
 se fueron a casa de mi abuelita y no los veré hasta después de estas dos semanas.
@@ -282,7 +282,7 @@ Pareciera que fue mucho tiempo más que una semana.
 El jueves 12 de marzo, viajaba a Finlandia a visitar a un amigo, un viaje que tenía planeado meses previos. Iba a visitarlo sólo durante el fin de semana, por lo que iba a
 estar de regreso para el martes 17 de marzo. Y todo pasó ese fin de semana. El viernes todavía pudimos visitar un antiguo castillo medieval.
 Pero todas las actividades que teníamos planeadas para el fin de semana fueron canceladas, el lunes visité Helsinki (mi amigo vive en otra ciudad) y ya para ese entonces
-la mayoría de museos, iglesias, etc. estaban cerradas. Ese mismo día Francia anunciaba el cierre de sus fronteras e imponía las medidas contra el desplazamiento.
+la mayoría de museos, iglesias, etc. estaban cerrados. Ese mismo día Francia anunciaba el cierre de sus fronteras e imponía las medidas contra el desplazamiento.
 
 Realizar el check-in el martes para regresar a Francia tomó varios minutos, eso fue porque la persona que auxiliaba con el check-in simplemente me dijo
 que no estaba segura de si podía abordar el avión, supuestamente sólo podían ingresar ciudadanos franceses o personas con permiso de residencia (yo no tengo ninguna de
@@ -297,27 +297,28 @@ pero te vamos a dejar abordar. Buena suerte, ojalá que puedas entrar a Francia"
 Antes de ir a París, mi vuelo hacía conexión en Munich, el avión iba casi vacío, de hecho varios de los pasajeros pudimos tomar todos los asientos de la fila
 sólo para nosotros. El aeropuerto de Munich parecía una tumba, jamás había visto un aeropuerto tan vacío, podías caminar una buena distancia antes de encontrarte
 a una persona, el silencio era absoluto, la mayoría de las tiendas estaban cerradas y las que no lo estaban no tenían ni un sólo cliente. Al final no tuve ningún problema
-para abordar el avión a París. Había un gran contraste entre el aeropuerto de Munich y el aeropuerto de París, en el París había todo un mundo de gente con el deseo de
+para abordar el avión a París. Había un gran contraste entre el aeropuerto de Munich y el aeropuerto de París, en el de París había todo un mundo de gente con el deseo de
 salir de Francia inmediatamente, había tantas personas, que caminar entre la multitud de personas y maletas era difícil. Sin mayor complicación llené el documento
-obligatorio para desplazarte, tomé el tren a Lille, que llegó uno hora más tarde de lo previsto (como todos los trenes que en ese momento estaban retrasados) y pude
+obligatorio para desplazarte, tomé el tren a Lille, que llegó una hora más tarde de lo previsto (como todos los trenes que en ese momento estaban retrasados) y pude
 llegar a mi casa en la noche del martes.
 
 En los días siguientes me preparé para el confinamiento, compré alimentos para los siguientes días y armé un horario que me permitiera terminar mi trabajo pendiente. Pero
 la verdad es que de poco sirvió el horario, no conseguía trabajar nada ni concentrarme. Muchos de ustedes quizás estén en cuarentena, en sus casas con sus familiares
 o amigos, en México,
-aburridos y sin saber qué hacer, llendo a la cocina cada cierto tiempo a picar algo de comer. Yo estaba solo, lejos de cualquier familiar y el único amigo que hice en
+aburridos y sin saber qué hacer, llendo a la cocina cada cierto tiempo para picar algo de comer. Yo estaba solo, lejos de cualquier familiar y el único amigo que hice en
 Francia vivía hasta el otro lado de la ciudad. Era agobiante ver la rapidez con la que varios países cerraban sus fronteras, impidiendo incluso el tránsito por sus aeropuertos,
 enterarse
 de personas que tenían vuelos hacia México con conexión en España o Canadá (o casi cualquier otro lugar) y que no les permitían abordar,
 era agobiante pensar que en cualquier momento yo podría estar en una situación similar, que se me impidiera tomar mi vuelo, que se me
 impidiera hacer la conexión que tenía prevista. Era sumamente estresante estar revisando constantemente si el vuelo seguía previsto, si seguía habiendo trenes a París, si
-todavía se me permitía transitar por el país a donde hacía conexión, checar las noticias para ver si no había nuevas medidas que restringieran más el desplazamiento, de
-checar si no se anunciaba un periodo mayor a las dos semanas de confinamiento. Era angustiante pensar qué hacer si me enfermaba (no necesariamente de Covid-19, sino de
+todavía se me permitía transitar por el país a donde hacía conexión, checar las noticias para ver si no había nuevas medidas que restringieran más el desplazamiento,
+checar si no se anunciaba un periodo mayor a las dos semanas de confinamiento.
+Era angustiante pensar qué hacer si me enfermaba (no necesariamente de Covid-19, sino de
 cualquier cosa), qué haría si comenzaba a tener fiebre, sin nadie que me pudiera auxiliar, especialmente en tiempos en que el desplazamiento está
 prohibido, sabiendo que la única clínica que conocía estaba cerrada. Quizás para muchos de ustedes estar haciendo cuarentena ha sido la cosa más aburrida, para mí,
 hacerlo en un país en donde no tengo nada ni nadie fue la situación más agobiante y estresante que haya vivido.
 
-Eventualmente, paso lo que era evidente, mi vuelo para regresar a México fue cancelado (también el vuelo de conexión) y la aerolínea no reagendó ningún otro vuelo,
+Eventualmente, pasó lo que era evidente, mi vuelo para regresar a México fue cancelado (también el vuelo de conexión) y la aerolínea no reagendó ningún otro vuelo,
 tampoco me permitía hacer ninguna modificación por internet y me recomendaba contactarlos por teléfono. Por más que intenté contactar a la aerolínea nunca pude hacerlo,
 incluso le pedí a mi familia que intentaran hacerlo desde México, todo fue en vano. Al mismo tiempo el número de vuelos a México era cada vez menor, lo mismos que el
 número de salidas de trenes de Lille a París. En ese momento me di cuenta de algo, sólo había dos escenarios posibles, salir inmediatamente de Francia o quedar allí
@@ -325,9 +326,9 @@ por tiempo indefinido (realmente dudo mucho que el confinamiento dure sólo dos 
 necesidad y vivir el confinamiento en soledad. La decisión por tomar era obvia, así que compré un vuelo sin escalas directo a México para el día siguiente.
 Guardé todas mis cosas inmediatamente, guardé sufiente comida en la maleta para comer y cenar, y me dispuse a pasar mi última noche en Francia.
 
-Entre el martes que llegaba de Finlandia y el sábado que salía mi vuelo, es decir, en tan sólo 4 días las cosas eran MUY diferentes. Usualmente, y todavía el martes
+Entre el martes que llegaba de Finlandia y el sábado que salía mi nuevo vuelo a México, es decir, en tan sólo 4 días las cosas eran MUY diferentes. Usualmente, y todavía el martes
 17 de marzo, había salidas de trenes de Lille al aeropuerto internacional de París cada dos horas aproximadamente, el sábado 21 de marzo, había unicamente una salida,
-a las 11:00 am y desde el lunes ya no aparecía ninguna salida programada. Así que aunque mi vuelo salía hasta las 11:00 pm no tenía más opción que tomar el tren 12 horas
+a las 11:00 am y desde el lunes ya no aparecía ninguna salida programada. Así que, aunque mi vuelo salía hasta las 11:00 pm no tenía más opción que tomar el tren 12 horas
 antes y esperar en el aeropuerto de París por 11 horas antes de abordar. El metro de Lille seguía funcionando con la regularidad usual, supongo que para las personas cuyo
 trabajo no les permite quedarse en su casa en confinamiento, en el vagón que yo abordé íbamos como unas 4 personas, todas con maletas, claramente todos íbamos a tomar el
 tren de las 11:00 am. En la estación de trenes de Lille, sólo estaban abiertas dos entradas, la que conecta con el metro y una que da a la calle, todas las demás
@@ -335,7 +336,8 @@ entradas estaban acordonadas y eran vigiladas por elementos fuertemente armados 
 calles desiertas. Ya en el pasillo para abordar el tren, había un grupo de policías que te pedían el documento de desplazamiento y una identificación para abordarlo.
 Como yo tenía todo en orden no tuve ningún problema para tomar el tren con dirección al aeropuerto. Llegué al aeropuerto a medio día, y si el martes había todo un mundo
 de personas en el aeropuerto, el sábado estaba completamente vacío, una realidad contrastante con la actividad usual del aeropuerto. La mayoría de las pantallas que suelen
-mostrar información sobre los vuelos estaban vacías y sólo se mostraban los vuelos del día. Y así, Francia y Europa quedaron paralizadas, todo en tan sólo 4 días.
+mostrar información sobre los vuelos estaban vacías y sólo se mostraban los vuelos del día (información que cabía facilmente en dos pantallas).
+Y así, Francia y Europa quedaron paralizadas, todo en tan sólo 4 días.
 
 Para mi buena suerte logré ponerme en contacto con otro mexicano que igual salía de Lille y que tomaba el mismo vuelo que yo hacia México, así que al menos tuve alguien
 con quien hablar. Su historia de los días anteriores era similar a la mía. Él había tenía una visa VVT, por lo que había estado trabajando en Lille durante el último año,
@@ -346,11 +348,11 @@ Francia en un vuelo directo mientras aún podía.
 
 Ya en el aeropuerto de París platiqué con otra mexicana, ella estaba en el sur de Francia el 16 de marzo. A los dos días siguientes intentó tomar un tren a París,
 pero ya no había más trenes, así que tuvo que tuvo que salir desde temprano al día siguiente para irse caminando hasta el siguiente pueblo más cercano en donde podría
-tomar un taxi que la llevara a la estación de trenes de esa ciudad (en donde todavía había salidas a París). En el caminó se encontró con un italiano que intentó tomar
+tomar un taxi que la llevara a la estación de trenes de esa ciudad (en donde todavía había salidas a París). En el camino se encontró con un italiano que intentó tomar
 un tren que lo acercara a su país, pero le impidieron abordar el tren, así que había decidido irse caminando a su país, avanzando un poco cada día y tratando de evitar
 los controles policiales. Mi compañero de viaje desde Lille estaba con nososotros y él comentó que un conocido suyo tuvo que tomar un vuelo de Praga a Bruselas,
-otro de Bruselas a Amsterdam, otro de Amsterdam a Londres para finalmente poder tomar un vuelo que lo llevara a su país, todo debido a que ya no le permitían transitar
-por el/los países en donde tenía previsto hacer conexión (no recerdo de dónde mencionó que era). Yo sabía a través de un grupo en el que estoy, del caso de una familia
+otro de Bruselas a Amsterdam, otro de Amsterdam a Londres para finalmente poder tomar un vuelo que lo llevara a su país, tdo debido a que ya no le permitían transitar
+por el/los países en donde tenía previsto hacer conexión (no recuerdo de dónde mencionó que era). Yo sabía a través de un grupo en el que estoy, del caso de una familia
 a la que no le permitieron desembarcar de un crucero en Marsella, al final ni siquera el embajador logró convencer a las autoridades portuarias que les permitieran
 desembarcar para tomar un avión a México, el crucero después de Marsella se dirigía a Italia.
 
