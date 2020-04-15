@@ -18,7 +18,7 @@ type: docs  # Do not modify.
 menu:
   Codes:
     name: 
-    weight: 2
+    weight: 1
 ---
 
 <b> On construction </b>

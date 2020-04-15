@@ -18,9 +18,9 @@ type: docs  # Do not modify.
 menu:
   Dissertation:
     name: 
-    weight: 1
+    weight: 2
 ---
 
 <b> On construction </b>
 
-Breif comments about my work.
+Brief comments about my work.
