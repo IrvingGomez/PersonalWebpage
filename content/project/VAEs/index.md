@@ -11,8 +11,15 @@ external_link: ""
 image:
   caption: Diagram of a Missing VAE
   focal_point: Smart
+
+gallery_item:
+ - album: gallery_rue_Eglise
+   image: rue_Eglise.JPG
+   caption: Rue de l'Église
 ---
 
 <b> In collaboration with Jill-Jênn Vie. On construction </b>
 
-<img src=”Munich_1.jpg” alt=”animated” />
+{{< figure src="Munich_1.jpg" title="A caption" lightbox="true" >}}
+
+{{< gallery album="gallery_rue_Eglise" >}}
