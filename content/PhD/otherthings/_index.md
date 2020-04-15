@@ -1,11 +1,11 @@
 ---
 # Course title, summary, and position.
-linktitle: About my Dissertation
+linktitle: Things to know before and during a PhD
 summary: 
 weight: 1
 
 # Page metadata.
-title: Statistical Inference 2019
+title: Things to know before and during a PhD
 date: "2018-09-09T00:00:00Z"
 lastmod: "2018-09-09T00:00:00Z"
 draft: false  # Is this a draft? true/false
@@ -16,11 +16,11 @@ type: docs  # Do not modify.
 # - name: Declare this menu item as a parent with ID `name`.
 # - weight: Position of link in menu.
 menu:
-  Dissertation:
+  otherthings:
     name: 
-    weight: 2
+    weight: 3
 ---
 
 <b> On construction </b>
 
-Brief comments about my work.
+Some things that I'd like to know before beginning my PhD
