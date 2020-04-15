@@ -15,4 +15,4 @@ image:
 
 <b> In collaboration with Jill-Jênn Vie. On construction </b>
 
-{{< figure src="Munich_1.jpg" title="A caption" width=300px>}}
+{{< figure src="Munich_1.jpg" title="A caption"  width=300>}}
