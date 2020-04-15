@@ -9,10 +9,9 @@ date: "2016-04-27T00:00:00Z"
 external_link: ""
 
 image:
-  caption: Diagram of a Missing VAE
   focal_point: Smart
 ---
 
 <b> In collaboration with Jill-Jênn Vie. On construction </b>
 
-{{< figure src="original_denoise_vae_latent.gif" title="A caption" width="300">}}
+{{< figure src="original_denoise_vae_latent.gif" title="Evolution of the latent space" width="300">}}
