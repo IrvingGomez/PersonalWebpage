@@ -23,4 +23,4 @@ menu:
 
 <b> On construction </b>
 
-Some things that I'd like to know before og beginning my PhD
+Some things that I'd like to know before beginning my PhD

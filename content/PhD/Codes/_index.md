@@ -1,11 +1,11 @@
 ---
 # Course title, summary, and position.
-linktitle: Codes
+linktitle: Codes used in "Random Forests with Missing Data"
 summary: 
 weight: 1
 
 # Page metadata.
-title: Codes
+title: Codes used in "Random Forests with Missing Data"
 date: "2018-09-09T00:00:00Z"
 lastmod: "2018-09-09T00:00:00Z"
 draft: false  # Is this a draft? true/false
