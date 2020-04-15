@@ -13,4 +13,6 @@ image:
   focal_point: Smart
 ---
 
-<b> On construction </b>
+<b> In collaboration with Jill-Jênn Vie. On construction </b>
+
+<img src=”original_denoise_vae_latent.gif” alt=”animated” />
