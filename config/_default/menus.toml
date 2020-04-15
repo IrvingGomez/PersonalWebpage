@@ -19,14 +19,19 @@
   weight = 60
 
 [[main]]
+  name = "PhD"
+  url = "PhD/"
+  weight = 70
+
+[[main]]
   name = "Lille 2020 (Blog)"
   url = "blog-lille/"
-  weight = 70
+  weight = 90
 
 [[main]]
   name = "Contact"
   url = "#contact"
-  weight = 80
+  weight = 100
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.

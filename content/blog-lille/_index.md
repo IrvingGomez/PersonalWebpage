@@ -358,6 +358,36 @@ desembarcar para tomar un avión a México, el crucero después de Marsella se d
 
 Y así, me imagino que cada persona del aeropuerto puede contar una historia similar.
 
+# Marzo
+## 02/04/2020
+
+Hay tres temas de los que casi no he escrito y de los que quisiera contarles. Uno es sobre Lille, ¿Cómo es la ciudad? ¿Qué se puede ver en Lille?
+Lo segundo de lo que quisiera contarles es la comida en Francia. Y finalmente quisiera hablar de las personas que hicieron mi vida más llevadera en Francia.
+
+Francia está divida administrativamente en varias regiones, hasta el norte se encuentra la región "Hauts-de-France". Dentro de la región se encuentra el departamento
+"Nord". Es dentro de este departamento que se encuentra Lille. Es la ciudad más grande de la región y su capital. Su área metropolitana tiene como un millón de
+habitantes (lo cual es demasiado y asombroso para los estándares europeos), aunque propiamente Lille tiene unos 200,000 habitantes. 
+
+Bueno, ya que se han 
+
+Lille es una ciudad con una larga historia, sé que algunos de sus barrios ya existían desde la Edad Media, mientras que otros barrios son muy nuevos.
+
+Gracias al franglish pude saber un poco de la imagen que tienen los franceses sobre sí mismos. Los peores son los parisino, en general son percibidos como
+presuntusos, fríos, distantes, presuntusos y extremadamente groseros. Nadie quiere ser un parisino. Por supuesto esa es la imagen general, yo he conocido
+a tres parisino, y, aunque es cierto que son fríos y distantes, siempre fueron corteses, incluso podría decir que uno de ellos fue hasta amigable.
+
+Los franceses del norte y del este también son percibidos como gente fría y distante, pero muy amables y dispuestos a ayudar. Y yo no podría estar más
+de acuerdo con ello, al menos por mi experiencia con los lillois. Algún francés con el que platiqué comentó algo así como "si crees que es difícil
+hacer amigos en Lille, es peor en el este". Aunque otro más dijo "sabes, no me había puesto a pensar en ello. Pero tienes razón,
+tengo como dos años viviendo en Lille y realmente no he hecho ninguna amistad" y en algún punto agregó "mi esposa es venezolana y cuando la conocí
+siempre se la pasaba quejándose
+de los franceses, que siempre andamos con nuestras caras largas, que no sonreímos, que no se puede hablar con nadie, que no se puede hacer amigos aquí, etc.".
+
+Finalmente están los franceses del sur, que son percibidos como gente muy abierta, cálida y amigable. Y una vez más estoy completamente de acuerdo.
+
+Pero quiero dejar las generalidades y hablarles de tres personas en particular. Empezando por la persona con la que trabaje en Inria, Jill-Jênn. 
+
+Los lillois son personas corteses
 
 # Galería
 ## Enero
