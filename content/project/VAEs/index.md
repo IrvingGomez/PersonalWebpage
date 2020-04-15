@@ -20,6 +20,4 @@ gallery_item:
 
 <b> In collaboration with Jill-Jênn Vie. On construction </b>
 
-{{< figure src="Munich_1.jpg" title="A caption" lightbox="true" >}}
-
-{{< gallery album="gallery_rue_Eglise" >}}
+{{< figure src="original_denoise_vae_latent.gif" title="A caption" lightbox="true" >}}
