@@ -14,4 +14,6 @@ image:
 
 <b> In collaboration with Jill-Jênn Vie. On construction </b>
 
+A good introduction to VAEs can be found <a href="https://towardsdatascience.com/understanding-variational-autoencoders-vaes-f70510919f73" target="_blank"> here </a>
+
 {{< figure src="original_denoise_vae_latent.gif" title="Evolution of the latent space" width="300">}}
