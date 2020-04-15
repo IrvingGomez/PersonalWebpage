@@ -15,4 +15,4 @@ image:
 
 <b> In collaboration with Jill-Jênn Vie. On construction </b>
 
-<img src=”original_denoise_vae_latent.gif” alt=”animated” />
+<img src=”Munich_1.jpg” alt=”animated” />
