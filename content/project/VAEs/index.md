@@ -67,11 +67,11 @@ The next figure shows the structure of our autoencoder. We have preserved this s
     <img src="images/img2.jpg">
     <figcaption>Caption 2</figcaption>
 
-{{< figure <img src="greedy_ae_latent.gif" width="300"> <img src="greedy_ae_latent.png", width="300"> title="Latent Space">}}
-{{< figure src="greedy_ae_latent.png" title="Latent Space">}}
+{{< figure src="greedy_ae_latent.gif" title="Evolution of the Latent Space" width="300">}}
+{{< figure src="greedy_ae_latent.png" title="Final Latent Space">}}
 
 {{< figure src="greedy_image_latent_2.png" title="Reconstruction when d=2">}}
-{{< figure src="greedy_image_latent_98.png" title="Reconstruction when d=2">}}
+{{< figure src="greedy_image_latent_98.png" title="Reconstruction when d=98">}}
 
 
 A good introduction to VAEs can be found <a href="https://towardsdatascience.com/understanding-variational-autoencoders-vaes-f70510919f73" target="_blank"> here </a>
