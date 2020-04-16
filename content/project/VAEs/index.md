@@ -24,7 +24,7 @@ dimmensionality. Some times we'd like to recover the original points (with the m
 So we need an encoder that takes points from the latent space and
 transform them into points in the original space.
 
-## Original/Greedy Autoencoders
+## Original/Greedy Autoencoder
 
 Let's denote by $x$ an observation in the original space and $z$ its encoded value. If we denote by $g$ the encoded function, then $z = g(x)$.
 We can decode $z$ through a decoded function $f$,
@@ -36,6 +36,8 @@ parameter of a random variable, and make $\hat x$ an observation of this final d
 
 When we model $f$ and $g$ as neural networks (usually deep neural networks), we get the so-called autoencoder. Where $f$ and $g$ are learned with some trainig data set
 and according to some loss functions $L(x, f(z))$.
+
+{{< figure src="AE_draw.jpg" title="Original Autoencoder" width="300">}}
 
 ## Example
 
@@ -49,3 +51,7 @@ $$L(x,f(z)) = f(z)\log(x)+(1-f(z))\log(1-x)$$
 A good introduction to VAEs can be found <a href="https://towardsdatascience.com/understanding-variational-autoencoders-vaes-f70510919f73" target="_blank"> here </a>
 
 {{< figure src="original_denoise_vae_latent.gif" title="Evolution of the latent space" width="300">}}
+
+
+
+
