@@ -55,12 +55,18 @@ To illustrate this, we consider the MNIST data set, which consist of images of h
 but we have binarized it, assigning 1 if the value of the pixel is bigger or ueal 0.5 and assigning 0 otherwise. Thus, we can apply the Bernoulli loglikelihood for
 each pixel. Each image is a 28x28 pixels (thus each image has 784 pixels).The encoder-decoder structure is symmetric, where $g$ and $f$ are multilayer perceptrons,
 $g$ has two hidden layers of 392 and 192 neurons each layer, and ReLu activation function. The last layer of the decoder has 784 neurons and sigmoid activation function.
-The latent layer ($z$), has no activation function and we vary the number of nuerons (that is, the dimension of the latent space) in our experiments to be 2 or 98. 
+The latent layer ($z$), has no activation function and we vary the number of nuerons (that is, the dimension of the latent space) in our experiments to be 2 or 98,
+we denote the dimension of the latent space as $d$.
 
 The next figure shows the structure of our autoencoder. We have preserved this same structure in all our experiments.
 
-{{< figure src="AE_draw_extense.jpg" title="Original Autoencoder">}}
+{{< figure src="AE_draw_extense.jpg" title="Our Autoencoder">}}
 
+{{< figure src="greedy_ae_latent.gif" title="Latent Space">}}
+{{< figure src="greedy_ae_latent.png" title="Latent Space">}}
+
+{{< figure src="greedy_image_latent_2.png" title="Reconstruction when d=2">}}
+{{< figure src="greedy_image_latent_98.png" title="Reconstruction when d=2">}}
 
 
 A good introduction to VAEs can be found <a href="https://towardsdatascience.com/understanding-variational-autoencoders-vaes-f70510919f73" target="_blank"> here </a>
