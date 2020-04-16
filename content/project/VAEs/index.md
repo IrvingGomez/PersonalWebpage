@@ -37,7 +37,7 @@ parameter of a random variable, and make $\hat x$ an observation of this final d
 When we model $f$ and $g$ as neural networks (usually deep neural networks), we get the so-called autoencoder. Where $f$ and $g$ are learned with some trainig data set
 and according to some loss functions $L(x, f(z))$.
 
-{{< figure src="AE_draw.jpg" title="Original Autoencoder">}}
+{{< figure src="AE_draw.jpg" title="Original Autoencoder" width="600">}}
 
 ## Example
 
