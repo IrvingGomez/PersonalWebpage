@@ -26,8 +26,8 @@ transform them into points in the original space.
 
 ## Original/Greedy Autoencoder
 
-Let's denote by $x$ an observation in the original space and $z$ its encoded value. If we denote by $g$ the encoded function, then $z = g(x)$.
-We can decode $z$ through a decoded function $f$,
+Let's denote by $x$ an observation in the original space and $z$ its encoded value. If we denote by $g$ the encoder function, then $z = g(x)$.
+We can decode $z$ through a decoder function $f$,
 and try to recover the original point from this decoded value. That is, $f(z)$ is not necessarily equal to $\hat x$, this is becasue $f(z)$ does not necessarily belogs to
 the original space, then we need one more step to transform $f(z)$ into value that belongs to the original space.
 This final transformation might be done in two different ways, the first
@@ -46,10 +46,22 @@ that is
 
 $$L(x,f(z)) = f(z)\log(x)+(1-f(z))\log(1-x)$$
 
-where $z = g(z)$ and $f$ and $g$ are learned with (stochastic) gradient ascent.
+where $z = g(x)$ and $f$ and $g$ are learned with (stochastic) gradient ascent.
 
-Note that while $x\in\{0,1\}$, $f(z)\in (0,1)$. Thus, we can take $\hat x = 1\\{f(z)>=0.5\\}$ (which would be a deterministic approach) or
-$\hat x\sim \text{Bernoulli}(f(z))$ (which with a random approach), the standard is to take a deterministic approach to go from $f(z)$ to $\hat x$
+Note that while $x\in\\{0,1\\}$, $f(z)\in (0,1)$. Thus, we can take $\hat x = 1\\{f(z)>=0.5\\}$ (which would be a deterministic approach) or
+$\hat x\sim \text{Bernoulli}(f(z))$ (which with a random approach), the standard is to take a deterministic approach to go from $f(z)$ to $\hat x$.
+
+To illustrate this, we consider the MNIST data set, which consist of images of hand-written numbers. The original value of the pixels in each image is between 0 and 1,
+but we have binarized it, assigning 1 if the value of the pixel is bigger or ueal 0.5 and assigning 0 otherwise. Thus, we can apply the Bernoulli loglikelihood for
+each pixel. Each image is a 28x28 pixels (thus each image has 784 pixels).The encoder-decoder structure is symmetric, where $g$ and $f$ are multilayer perceptrons,
+$g$ has two hidden layers of 392 and 192 neurons each layer, and ReLu activation function. The last layer of the decoder has 784 neurons and sigmoid activation function.
+The latent layer ($z$), has no activation function and we vary the number of nuerons (that is, the dimension of the latent space) in our experiments to be 2 or 98. 
+
+The next figure shows the structure of our autoencoder. We have preserved this same structure in all our experiments.
+
+{{< figure src="AE_draw_extense.jpg" title="Original Autoencoder">}}
+
+
 
 A good introduction to VAEs can be found <a href="https://towardsdatascience.com/understanding-variational-autoencoders-vaes-f70510919f73" target="_blank"> here </a>
 
