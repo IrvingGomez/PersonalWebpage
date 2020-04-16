@@ -26,20 +26,23 @@ transform them into points in the original space.
 
 ## Original/Greedy Autoencoders
 
-Let's denote by $x$ an observation in the original space and z its encoded version. If we denote by g the encoded, then z = g(x). We can decode z through a decoded function
-f, and try to recover the original point from this decoded version. That is, f(z) is not necessarily equal to hat(x), this is becasue f(z) does not necessarily belogs to
-the original space, then we need to apply one more step to transform f(z) into the original space. This final transformation might be done in two different ways, the first
-and original one is to use a deterministic function that takes decoded points f(z) and transform them into the original space, the second one is to take f(z) as the
-parameter of a random variable, and take hat(x) as an observation of this final distribution.
+Let's denote by $x$ an observation in the original space and $z$ its encoded value. If we denote by $g$ the encoded function, then $z = g(x)$.
+We can decode $z$ through a decoded function $f$,
+and try to recover the original point from this decoded value. That is, $f(z)$ is not necessarily equal to $\hat x$, this is becasue $f(z)$ does not necessarily belogs to
+the original space, then we need one more step to transform $f(z)$ into value that belongs to the original space.
+This final transformation might be done in two different ways, the first
+and original one is to use a deterministic function that takes decoded value $f(z)$ and transform them into the original space, the second one is to take $f(z)$ as the
+parameter of a random variable, and make $\hat x$ an observation of this final distribution.
 
-When we model f and g as neural networks (usually deep neural networks), we get the so-called Autoencoder. Where f and g are learned with some trainig data set
-and according to some loss functions L(x, f(z)).
+When we model $f$ and $g$ as neural networks (usually deep neural networks), we get the so-called autoencoder. Where $f$ and $g$ are learned with some trainig data set
+and according to some loss functions $L(x, f(z))$.
 
 ## Example
 
-For example, if x is an observation of a Bernoulli distribution we could choose L(x,f(z)) as the loglikelihood, where f(z) is the parameter of such distribution, that is
+For example, if $x$ is an observation of a Bernoulli distribution we could choose $L(x,f(z))$ as the loglikelihood, where $f(z)$ is the parameter of such distribution,
+that is
 
-L(x,f(z)) = f(z)log(x)+(1-f(z))log(1-x)
+$$L(x,f(z)) = f(z)\log(x)+(1-f(z))\log(1-x)$$
 
 
 
