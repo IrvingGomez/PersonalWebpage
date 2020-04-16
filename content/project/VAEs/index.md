@@ -7,12 +7,42 @@ date: "2016-04-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
+math = true
 
 image:
   focal_point: Smart
 ---
 
-<b> In collaboration with Jill-Jênn Vie. On construction </b>
+This is a project in collaboration with Jill-Jênn Vie from Inria-Lille, France.
+
+# Autoencoders
+
+## Dimensionality Reduction
+
+In some applications like data visulisation, data storage or when the dimmensionality of our data is to large, we'd like to reduce its dimmensionality of the data,
+keeping as much information as possible. So we'd like to construct an encoder that takes the original data and transform it into a latent variable of lower
+dimmensionality. Some times we'd like to recover the original points (with the minimal error) from their encoded versions.
+So we need an encoder that takes points from the latent space and
+transform them into points in the original space.
+
+## Original/Greedy Autoencoders
+
+Let's denote by $x$ an observation in the original space and z its encoded version. If we denote by g the encoded, then z = g(x). We can decode z through a decoded function
+f, and try to recover the original point from this decoded version. That is, f(z) is not necessarily equal to hat(x), this is becasue f(z) does not necessarily belogs to
+the original space, then we need to apply one more step to transform f(z) into the original space. This final transformation might be done in two different ways, the first
+and original one is to use a deterministic function that takes decoded points f(z) and transform them into the original space, the second one is to take f(z) as the
+parameter of a random variable, and take hat(x) as an observation of this final distribution.
+
+When we model f and g as neural networks (usually deep neural networks), we get the so-called Autoencoder. Where f and g are learned with some trainig data set
+and according to some loss functions L(x, f(z)).
+
+## Example
+
+For example, if x is an observation of a Bernoulli distribution we could choose L(x,f(z)) as the loglikelihood, where f(z) is the parameter of such distribution, that is
+
+L(x,f(z)) = f(z)log(x)+(1-f(z))log(1-x)
+
+
 
 A good introduction to VAEs can be found <a href="https://towardsdatascience.com/understanding-variational-autoencoders-vaes-f70510919f73" target="_blank"> here </a>
 
