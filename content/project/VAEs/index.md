@@ -68,7 +68,7 @@ The next figure shows the structure of our autoencoder. We have preserved this s
     <figcaption>Caption 2</figcaption>
 
 {{< figure src="greedy_ae_latent.gif" title="Evolution of the Latent Space" width="300">}}
-{{< figure src="greedy_ae_latent.png" title="Final Latent Space">}}
+{{< figure src="greedy_ae_latent.png" title="Final Latent Space" width="300">}}
 
 {{< figure src="greedy_image_latent_2.png" title="Reconstruction when d=2">}}
 {{< figure src="greedy_image_latent_98.png" title="Reconstruction when d=98">}}
