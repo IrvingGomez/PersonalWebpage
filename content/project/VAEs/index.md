@@ -46,7 +46,10 @@ that is
 
 $$L(x,f(z)) = f(z)\log(x)+(1-f(z))\log(1-x)$$
 
+where $z = g(z)$ and $f$ and $g$ are learned with (stochastic) gradient ascent.
 
+Note that while $x\in\{0,1\}$, $f(z)\in (0,1)$. Thus, we can take $\hat x = 1\{f(z)>=0.5\}$ (which would be a deterministic approach) or
+$\hat x\sim \text{Bernoulli}(f(z))$ (which with a random approach), the standard is to take a deterministic approach to go from $f(z)$ to $\ḩat x$
 
 A good introduction to VAEs can be found <a href="https://towardsdatascience.com/understanding-variational-autoencoders-vaes-f70510919f73" target="_blank"> here </a>
 
