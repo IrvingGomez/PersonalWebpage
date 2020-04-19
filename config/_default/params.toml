@@ -86,7 +86,7 @@ edit_page = {repo_url = "https://github.com/gcushen/hugo-academic", repo_branch 
 
 # Enter contact details (optional). To hide a field, clear it to "".
 email = "irving.gomez@cimat.mx"
-phone = "+52 (55) 3730 7802
+phone = "+52 (55) 3730 7802"
 
 # Directions for visitors to locate you.
 directions = "CIMAT, Office D-304"
