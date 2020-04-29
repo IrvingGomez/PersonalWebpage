@@ -28,7 +28,7 @@ interests:
 
 education:
   courses:
-  - course: PhD Candidate in Probability and Statistics
+  - course: PhD Candidate in Probability and Statistic
     institution: Centro de Investigación en Matemáticas
     year: 2018
   - course: MSc in Probability and Statistics

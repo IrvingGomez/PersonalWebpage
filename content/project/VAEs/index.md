@@ -18,7 +18,7 @@ This is a project in collaboration with Jill-Jênn Vie from Inria-Lille, France.
 
 ## Dimensionality Reduction
 
-In some applications like data visulisation, data storage or when the dimmensionality of our data is to large, we'd like to reduce its dimmensionality of the data,
+In some applications like data visulization, data storage or when the dimmensionality of our data is to large, we'd like to reduce its dimmensionality of the data,
 keeping as much information as possible. So we'd like to construct an encoder that takes the original data and transform it into a latent variable of lower
 dimmensionality. Some times we'd like to recover the original points (with the minimal error) from their encoded versions.
 So we need an encoder that takes points from the latent space and
