@@ -71,7 +71,8 @@ fig.update_layout(
         radialaxis = dict(showticklabels=False, ticks='', visible=False),
     ),
     paper_bgcolor='rgba(0,0,0,0)',
-    plot_bgcolor='rgba(0,0,0,0)'#,
+    plot_bgcolor='rgba(0,0,0,0)',
+    font = dict(color = '#FFFFFF')#,
     #title=go.layout.Title(text="The Secret of Success")
 )
 
