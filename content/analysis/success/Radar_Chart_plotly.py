@@ -69,7 +69,9 @@ fig.add_trace(go.Scatterpolar(
 fig.update_layout(
     polar = dict(
         radialaxis = dict(showticklabels=False, ticks='', visible=False),
-    )#,
+    ),
+    paper_bgcolor='rgba(0,0,0,0)',
+    plot_bgcolor='rgba(0,0,0,0)'#,
     #title=go.layout.Title(text="The Secret of Success")
 )
 
