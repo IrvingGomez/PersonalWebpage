@@ -1,24 +1,15 @@
 ---
-# Course title, summary, and position.
-linktitle: The Secret of Success
-summary: 
-weight: 1
-
-# Page metadata.
 title: The Secret of Success
-date: "2018-09-09T00:00:00Z"
-lastmod: "2018-09-09T00:00:00Z"
-draft: false  # Is this a draft? true/false
-toc: false  # Show table of contents? true/false
-type: docs  # Do not modify.
+summary: The summary
+tags:
+- Visualization
+date: "2016-04-27T00:00:00Z"
 
-# Add menu entry to sidebar.
-# - name: Declare this menu item as a parent with ID `name`.
-# - weight: Position of link in menu.
-menu:
-  success:
-    name: 
-    weight: 1
+# Optional external URL for project (replaces project detail page).
+external_link: ""
+
+image:
+  focal_point: Smart
 ---
 
 <!-- <img src="success.png" alt="Secret of Success"> -->
