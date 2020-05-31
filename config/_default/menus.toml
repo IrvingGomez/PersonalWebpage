@@ -30,7 +30,7 @@
 
 [[main]]
   name = "Data Analysis"
-  url = "analysis/"
+  url = "#analysis/"
   weight = 90
 
 [[main]]
