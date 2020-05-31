@@ -1,24 +1,57 @@
 ---
-# Course title, summary, and position.
-linktitle: The Secret of Success
-summary: 
-weight: 1
+title: The Secret of Success
+#event: Sequel Seminar, Inria Lille
+#event_url: https://example.org
+#location: Lille, France
+#summary: How to appropriate handle missing data through random forests.
+#abstract: ""
 
-# Page metadata.
-title: The Secret of Sucess
-date: "2020-05-30T00:00:00Z"
-lastmod: "2020-05-30T00:00:00Z"
-draft: false  # Is this a draft? true/false
-toc: false  # Show table of contents? true/false
-type: docs  # Do not modify.
+# Talk start and end times.
+#   End time can optionally be hidden by prefixing the line with `#`.
+date: "2020-05-31"
+date_end: ""
+all_day: true
 
-# Add menu entry to sidebar.
-# - name: Declare this menu item as a parent with ID `name`.
-# - weight: Position of link in menu.
-menu:
-  success:
-    name: 
-    weight: 1
+# Schedule page publish date (NOT talk date).
+publishDate: "2020-05-31T00:00:00Z"
+
+#authors: []
+#tags: []
+
+# Is this a featured talk? (true/false)
+featured: false
+
+#image:
+#  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
+#  focal_point: Right
+
+#links:
+#- icon: twitter
+#  icon_pack: fab
+#  name: Follow
+#  url: https://twitter.com/georgecushen
+#url_code: ""
+#url_pdf: "slides/RF_Missing_es.pdf"
+#url_slides: ""
+#url_video: ""
+
+# Markdown Slides (optional).
+#   Associate this talk with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
+#   Otherwise, set `slides = ""`.
+#slides: example
+
+# Projects (optional).
+#   Associate this post with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
+#   Otherwise, set `projects = []`.
+#projects:
+#- internal-project
+
+# Enable math on this page?
+math: false
 ---
 
 <!-- <img src="success.png" alt="Secret of Success"> -->
