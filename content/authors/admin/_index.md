@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Nelson Bighetti
+name: Irving Gómez Méndez
 
 # Username (this should match the folder name)
 authors:
@@ -10,32 +10,33 @@ authors:
 superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+#role: Professor of Artificial Intelligence
 
 # Organizations/Affiliations
 organizations:
-- name: Stanford University
-  url: ""
+- name: Centro de Investigación en Matemáticas (CIMAT)
+  url: "https://www.cimat.mx"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+#bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Computer Statistics
+- Nonparametric Statistics
+- Inference with Missing Data
+- Data Science and Machine Learning
 
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: PhD Candidate in Probability and Statistics
+    institution: Centro de Investigación en Matemáticas
+    year: 2018
+  - course: MSc in Probability and Statistics
+    institution: Centro de Investigación en Matemáticas
+    year: 2016
+  - course: BSc in Mathematical Engineer
+    institution: Instituto Politécnico Nacional
+    year: 2014
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -44,32 +45,38 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
-- icon: twitter
+  link: 'mailto:irving.gomez@cimat.mx'  # For a direct email link, use "mailto:test@example.org".
+- icon: linkedin
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-- icon: github
-  icon_pack: fab
-  link: https://github.com/gcushen
+  link: 'https://www.linkedin.com/in/irving-g%C3%B3mez-3833b711a/'
+#- icon: google-scholar
+#  icon_pack: ai
+#  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+#- icon: github
+#  icon_pack: fab
+#  link: https://github.com/gcushen
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+- icon: cv
+  icon_pack: ai
+  link: "https://irvinggomez.netlify.com/files/CV_Irving.pdf"
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
+#email: ""
   
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
-user_groups:
-- Researchers
-- Visitors
+#user_groups:
+#- Researchers
+#- Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am PhD candidate in Probability and Statistics by the <a href="https://www.cimat.mx" target="_blank"> Centro de Investigación en Matemáticas (CIMAT)</a> with the thesis entitled 'Random Forests with Missing Data' under the direction of <a href="https://www.cimat.mx/es/emilien-joly" target="_blank"> Emilien Joly </a>.
+From January to March 2020, I was in a research stay at <a href="https://www.inria.fr/centre/lille" target="_blank"> Inria-Lille</a> in collaboration with <a href="https://jilljenn.github.io/" target="_blank"> Jill-Jênn Vie </a> 
+working on Variational Autoencoders with Missing Data (to know more click <a href="https://irvinggomez.netlify.app/project/vaes/" target="_blank"> here </a>).
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+
+
+
+
+
