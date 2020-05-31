@@ -2,7 +2,7 @@
 title: The Secret of Success
 summary: The summary
 tags:
-- Data Analysis
+- Visualization
 date: "2016-04-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
