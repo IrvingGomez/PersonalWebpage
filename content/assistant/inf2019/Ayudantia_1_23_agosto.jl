@@ -2,7 +2,7 @@
 ### January 13th 2019
 
 using Pkg
-using Plots
+using Plots; pyplot()
 using LaTeXStrings
 using Distributions
 using StatsPlots
@@ -42,7 +42,7 @@ plot(xx, yy,
     m = (0.9, :RebeccaPurple, 5),
     background_color = :Lavender
     )
-plot!(dweib_min, 0, 3,
+plot!(dweib_min,
     line = (:tomato, 1, 2),
     label = "Weibull(1,1)")
 
@@ -67,7 +67,7 @@ plot(Weibull(2,1), 0, 3,
     label = "Weibull(1,2)",
     background_color = :Lavender,
     lw = 2,
-    ylabel = L"f(x,\theta)",
+    ylabel = L"f(x,θ)",
     color = :RebeccaPurple)
 
 # Con varios valores de beta (2, 3, 5)
@@ -110,8 +110,7 @@ histogram(muestra,
     normalized = true,
     background_color = :Lavender,
     fillalpha = 0.33,
-    color = :RebeccaPurple,
-    legend = :topleft)
+    color = :RebeccaPurple)
 
 plot!(Weibull(6.2,2),
     label = "Weibull(2,6.2)",
@@ -123,15 +122,16 @@ Empirical(1.23)
 
 plot(sort(muestra), map(Empirical, sort(muestra)),
     label = "Empirical Weibull(2,6.2)",
-    ylabel = L"F_n(x,\theta)",
+    ylabel = L"F_n(x,θ)",
     background_color = :Lavender,
     linetype = :steppost,
     lw = 2,
-    color = :RebeccaPurple,
-    legend = :topleft)
+    color = :RebeccaPurple)
 
 pweib_min(x, η, β) = cdf(Weibull(β, η), x)
 
 plot!(x -> pweib_min(x, 2, 6.2),
     label = "Weibull(2,6.2)",
     lw = 2)
+
+muestra2 = rand(Weibull(6.2,2), 50)

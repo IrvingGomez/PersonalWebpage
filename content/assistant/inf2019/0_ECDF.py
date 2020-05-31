@@ -14,9 +14,10 @@ from statsmodels.distributions import ECDF
 # y hace un histogrma
 nn=1000
 x=norm.rvs(size=nn)
-print(mean(x))
-print(std(x))
+print mean(x)
+print std(x)
 
+figure(1)
 hist(x,bins=int(ceil(log2(nn)))+1,color='purple',density=True, range=(-4,4))
 title(u'Histograma de una Normal Padrón 'r'$\mathcal{N}(0,\ 1)$')
 
@@ -24,6 +25,7 @@ title(u'Histograma de una Normal Padrón 'r'$\mathcal{N}(0,\ 1)$')
 x=arange(start=0,stop=1,step=0.05)
 y=x*0.3**(x-1)
 
+figure(2)
 plot(x,y,'purple',linewidth=3)
 title('Verosimilitud de una Beta Incompleta')
 ylabel(r'f(x; $\theta$)')
@@ -71,6 +73,7 @@ x2=4
 
 ecdf=ECDF(mm)
 
+figure(3)
 axis([x1,x2,-0.01,1.01])
 step(ecdf.x,ecdf.y,where='post',linewidth=2,color=col)
 step(ecdf.x,U(mm,aa),where='post',linewidth=2,color=col2)
