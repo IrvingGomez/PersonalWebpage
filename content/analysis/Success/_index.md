@@ -1,5 +1,6 @@
 ---
 title: The Secret of Success
+type: analysis
 summary: The summary
 tags:
 - Visualization
