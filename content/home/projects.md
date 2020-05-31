@@ -29,6 +29,18 @@ subtitle = ""
     name = "Deep Learning"
     tag = "Deep Learning"
 
+  [[content.filter_button]]
+    name = "Visualization"
+    tag = "Visualization"
+
+  [[content.filter_button]]
+    name = "Incomplete Information"
+    tag = "Missing"
+
+  [[content.filter_button]]
+    name = "Real Data"
+    tag = "Real Data"
+
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
   columns = "2"
