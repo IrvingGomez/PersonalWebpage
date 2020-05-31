@@ -16,50 +16,53 @@ Values_Low    = [0.18, 0.32, 0.07, 0.39, 0.12, 0.16, 0.16, 0.27]
 fig = go.Figure()
 
 fig.add_trace(go.Scatterpolar(
-      r=Values_Low+[Values_Low[0]],
-      theta=Categories+[Categories[0]],
-      fill='toself',
-      name='Low',
-      showlegend=False,
-      hoverinfo = 'skip'
+      r           = Values_Low+[Values_Low[0]],
+      theta       = Categories+[Categories[0]],
+      fill        = 'toself',
+      showlegend  = False,
+      legendgroup = 'Low',
+      hoverinfo   = 'skip'
 ))
 
 fig.add_trace(go.Scatterpolar(
-      r=Values_Medium+[Values_Medium[0]],
-      theta=Categories+[Categories[0]],
-      fill='toself',
-      name='Medium',
-      showlegend=False,
-      hoverinfo = 'skip'
+      r           = Values_Medium+[Values_Medium[0]],
+      theta       = Categories+[Categories[0]],
+      fill        = 'toself',
+      showlegend  = False,
+      legendgroup = 'Medium',
+      hoverinfo   = 'skip'
 ))
 
 fig.add_trace(go.Scatterpolar(
-      r=Values_High+[Values_High[0]],
-      theta=Categories+[Categories[0]],
-      fill='toself',
-      name='High',
-      showlegend=False,
-      hoverinfo = 'skip'
+      r           = Values_High+[Values_High[0]],
+      theta       = Categories+[Categories[0]],
+      fill        = 'toself',
+      showlegend  = False,
+      legendgroup = 'High',
+      hoverinfo   = 'skip'
 ))
 
 fig.add_trace(go.Scatterpolar(
-      r=Values_Low+[Values_Low[0]],
-      theta=Categories+[Categories[0]],
-      name='Low',
+      r             = Values_Low+[Values_Low[0]],
+      theta         = Categories+[Categories[0]],
+      name          = 'Low',
+      legendgroup   = 'Low',
       hovertemplate = '%{r:.0%}'+'<br>%{theta}'
 ))
 
 fig.add_trace(go.Scatterpolar(
-      r=Values_Medium+[Values_Medium[0]],
-      theta=Categories+[Categories[0]],
-      name='Medium',
+      r             = Values_Medium+[Values_Medium[0]],
+      theta         = Categories+[Categories[0]],
+      name          = 'Medium',
+      legendgroup   = 'Medium',
       hovertemplate = '%{r:.0%}'+'<br>%{theta}'
 ))
 
 fig.add_trace(go.Scatterpolar(
-      r=Values_High+[Values_High[0]],
-      theta=Categories+[Categories[0]],
-      name='High',
+      r             = Values_High+[Values_High[0]],
+      theta         = Categories+[Categories[0]],
+      name          = 'High',
+      legendgroup   = 'High',
       hovertemplate = '%{r:.0%}'+'<br>%{theta}'
 ))
 
@@ -69,6 +72,8 @@ fig.update_layout(
     )#,
     #title=go.layout.Title(text="The Secret of Success")
 )
+
+fig.write_html("Radar_Chart_div.html", full_html=False, include_plotlyjs='cdn')
 
 ##
 ##
@@ -94,5 +99,3 @@ fig.add_trace(go.Scatterpolar(
       showlegend=False,
       hoverinfo = 'skip'
 ))
-
-fig.write_html("Radar_Chart_div.html", full_html=False, include_plotlyjs='cdn')
