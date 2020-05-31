@@ -1,5 +1,6 @@
 ---
 title: The Secret of Success
+summary: Need to add a summary
 tags:
 - Visualization
 - Real Data
