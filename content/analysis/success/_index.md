@@ -21,7 +21,7 @@ menu:
     weight: 1
 ---
 
-#<img src="success.png" alt="Secret of Success"> 
+<!-- <img src="success.png" alt="Secret of Success"> -->
 
 This is a tiny example of how to represent some data into a radar chart. The data was taken from
 <a href=https://www.makeovermonday.co.uk/data/data-sets-2017/, target="blank"> MakeoverMonday </a>, it is the data set of week 13 of 2017.
