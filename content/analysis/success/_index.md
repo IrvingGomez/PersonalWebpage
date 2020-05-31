@@ -22,7 +22,7 @@ However, it does not include the source, what was considered as high/medim/low s
 
 Note: It is not my data and it does not represent my believes.
 
-{{<div>
+<div>
   <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <div id="37422316-7485-409f-a4ac-06c8dc5da918" class="plotly-graph-div" style="height:100%; width:100%;"></div>
@@ -37,4 +37,4 @@ Note: It is not my data and it does not represent my believes.
       )
     };
   </script>
-</div>}}
+</div>
