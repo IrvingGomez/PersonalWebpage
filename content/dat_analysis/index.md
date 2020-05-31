@@ -1,6 +1,6 @@
 ---
 title: Data Analysis
-type: "project"  # Do not modify.
+type: "dat_analysis"  # Do not modify.
 
 # Optional header image (relative to `static/img/` folder).
 header:
