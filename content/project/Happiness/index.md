@@ -17,7 +17,7 @@ An analysis of of the data used for the World Hapiness Report 2017 of the Unated
 
 
 Resolution:
-<div id="select_resolution"> 
+<div> 
   <select>
     <option value="Select">Select</option> 
     <option value="High">High</option> 
@@ -42,30 +42,23 @@ Resolution:
   </script>
 </div>
 
-$(document).ready(function () {
-  $('.group').hide();
-  $('#option1').show();
-  $('#selectMe').change(function () {
-    $('.group').hide();
-    $('#'+$(this).val()).show();
-  })
-});
-
+<div>
 <script type="text/javascript"> 
   $(document).ready(function() { 
-  $("#select_resolution").on('change', function() { 
-    $(this).find("option:selected").each(function() { 
-      var reso = $(this).attr("value"); 
-	if (reso) { 
-	  $(".Map").not("." + reso).hide(); 
-	  $("." + reso).show(); 
+    $("select").on('change', function() { 
+      $(this).find("option:selected").each(function() { 
+	var geeks = $(this).attr("value"); 
+	if (geeks) { 
+	  $(".Map").not("." + geeks).hide(); 
+	  $("." + geeks).show(); 
 	} else { 
-	  $(".Map").hide();
+	  $(".Map").hide(); 
 	} 
       }); 
     }).change(); 
   }); 
 </script>
+</div>
 
 <div>
   <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
