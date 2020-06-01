@@ -25,6 +25,22 @@ Resolution:
   </select> 
 </div> 
 
+<script>
+  $(document).ready(function(){
+    $("select").change(function(){
+      $(this).find("option:selected").each(function(){
+	var optionValue = $(this).attr("value");
+	if(optionValue){
+	  $(".Map").not("." + optionValue).hide();
+	  $("." + optionValue).show();
+	} else{
+	  $(".Map").hide();
+	}
+      });
+    }).change();
+  });
+</script>
+
 <div class="High Map">
   <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
@@ -42,18 +58,7 @@ Resolution:
   </script>
 </div>
 
-<script type="text/javascript">
-$(document).ready(function () {
-  $('.Map').hide();
-  $('#Select').show();
-  $('#selectMe').change(function () {
-    $('.Map').hide();
-    $('#'+$(this).val()).show();
-  })
-});
-</script>
-
-<div>
+<div class="Low Map">
   <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <div id="ec609b7b-ed57-46bf-b526-3e8a03c8dc5e" class="plotly-graph-div" style="height:100%; width:100%;"></div>
