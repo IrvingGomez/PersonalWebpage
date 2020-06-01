@@ -15,7 +15,15 @@ image:
 
 An analysis of of the data used for the World Hapiness Report 2017 of the Unated Nations.
 
-<div>
+Resolution: 
+<div> 
+  <select> 
+    <option value="High">High</option> 
+    <option value="Low">Low</option> 
+  </select> 
+</div> 
+
+<div class="High Map">
   <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <div id="802363af-cc80-47ae-a06e-d5aa32894ab7" class="plotly-graph-div" style="height:100%; width:100%;"></div>
@@ -31,6 +39,22 @@ An analysis of of the data used for the World Hapiness Report 2017 of the Unated
     };
   </script>
 </div>
+
+<script type="text/javascript"> 
+  $(document).ready(function() { 
+  $("select").on('change', function() { 
+    $(this).find("option:selected").each(function() { 
+      var reso = $(this).attr("value"); 
+	if (geeks) { 
+	  $(".Map").not("." + geeks).hide(); 
+	  $("." + geeks).show(); 
+	} else { 
+	  $(".Map").hide(); 
+	} 
+      }); 
+    }).change(); 
+  }); 
+</script> 
 
 <div>
   <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
