@@ -45,26 +45,18 @@ $(document).ready(function(){
 
 </script>
 
-    <div>
-
-        <select>
-
-            <option value="low">Resolution (low by default):</option>
-
-            <option value="low">Low</option>
-
-            <option value="high">High</option>
-
-        </select>
-
-    </div>
-
 <div>
+
 <select>
-    <option value="low">Resolution (low by Default)</option>
-    <option value="high">High</option>
+
+    <option value="low">Resolution (low by default):</option>
+
     <option value="low">Low</option>
+
+    <option value="high">High</option>
+
 </select>
+
 </div>
 
 <div class="high map">
