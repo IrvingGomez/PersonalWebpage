@@ -37,6 +37,8 @@ An analysis of of the data used for the World Hapiness Report 2017 of the Unated
 
 </style>
 
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+
 <script>
 
 $(document).ready(function(){
