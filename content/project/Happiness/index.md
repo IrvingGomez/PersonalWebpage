@@ -46,11 +46,11 @@ Resolution:
   $("select").on('change', function() { 
     $(this).find("option:selected").each(function() { 
       var reso = $(this).attr("value"); 
-	if (geeks) { 
-	  $(".Map").not("." geeks).hide(); 
-	  $("." + geeks).show(); 
+	if (reso) { 
+	  $(".Map").not("." + reso).hide(); 
+	  $("." + reso).show(); 
 	} else { 
-	  $(".Map").hide(); 
+	  $(".Map").hide();
 	} 
       }); 
     }).change(); 
