@@ -51,13 +51,13 @@ $(document).ready(function(){
 
             if(optionValue){
 
-                $(".box").not("." + optionValue).hide();
+                $(".map").not("." + optionValue).hide();
 
                 $("." + optionValue).show();
 
             } else{
 
-                $(".box").hide();
+                $(".map").hide();
 
             }
 
@@ -66,7 +66,6 @@ $(document).ready(function(){
     }).change();
 
 });
-
 </script>
 
 <div>
@@ -75,9 +74,9 @@ $(document).ready(function(){
 
     <option>Choose Color</option>
 
-    <option value="red">Red</option>
+    <option value="high">High</option>
 
-    <option value="green">Green</option>
+    <option value="low">Low</option>
 
     <option value="blue">Blue</option>
 
@@ -85,13 +84,13 @@ $(document).ready(function(){
 
 </div>
 
-<div class="red box">You have selected <strong>red option</strong> so i am here</div>
+#<div class="red box">You have selected <strong>red option</strong> so i am here</div>
 
-<div class="green box">You have selected <strong>green option</strong> so i am here</div>
+#<div class="green box">You have selected <strong>green option</strong> so i am here</div>
 
-<div class="blue box">You have selected <strong>blue option</strong> so i am here</div>
+#<div class="blue box">You have selected <strong>blue option</strong> so i am here</div>
 
-<div class= "High Map">
+<div class= "high map">
         
                 <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
         <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>    
@@ -112,7 +111,7 @@ $(document).ready(function(){
             </script>
         </div>
 
-<div class="Low Map">
+<div class="low map">
         
                 <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
         <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>    
