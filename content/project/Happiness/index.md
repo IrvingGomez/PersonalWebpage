@@ -52,8 +52,7 @@ $(document).ready(function () {
 });
 
 <script type="text/javascript"> 
-  $(document).ready(function() {
-  $('.Low').hide()
+  $(document).ready(function() { 
   $("#select_resolution").on('change', function() { 
     $(this).find("option:selected").each(function() { 
       var reso = $(this).attr("value"); 
