@@ -31,14 +31,13 @@ $(document).ready(function(){
 });
 </script>
 
-    <div>
-        <select>
-            <option>Choose Resolution</option>
-            <option value="red">Red</option>
-            <option value="green">Green</option>
-            <option value="blue">Blue</option>
-        </select>
-    </div>
+<div>
+  <select>
+    <option>Choose Resolution</option>
+    <option value="High">High</option>
+    <option value="Low">Low</option>
+  </select>
+</div>
 
 
 <div class= "High Map">
