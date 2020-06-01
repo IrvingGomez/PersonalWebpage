@@ -15,6 +15,7 @@ image:
 
 An analysis of of the data used for the World Hapiness Report 2017 of the Unated Nations.
 
+<head>
 <script>
 $(document).ready(function(){
     $("select").change(function(){
@@ -30,6 +31,7 @@ $(document).ready(function(){
     }).change();
 });
 </script>
+</head>
 
 <div>
   <select>
