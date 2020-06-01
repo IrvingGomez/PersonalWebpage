@@ -15,34 +15,81 @@ image:
 
 An analysis of of the data used for the World Hapiness Report 2017 of the Unated Nations.
 
-<head>
+<style>
+
+    .box{
+
+        color: #fff;
+
+        padding: 20px;
+
+        display: none;
+
+        margin-top: 20px;
+
+    }
+
+    .red{ background: #ff0000; }
+
+    .green{ background: #228B22; }
+
+    .blue{ background: #0000ff; }
+
+</style>
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+
 <script>
+
 $(document).ready(function(){
+
     $("select").change(function(){
+
         $(this).find("option:selected").each(function(){
+
             var optionValue = $(this).attr("value");
+
             if(optionValue){
-                $(".Map").not("." + optionValue).hide();
+
+                $(".box").not("." + optionValue).hide();
+
                 $("." + optionValue).show();
+
             } else{
-                $(".Map").hide();
+
+                $(".box").hide();
+
             }
+
         });
+
     }).change();
+
 });
+
 </script>
-</head>
 
-<div>
-  <select>
-    <option>Choose Resolution</option>
-    <option value="High">High</option>
-    <option value="Low">Low</option>
-  </select>
-</div>
+    <div>
 
-<div class="High Map">You have selected <strong>High Map</strong> so i am here</div>
-<div class="Low Map">You have selected <strong>Low Map</strong> so i am here</div>
+        <select>
+
+            <option>Choose Color</option>
+
+            <option value="red">Red</option>
+
+            <option value="green">Green</option>
+
+            <option value="blue">Blue</option>
+
+        </select>
+
+    </div>
+
+    <div class="red box">You have selected <strong>red option</strong> so i am here</div>
+
+    <div class="green box">You have selected <strong>green option</strong> so i am here</div>
+
+    <div class="blue box">You have selected <strong>blue option</strong> so i am here</div>
 
 <div class= "High Map">
         
