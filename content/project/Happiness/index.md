@@ -15,8 +15,8 @@ image:
 
 An analysis of of the data used for the World Hapiness Report 2017 of the Unated Nations.
 
-Resolution: 
-<div> 
+
+Resolution: <div id="select_resolution"> 
   <select>
     <option value="Select">Select</option> 
     <option value="High">High</option> 
@@ -43,7 +43,7 @@ Resolution:
 
 <script type="text/javascript"> 
   $(document).ready(function() { 
-  $("select").on('change', function() { 
+  $("select_resolution").on('change', function() { 
     $(this).find("option:selected").each(function() { 
       var reso = $(this).attr("value"); 
 	if (reso) { 
