@@ -36,7 +36,7 @@ An analysis of of the data used for the World Hapiness Report 2017 of the Unated
 
 <div>
 <select>
-    <option>Resolution (low by default)</option>
+    <option value="low">Resolution (low by default)</option>
     <option value="low">low</option>
     <option value="high">high</option>
 </select>
