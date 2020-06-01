@@ -15,30 +15,6 @@ image:
 
 An analysis of of the data used for the World Hapiness Report 2017 of the Unated Nations.
 
-<style>
-
-    .box{
-
-        color: #fff;
-
-        padding: 20px;
-
-        display: none;
-
-        margin-top: 20px;
-
-    }
-
-    .red{ background: #ff0000; }
-
-    .green{ background: #228B22; }
-
-    .blue{ background: #0000ff; }
-
-</style>
-
-<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-
 <script>
 
 $(document).ready(function(){
@@ -51,13 +27,13 @@ $(document).ready(function(){
 
             if(optionValue){
 
-                $(".box").not("." + optionValue).hide();
+                $(".map").not("." + optionValue).hide();
 
                 $("." + optionValue).show();
 
             } else{
 
-                $(".box").hide();
+                $(".map").hide();
 
             }
 
@@ -73,23 +49,15 @@ $(document).ready(function(){
 
 <select>
 
-    <option>Choose Color</option>
+    <option value="low">Resolution of map (low by default)</option>
 
-    <option value="red">Red</option>
+    <option value="low">low</option>
 
-    <option value="green">Green</option>
-
-    <option value="blue">Blue</option>
+    <option value="high">high</option>
 
 </select>
 
 </div>
-
-<div class="red box">You have selected <strong>red option</strong> so i am here</div>
-
-<div class="green box">You have selected <strong>green option</strong> so i am here</div>
-
-<div class="blue box">You have selected <strong>blue option</strong> so i am here</div>
 
 <div class="high map">
         
