@@ -69,27 +69,27 @@ $(document).ready(function(){
 
 </script>
 
-    <div>
+<div>
 
-        <select>
+<select>
 
-            <option>Choose Color</option>
+    <option>Choose Color</option>
 
-            <option value="red">Red</option>
+    <option value="red">Red</option>
 
-            <option value="green">Green</option>
+    <option value="green">Green</option>
 
-            <option value="blue">Blue</option>
+    <option value="blue">Blue</option>
 
-        </select>
+</select>
 
-    </div>
+</div>
 
-    <div class="red box">You have selected <strong>red option</strong> so i am here</div>
+<div class="red box">You have selected <strong>red option</strong> so i am here</div>
 
-    <div class="green box">You have selected <strong>green option</strong> so i am here</div>
+<div class="green box">You have selected <strong>green option</strong> so i am here</div>
 
-    <div class="blue box">You have selected <strong>blue option</strong> so i am here</div>
+<div class="blue box">You have selected <strong>blue option</strong> so i am here</div>
 
 <div class="high map">
         
