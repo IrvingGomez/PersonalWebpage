@@ -25,7 +25,7 @@ Resolution:
   </select> 
 </div> 
 
-<script>
+<script type="text/javascript">
   $(document).ready(function(){
     $("select").change(function(){
       $(this).find("option:selected").each(function(){
