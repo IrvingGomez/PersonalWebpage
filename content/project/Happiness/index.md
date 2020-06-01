@@ -16,27 +16,27 @@ image:
 An analysis of of the data used for the World Hapiness Report 2017 of the Unated Nations.
 
 <script>
-  $(document).ready(function(){
+$(document).ready(function(){
     $("select").change(function(){
-      $(this).find("option:selected").each(function(){
-	var optionValue = $(this).attr("value");
-	if(optionValue){
-	  $(".map").not("." + optionValue).hide();
-	  $("." + optionValue).show();
-	} else{
-	  $(".map").hide();
-	}
-      });
+        $(this).find("option:selected").each(function(){
+            var optionValue = $(this).attr("value");
+            if(optionValue){
+                $(".map").not("." + optionValue).hide();
+                $("." + optionValue).show();
+            } else{
+                $(".map").hide();
+            }
+        });
     }).change();
-  });
+});
 </script>
 
 <div>
-  <select>
-    <option value="low">Resolution</option>
-    <option value="low">Low</option>
+<select>
+    <option value="low">Resolution (low by Default)</option>
     <option value="high">High</option>
-  </select>
+    <option value="low">Low</option>
+</select>
 </div>
 
 <div class= "high map">
