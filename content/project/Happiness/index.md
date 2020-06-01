@@ -39,6 +39,8 @@ $(document).ready(function(){
   </select>
 </div>
 
+<div class="High Map">You have selected <strong>High Map</strong> so i am here</div>
+<div class="Low Map">You have selected <strong>Low Map</strong> so i am here</div>
 
 <div class= "High Map">
         
