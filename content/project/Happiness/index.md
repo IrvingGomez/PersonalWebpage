@@ -13,6 +13,10 @@ image:
   focal_point: Smart
 ---
 
+<b> This page is on construction, I plan to write a post where I extend the teheoretics ommited here. </b>
+
+<b> The main purpose is to show interactive graphs fruit of a statistical analysis of the data. </b>
+
 An analysis of of the data used for the World Hapiness Report 2017 of the Unated Nations.
 
 
