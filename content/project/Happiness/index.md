@@ -1,5 +1,5 @@
 ---
-title: World Happines Report 2017
+title: World Happines Report (WHR) 2017
 summary: Need to add a summary
 tags:
 - Visualization
@@ -17,7 +17,24 @@ image:
 
 <b> The main purpose is to show interactive graphs fruit of a statistical analysis of the data. </b>
 
-An analysis of of the data used for the World Hapiness Report 2017 of the Unated Nations.
+An analysis of the data used for the World Hapiness Report 2017 of the United Nations.
+
+It is common to find places thta shows a map with the happiness score for each country, developed by the UN, which is find in the
+WHR. However, the WHR has much more information than just the happiness score. This analysis is devoted to all those underlying
+reasons that yields (or not) happiness. So, you are not going to find any map with the happiness score of the UN, however I have
+built a similar score based on an Auto-Encoder (AE) and Principal Component Analysis (PCA).
+
+The data disponible in (<b>Need to write URL of source data</b>) has incomplete information. So, in order to have the nice maps and graphs below,
+it was necessary to impute those missing values. This was done in 4 steps:
+
+<ol>
+ <li>Train an AE and use its encoder part.</li>
+ <li>Use PCA in the latent space to asign a 'score' toeach country.</li>
+ <li>Use Random Forests (RF) to estimate the 'score' of the countries with missing values.</li>
+ <li>Use the decoder part of the AE to impute the missing values.</li>
+</ol>
+
+Enjoy the interaactive maps, perhaps you would have new insights of the world and your country.
 
 
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
