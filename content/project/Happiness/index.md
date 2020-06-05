@@ -46,7 +46,6 @@ Enjoy the interaactive maps, perhaps you would have new insights of the world an
       $(this).find("option:selected").each(function(){
         var optionValue = $(this).attr("value");
         if(optionValue){
-          $(".map").not("." + optionValue).hide();
           $("." + optionValue).show();
         } else{
 	  $(".map").hide();
@@ -129,7 +128,6 @@ Enjoy the interaactive maps, perhaps you would have new insights of the world an
       $(this).find("option:selected").each(function(){
         var optionValue = $(this).attr("value");
         if(optionValue){
-          $(".view").not("." + optionValue).hide();
           $("." + optionValue).show();
         } else{
 	  $(".map").hide();
@@ -142,7 +140,7 @@ Enjoy the interaactive maps, perhaps you would have new insights of the world an
 <!-- Dropdwon button 'Select Resolution of Map' -->
 <div>
 <select>
-    <option value="pca">Visulaization</option>
+    <option value="pca">Visulaization (PCA by default)</option>
     <option value="pca">PCA</option>
     <option value="ae">AE</option>
 </select>
