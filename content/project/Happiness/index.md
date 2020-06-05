@@ -42,12 +42,14 @@ Enjoy the interaactive maps, perhaps you would have new insights of the world an
 <!-- Script to say the function of the dropdwon button 'Select Resolution of Map' -->
 <script>
   $(document).ready(function(){
-    $("select").change(function(){
+    $("select_map").change(function(){
       $(this).find("option:selected").each(function(){
         var optionValue = $(this).attr("value");
         if(optionValue){
           $(".map").not("." + optionValue).hide();
           $("." + optionValue).show();
+        } else{
+	  $(".map").hide();
         }
       });
     }).change();
@@ -55,7 +57,7 @@ Enjoy the interaactive maps, perhaps you would have new insights of the world an
 </script>
 
 <!-- Dropdwon button 'Select Resolution of Map' -->
-<div>
+<div class="select_map">
 <select>
     <option value="low">Resolution (low by default)</option>
     <option value="low">low</option>
@@ -123,12 +125,14 @@ Enjoy the interaactive maps, perhaps you would have new insights of the world an
 
 <script>
   $(document).ready(function(){
-    $("select").change(function(){
+    $("select_view").change(function(){
       $(this).find("option:selected").each(function(){
         var optionValue = $(this).attr("value");
         if(optionValue){
           $(".view").not("." + optionValue).hide();
           $("." + optionValue).show();
+        } else{
+	  $(".map").hide();
         }
       });
     }).change();
@@ -136,7 +140,7 @@ Enjoy the interaactive maps, perhaps you would have new insights of the world an
 </script>
 
 <!-- Dropdwon button 'Select Resolution of Map' -->
-<div>
+<div class="select_view">
 <select>
     <option value="pca">Visulaization (PCA by default)</option>
     <option value="pca">PCA</option>
