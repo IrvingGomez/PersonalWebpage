@@ -59,9 +59,8 @@ Enjoy the interaactive maps, perhaps you would have new insights of the world an
 <!-- Dropdwon button 'Select Resolution of Map' -->
 <div>
 <select name="select_map" id="select_map">
-    <option value="low">Resolution (low by default)</option>
-    <option value="low">low</option>
-    <option value="high">high</option>
+    <option value="low">Map in low resolution</option>
+    <option value="high">Map in high resolution</option>
 </select>
 </div>
 
@@ -122,9 +121,8 @@ Enjoy the interaactive maps, perhaps you would have new insights of the world an
 <!-- Dropdwon button 'Select Resolution of Map' -->
 <div>
 <select name="show_histogram" id="show_histogram">
-    <option value="show">Show Histogram (show by default)</option>
-    <option value="show">show</option>
-    <option value="hide">hide</option>
+    <option value="show">Show Histogram</option>
+    <option value="hide">Hide Histogram</option>
 </select>
 </div>
 
@@ -167,9 +165,8 @@ Enjoy the interaactive maps, perhaps you would have new insights of the world an
 <!-- Dropdwon button 'Select Resolution of Map' -->
 <div>
 <select name="select_view" id="select_view">
-    <option value="pca">Visulaization (PCA by default)</option>
-    <option value="pca">PCA</option>
-    <option value="ae">AE</option>
+    <option value="pca">Visulaization: PCA</option>
+    <option value="ae">Visulaization: AE</option>
 </select>
 </div>
 
