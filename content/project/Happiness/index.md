@@ -102,9 +102,34 @@ Enjoy the interaactive maps, perhaps you would have new insights of the world an
   </script>
 </div>
 
-<!--Hitogram of Corruption -->
+<!-- Script to say the function of the dropdwon button 'Select Resolution of Map' -->
+<script>
+  $(document).ready(function(){
+    $("#show_histogram").change(function(){
+      $(this).find("option:selected").each(function(){
+        var optionValue = $(this).attr("value");
+        if(optionValue){
+          $(".histo").not("." + optionValue).hide();
+          $("." + optionValue).show();
+        } else{
+	  $(".histo").hide();
+        }
+      });
+    }).change();
+  });
+</script>
 
+<!-- Dropdwon button 'Select Resolution of Map' -->
 <div>
+<select name="show_histogram" id="show_histogram">
+    <option value="show">Show Histogram (show by default)</option>
+    <option value="show">show</option>
+    <option value="hide">hide</option>
+</select>
+</div>
+
+<!--Hitogram of Corruption -->
+<div class="histo show">
   <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <div id="ec609b7b-ed57-46bf-b526-3e8a03c8dc5e" class="plotly-graph-div" style="height:100%; width:100%;"></div>
