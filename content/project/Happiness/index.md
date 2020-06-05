@@ -46,9 +46,8 @@ Enjoy the interaactive maps, perhaps you would have new insights of the world an
       $(this).find("option:selected").each(function(){
         var optionValue = $(this).attr("value");
         if(optionValue){
+          $(".map").not("." + optionValue).hide();
           $("." + optionValue).show();
-        } else{
-	  $(".map").hide();
         }
       });
     }).change();
@@ -128,9 +127,8 @@ Enjoy the interaactive maps, perhaps you would have new insights of the world an
       $(this).find("option:selected").each(function(){
         var optionValue = $(this).attr("value");
         if(optionValue){
+          $(".view").not("." + optionValue).hide();
           $("." + optionValue).show();
-        } else{
-	  $(".map").hide();
         }
       });
     }).change();
