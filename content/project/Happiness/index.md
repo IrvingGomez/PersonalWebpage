@@ -121,8 +121,8 @@ Enjoy the interaactive maps, perhaps you would have new insights of the world an
 <!-- Dropdwon button 'Select Resolution of Map' -->
 <div>
 <select name="show_histogram" id="show_histogram">
-    <option value="show">Show Histogram</option>
-    <option value="hide">Hide Histogram</option>
+    <option value="show">Show histogram</option>
+    <option value="hide">Hide histogram</option>
 </select>
 </div>
 
