@@ -61,6 +61,7 @@ Enjoy the interaactive maps, perhaps you would have new insights of the world an
 <select name="select_map" id="select_map">
     <option value="low">Map in low resolution</option>
     <option value="high">Map in high resolution</option>
+    <option value="hide">Hide map</option>
 </select>
 </div>
 
@@ -167,6 +168,7 @@ Enjoy the interaactive maps, perhaps you would have new insights of the world an
 <select name="select_view" id="select_view">
     <option value="pca">Visulaization: PCA</option>
     <option value="ae">Visulaization: AE</option>
+    <option value="hide">Hide visualization</option>
 </select>
 </div>
 
