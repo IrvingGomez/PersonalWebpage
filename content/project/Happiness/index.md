@@ -1,9 +1,11 @@
 ---
 title: World Happines Report (WHR) 2017
-summary: Need to add a summary
+summary: Currently working on this project.
 tags:
 - Visualization
 - Real Data
+- Deep Learning
+- Missing
 date: "2020-05-31T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).

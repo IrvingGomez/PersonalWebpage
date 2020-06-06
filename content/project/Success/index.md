@@ -1,6 +1,6 @@
 ---
 title: The Secret of Success
-summary: Need to add a summary
+summary: According to their social-economic strata, what people think that are the main reasons of success?.
 tags:
 - Visualization
 - Real Data
