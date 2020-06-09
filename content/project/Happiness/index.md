@@ -63,25 +63,15 @@ Enjoy the interaactive maps, perhaps you would have new insights of the world an
 
 <!-- Script to say the function of the dropdwon button 'Select Resolution of Map' -->
 <script>
-$(document).ready(function(){
-    $("#select_var").change(function(){
+  $(document).ready(function(){
+    $("#select_map").change(function(){
       $(this).find("option:selected").each(function(){
-        var optionValue = $(this).attr("value");
-        if(optionValue){
-
-		    $("#select_map").change(function(){
-		      $(this).find("option:selected").each(function(){
-			var optionVar = $(this).attr("value");
-			if(optionValue){
-			  $(".map").not("." + optionValue).hide();
-			  $(".map").not("." + optionVar).hide();
-			  $("." + optionValue + optionVar).show();
-			} else{
-			  $(".map").hide();
-			}
-		      });
-		    }).change();
-
+        var optionMap = $(this).attr("value");
+	var optionVar = $('#select_var').attr("value");
+        if(optionMap){
+	  $(".map").not("." + optionMap).hide();
+	  $(".map").not("." + optionVar).hide();
+	  $(".map" + "." + optionMap + "." + optionVar).show();
         } else{
 	  $(".map").hide();
 	  $(".histo").hide();
