@@ -48,7 +48,7 @@ social:
   link: 'mailto:irving.gomez@cimat.mx'  # For a direct email link, use "mailto:test@example.org".
 - icon: linkedin
   icon_pack: fab
-  link: 'https://www.linkedin.com/in/irving-g%C3%B3mez-3833b711a/'
+  link: 'https://www.linkedin.com/in/irving-g%C3%B3mez-m%C3%A9ndez-3833b711a/'
 #- icon: google-scholar
 #  icon_pack: ai
 #  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
