@@ -68,10 +68,14 @@ Enjoy the interaactive maps, perhaps you would have new insights of the world an
       $(this).find("option:selected").each(function(){
         var optionValue = $(this).attr("value");
         if(optionValue){
-	var myVar = document.getElementById("#select_var").value;
-          $(".map").not("." + optionValue).hide();
-          $(".map").not("." + myVar).hide();
-          $("." + optionValue + myVar).show();
+	  $("#select_var").change(function(){
+            $(this).find("option:selected").each(function(){
+	      var myVar = $(this).attr("value);
+              $(".map").not("." + optionValue).hide();
+              $(".map").not("." + myVar).hide();
+              $("." + optionValue + myVar).show();
+	    )};
+	  )};
         } else{
 	  $(".map").hide();
         }
