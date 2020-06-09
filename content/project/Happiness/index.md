@@ -168,15 +168,15 @@ Enjoy the interaactive maps, perhaps you would have new insights of the world an
 <!-- Dropdwon button 'Select Resolution of Map' -->
 <div>
 <select name="select_view" id="select_view">
-    <option value="pca continent">Visualization: PCA (colored by continent)</option>
-    <option value="pca score">Visualization: PCA (colored by integrated score)</option>
+    <option value="pca_continent">Visualization: PCA (colored by continent)</option>
+    <option value="pca_score">Visualization: PCA (colored by integrated score)</option>
     <option value="ae">Visualization: AE</option>
     <option value="hide">Hide visualization</option>
 </select>
 </div>
 
 <!-- PCA Plot -->
-<div class="pca view continent">
+<div class="pca_continent view ">
   <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <div id="c9ce7005-9013-4f14-a570-ddb8bfc93311" class="plotly-graph-div" style="height:100%; width:100%;"></div>
@@ -193,7 +193,7 @@ Enjoy the interaactive maps, perhaps you would have new insights of the world an
   </script>
 </div>
 
-<div class="pca view score">
+<div class="pca_score view ">
   <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <div id="d8259f7b-0196-44da-a023-fadf3468d8e6" class="plotly-graph-div" style="height:100%; width:100%;"></div>
@@ -211,7 +211,7 @@ Enjoy the interaactive maps, perhaps you would have new insights of the world an
 </div>
 
 <!-- Biplot -->
-<div class="pca view">
+<div class="pca_continet pca_score view">
   <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <div id="f43d9085-eefc-4502-b24d-360bd42fc4e6" class="plotly-graph-div" style="height:100%; width:100%;"></div>
