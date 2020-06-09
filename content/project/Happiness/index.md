@@ -74,10 +74,11 @@ Enjoy the interaactive maps, perhaps you would have new insights of the world an
 	      $(".map").not("." + optionValue).not("." + optionVar).hide();
 	      $("." + optionValue + optionVar).show();
 	    }
-	  }
-        } else{
-	  $(".map").hide();
-        }
+	    else{
+	      $(".map").hide();
+	    }
+          }).change(); 
+        });
       });
     }).change();
   });
