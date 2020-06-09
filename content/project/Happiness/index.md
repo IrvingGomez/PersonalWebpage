@@ -49,16 +49,20 @@ Enjoy the interaactive maps, perhaps you would have new insights of the world an
         var optionVar = $(this).attr("value");
 	$("#select_map").find("option:selected").each(function(){
 	  var optionMap = $(this).attr("value")
-	  if(optionVar){
-	    $(".map").not("." + optionVar).hide();
-	    $(".map").not("." + optionMap).hide();
-	    $(".histo").not("." + optionVar).hide();
-            $(".map" + "." + optionVar + "." + optionMap).show();
-            $(".histo" + "." + optionVar).show();
-	  } else{
-	    $(".map").hide();
-	    $(".histo").hide();
-	  }
+	  $("#show_histogram").find("option:selected").each(function(){
+	    var optionHisto = $(this).attr("value")
+	    if(optionVar){
+	      $(".map").not("." + optionVar).hide();
+	      $(".map").not("." + optionMap).hide();
+	      $(".histo").not("." + optionVar).hide();
+	      $(".histo").not("." + optionHisto).hide();
+              $(".map" + "." + optionVar + "." + optionMap).show();
+              $(".histo" + "." + optionVar + "." + optionHisto).show();
+	    } else{
+	      $(".map").hide();
+	      $(".histo").hide();
+	    }
+	  });
 	});
       });
     }).change();
