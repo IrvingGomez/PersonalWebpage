@@ -67,15 +67,17 @@ Enjoy the interaactive maps, perhaps you would have new insights of the world an
     $("#select_map").change(function(){
       $(this).find("option:selected").each(function(){
         var optionMap = $(this).attr("value");
-	var optionVar = $('#select_var').attr("value");
-        if(optionMap){
-	  $(".map").not("." + optionMap).hide();
-	  $(".map").not("." + optionVar).hide();
-	  $(".map" + "." + optionMap + "." + optionVar).show();
-        } else{
-	  $(".map").hide();
-	  $(".histo").hide();
-        }
+	$('#select_var').find("option:selected").each(function(){
+	  var optionVar = $(this).attr("value");
+          if(optionMap){
+  	    $(".map").not("." + optionMap).hide();
+	    $(".map").not("." + optionVar).hide();
+	    $(".map" + "." + optionMap + "." + optionVar).show	();
+          } else{
+	    $(".map").hide();
+	    $(".histo").hide();
+          }
+	});
       });
     }).change();
   });
