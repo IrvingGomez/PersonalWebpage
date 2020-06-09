@@ -191,7 +191,7 @@ Enjoy the interaactive maps, perhaps you would have new insights of the world an
         var optionHisto = $(this).attr("value");
 	$("#select_var").find("option:selected").each(function(){
 	  var optionVar = $(this).attr("value");
-          if(optionMap){
+          if(optionHisto){
   	    $(".histo").not("." + optionHisto).hide();
 	    $(".histo").not("." + optionVar).hide();
 	    $(".histo" + "." + optionHisto + "." + optionVar).show();
