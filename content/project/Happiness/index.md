@@ -67,18 +67,14 @@ Enjoy the interaactive maps, perhaps you would have new insights of the world an
     $("#select_map").change(function(){
       $(this).find("option:selected").each(function(){
         var optionValue = $(this).attr("value");
-	$("#select_var").change(function(){
-          $(this).find("option:selected").each(function(){
-	    var optionVar = $(this).attr("value");
-	    if(optionValue){
-	      $(".map").not("." + optionValue).not("." + optionVar).hide();
-	      $("." + optionValue + optionVar).show();
-	    }
-	    else{
-	      $(".map").hide();
-	    }
-          }).change(); 
-        });
+        if(optionValue){
+	var myVar = document.getElementById("select_var").value;
+          $(".map").not("." + optionValue).hide();
+          $(".map").not("." + myVar).hide();
+          $("." + optionValue + myVar).show();
+        } else{
+	  $(".map").hide();
+        }
       });
     }).change();
   });
