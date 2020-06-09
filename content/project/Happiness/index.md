@@ -41,6 +41,26 @@ Enjoy the interaactive maps, perhaps you would have new insights of the world an
 
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 
+<!-- Script to say the function of the dropdwon button 'Select Variable' -->
+<script>
+  $(document).ready(function(){
+    $("#select_var").change(function(){
+      $(this).find("option:selected").each(function(){
+        var optionValue = $(this).attr("value");
+        if(optionValue){
+          $(".map").not("." + optionValue).hide();
+          $(".histo").not("." + optionValue).hide();
+          $("." + optionValue).show();
+        } else{
+	  $(".map").hide();
+	  $(".histo").hide();
+        }
+      });
+    }).change();
+  });
+</script>
+
+
 <!-- Script to say the function of the dropdwon button 'Select Resolution of Map' -->
 <script>
   $(document).ready(function(){
@@ -60,7 +80,7 @@ Enjoy the interaactive maps, perhaps you would have new insights of the world an
 
 <!-- Dropdwon button 'Select Variable' -->
 <div>
-<select name="select_var" id="select_map">
+<select name="select_var" id="select_var">
     <option value="corrupt">Perception of corruption</option>
     <option value="ladder">Happiness score or subjective well-being</option>
 </select>
