@@ -4,6 +4,7 @@ summary: According to their social-economic strata, what people think that are t
 tags:
 - Visualization
 - Real Data
+
 date: "2016-04-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).

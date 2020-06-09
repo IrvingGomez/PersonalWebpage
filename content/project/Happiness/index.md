@@ -3,9 +3,10 @@ title: World Happines Report (WHR) 2017
 summary: Currently working on this project.
 tags:
 - Visualization
+- Missing Values
 - Real Data
 - Deep Learning
-- Missing
+
 date: "2020-05-31T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
@@ -36,8 +37,9 @@ it was necessary to impute those missing values. This was done in 4 steps:
  <li>Use the decoder part of the AE to impute the missing values.</li>
 </ol>
 
-Enjoy the interaactive maps, perhaps you would have new insights of the world and your country.
+Enjoy the interactive maps, perhaps you would have new insights of the world and your country.
 
+Note: For some reason, the cloropleth map does not recognize some states like Kosovo, Somaliland or North Cyprus.
 
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 
@@ -265,8 +267,6 @@ Enjoy the interaactive maps, perhaps you would have new insights of the world an
     }).change();
   });
 </script>
-
-Note: For some reason, the cloropleth map does not recognize some states like Kosovo, Somaliland or North Cyprus.
 
 <!-- Dropdwon button 'Select Resolution of Map' -->
 <div>

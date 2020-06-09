@@ -35,7 +35,7 @@ subtitle = ""
 
   [[content.filter_button]]
     name = "Incomplete Information"
-    tag = "Missing"
+    tag = "Missing Values"
 
   [[content.filter_button]]
     name = "Real Data"
