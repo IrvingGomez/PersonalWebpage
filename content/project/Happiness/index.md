@@ -47,14 +47,19 @@ Enjoy the interaactive maps, perhaps you would have new insights of the world an
     $("#select_var").change(function(){
       $(this).find("option:selected").each(function(){
         var optionVar = $(this).attr("value");
-	if(optionVar){
-	  $(".map").not("." + optionVar).hide();
-	  $(".histo").not("." + optionVar).hide();
-          $("." + optionVar).show();
-	} else{
-	  $(".map").hide();
-	  $(".histo").hide();
-	}
+	$("#select_map").find("option:selected").each(function(){
+	  var optionMap = $(this).attr("value")
+	  if(optionVar){
+	    $(".map").not("." + optionVar).hide();
+	    $(".map").not("." + optionMap).hide();
+	    $(".histo").not("." + optionVar).hide();
+            $(".map" + "." + optionVar + "." + optionMap).show();
+            $(".histo" + "." + optionVar).show();
+	  } else{
+	    $(".map").hide();
+	    $(".histo").hide();
+	  }
+	});
       });
     }).change();
   });
