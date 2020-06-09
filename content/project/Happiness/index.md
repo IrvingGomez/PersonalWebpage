@@ -68,7 +68,7 @@ $(document).ready(function(){
       $(this).find("option:selected").each(function(){
         var optionValue = $(this).attr("value");
         if(optionValue){
-		$(document).ready(function(){
+
 		    $("#select_map").change(function(){
 		      $(this).find("option:selected").each(function(){
 			var optionVar = $(this).attr("value");
@@ -81,7 +81,7 @@ $(document).ready(function(){
 			}
 		      });
 		    }).change();
-		  });
+
         } else{
 	  $(".map").hide();
 	  $(".histo").hide();
