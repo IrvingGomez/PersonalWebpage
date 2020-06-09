@@ -46,15 +46,15 @@ Enjoy the interaactive maps, perhaps you would have new insights of the world an
   $(document).ready(function(){
     $("#select_var").change(function(){
       $(this).find("option:selected").each(function(){
-        var optionValue = $(this).attr("value");
-        if(optionValue){
-          $(".map").not("." + optionValue).hide();
-          $(".histo").not("." + optionValue).hide();
-          $("." + optionValue).show();
-        } else{
-	  $(".map").hide();
-	  $(".histo").hide();
-        }
+        var optionVar = $(this).attr("value");
+	$("select_map").find("option:selected").each(function(){
+	  var optionMap = $(this).attr("value");
+	  $(".map").not("." + optionVar).hide();
+          $(".map").not("." + optionMap).hide();
+          $(".histo").not("." + optionVar).hide();
+          $(".map" + optionVar + optionMap).show();
+          $(".histo" + optionVar).show();
+	});
       });
     }).change();
   });
@@ -67,7 +67,7 @@ Enjoy the interaactive maps, perhaps you would have new insights of the world an
     $("#select_map").change(function(){
       $(this).find("option:selected").each(function(){
         var optionMap = $(this).attr("value");
-	$('#select_var').find("option:selected").each(function(){
+	$("#select_var").find("option:selected").each(function(){
 	  var optionVar = $(this).attr("value");
           if(optionMap){
   	    $(".map").not("." + optionMap).hide();
