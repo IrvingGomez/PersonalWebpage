@@ -71,7 +71,7 @@ Enjoy the interaactive maps, perhaps you would have new insights of the world an
           $(this).find("option:selected").each(function(){
 	    var optionVar = $(this).attr("value");
 	    if(optionValue){
-	      $(".map").not("." + optionValue + optionVar).hide();
+	      $(".map").not("." + optionValue).not("." + optionVar).hide();
 	      $("." + optionValue + optionVar).show();
 	    }
 	  }
