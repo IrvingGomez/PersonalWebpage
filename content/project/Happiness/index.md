@@ -183,24 +183,28 @@ Enjoy the interaactive maps, perhaps you would have new insights of the world an
   </script>
 </div>
 
-<!-- Script to say the function of the dropdwon button 'Select Resolution of Map' -->
+<!-- Script to say the function of the dropdwon button 'Show Histogram' -->
 <script>
   $(document).ready(function(){
     $("#show_histogram").change(function(){
       $(this).find("option:selected").each(function(){
-        var optionValue = $(this).attr("value");
-        if(optionValue){
-          $(".histo").not("." + optionValue).hide();
-          $("." + optionValue).show();
-        } else{
-	  $(".histo").hide();
-        }
+        var optionHisto = $(this).attr("value");
+	$("#select_var").find("option:selected").each(function(){
+	  var optionVar = $(this).attr("value");
+          if(optionMap){
+  	    $(".histo").not("." + optionHisto).hide();
+	    $(".histo").not("." + optionVar).hide();
+	    $(".histo" + "." + optionHisto + "." + optionVar).show();
+          } else{
+	    $(".histo").hide();
+          }
+	});
       });
     }).change();
   });
 </script>
 
-<!-- Dropdwon button 'Select Resolution of Map' -->
+<!-- Dropdwon button 'Show Histogram' -->
 <div>
 <select name="show_histogram" id="show_histogram">
     <option value="show">Show histogram</option>
