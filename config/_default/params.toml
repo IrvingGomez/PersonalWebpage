@@ -85,7 +85,7 @@ edit_page = {repo_url = "https://github.com/gcushen/hugo-academic", repo_branch 
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "irving.gomez@cimat.mx"
+email = "gomendez.irving@gmail.com"
 phone = "+52 (55) 3730 7802"
 
 # Directions for visitors to locate you.
@@ -109,7 +109,7 @@ address = {street = "Jalisco S/N", city = "Guanajuato", region = "Guanajuato", p
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 #contact_links = [
-#  {icon = "envelope", icon_pack = "fas", name = "irving.gomez@cimat.mx", link = "mailto:irving.gomez@cimat.mx"},
+#  {icon = "envelope", icon_pack = "fas", name = "gomendez.irving@gmail.com", link = "mailto:irving.gomez@cimat.mx"},
 #  ]
 
 ############################

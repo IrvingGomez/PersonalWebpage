@@ -45,7 +45,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:irving.gomez@cimat.mx'  # For a direct email link, use "mailto:test@example.org".
+  link: 'mailto:gomendez.irving@gmail.com'  # For a direct email link, use "mailto:test@example.org".
 - icon: linkedin
   icon_pack: fab
   link: 'https://www.linkedin.com/in/irving-g%C3%B3mez-m%C3%A9ndez-3833b711a/'
