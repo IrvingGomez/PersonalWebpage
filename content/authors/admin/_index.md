@@ -75,6 +75,8 @@ I am PhD candidate in Probability and Statistics by the <a href="https://www.cim
 From January to March 2020, I was in a research stay at <a href="https://www.inria.fr/centre/lille" target="_blank"> Inria-Lille</a> in collaboration with <a href="https://jilljenn.github.io/" target="_blank"> Jill-Jênn Vie </a> 
 working on Variational Autoencoders with Missing Data (to know more click <a href="https://irvinggomez.netlify.app/project/vaes/" target="_blank"> here </a>).
 
+Some change without importance.
+
 
 
 
