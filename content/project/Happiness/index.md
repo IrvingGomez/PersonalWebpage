@@ -7,7 +7,11 @@ tags:
 - Real Data
 - Deep Learning
 
-date: "2020-05-31T00:00:00Z"
+menu:
+  docs:
+    title: "how to use menus in templates"
+    parent: "templates"
+    weight: 130
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
