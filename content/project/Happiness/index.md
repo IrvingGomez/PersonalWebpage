@@ -1,13 +1,12 @@
 ---
 title: World Happines Report (WHR) 2017
 summary: Currently working on this project.
+toc: true
 tags:
 - Visualization
 - Missing Values
 - Real Data
 - Deep Learning
-
-toc: true
 
 image:
   focal_point: Smart
