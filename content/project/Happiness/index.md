@@ -14,7 +14,7 @@ image:
 
 {{% toc %}}
 
-{{ .TableOfContents }}
+{{% TableOfContents %}}
 
 <b> This page is on construction, I plan to write a post where I extend the theory ommited here. </b>
 
@@ -407,4 +407,4 @@ Note: For some reason, the cloropleth map does not recognize some states like Ko
   </script>
 </div>
 
-# Some coomments
+# Some comments
