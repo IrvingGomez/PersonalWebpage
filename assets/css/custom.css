@@ -2,6 +2,15 @@
     max-width: 75%;
 }
 
-html {
-    scroll-behavior: smooth;
+.inline-svg {
+  display: inline;
+  height: 1rem;
+  position: relative;
 }
+
+.inline-svg > img {
+  display: inline;
+  height: 1rem;
+  position: relative;
+}
+

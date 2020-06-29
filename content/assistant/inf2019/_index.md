@@ -36,7 +36,7 @@ Johnson, Kotz amd Balakrishnan - Continuous Univariate Distributions Vol.1 and 2
       <li>
         <a href="Ayudantia_1_23_agosto.jl">
           Brief intro to Julia (how to plot)
-        </a>
+        </a><span class="inline-svg"> <img src="julia-dots.svg"/></span>
       </li>
     </ul>
   </li>
