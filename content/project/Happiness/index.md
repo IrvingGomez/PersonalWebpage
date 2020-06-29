@@ -8,13 +8,12 @@ tags:
 - Deep Learning
 
 menu:
-  docs:
-    title: "how to use menus in templates"
-    parent: "templates"
-    weight: 130
-
-# Optional external URL for project (replaces project detail page).
-external_link: ""
+  main:
+  - identifier: project
+    name: This is the blog section
+    title: Visualizations
+    url: #Visualizations
+    weight: -110
 
 image:
   focal_point: Smart
