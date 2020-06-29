@@ -2,7 +2,6 @@
 title: World Happines Report (WHR) 2017
 summary: Currently working on this project.
 toc: true
-
 type: docs
 
 tags:
@@ -15,9 +14,8 @@ image:
   focal_point: Smart
 ---
 
-<aside>
 <nav class="section-nav">
-  Table of Contents
+  <h2> Table of Contents </h2>
   <ul>
     <li><a href="#Visualizations">Visualizations</a></li>
     <ul>
@@ -25,7 +23,6 @@ image:
     </ul>
   </ul>
 </nav>
-</aside>
 
 
 <b> This page is on construction, I plan to write a post where I extend the theory ommited here. </b>
@@ -58,6 +55,10 @@ Note: For some reason, the cloropleth map does not recognize some states like Ko
 </section>
 
 ## Visualizations
+
+<section id="Maps and Histograms">
+  <h3>Maps and Histograms</h3>
+</section>
 
 ### Maps and Histograms
 
