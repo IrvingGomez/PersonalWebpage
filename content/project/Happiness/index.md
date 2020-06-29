@@ -7,9 +7,7 @@ tags:
 - Real Data
 - Deep Learning
 
-menu:
-  main:
-  - identifier: project
+toc: true
 
 image:
   focal_point: Smart
