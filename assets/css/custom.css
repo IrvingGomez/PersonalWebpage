@@ -1,3 +1,28 @@
 .article-container {
     max-width: 75%;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Sidebar Navigation */
+.section-nav {
+    margin-top: 2rem;
+    padding-left: 0;
+    border-left: 1px solid #efefef;
+}
+
+.section-nav a {
+    text-decoration: none;
+    display: block;
+    padding: .125rem 0;
+    color: #ccc;
+    transition: all 50ms ease-in-out;
+}
+
+.section-nav a:hover,
+.section-nav a:focus {
+    color: #666;
+}
+
