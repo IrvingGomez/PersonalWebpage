@@ -14,6 +14,8 @@ image:
 
 {{% toc %}}
 
+{{ .TableOfContents }}
+
 <b> This page is on construction, I plan to write a post where I extend the theory ommited here. </b>
 
 <b> The main purpose is to show interactive graphs fruit of a statistical analysis of the data. </b>
