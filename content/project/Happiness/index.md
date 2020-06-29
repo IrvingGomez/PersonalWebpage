@@ -13,18 +13,16 @@ image:
   focal_point: Smart
 ---
 
-{{% toc %}}
-
-<main>
-  <nav class="section-nav">
+<nav class="section-nav">
+  Table of Contents
+  <ul>
+    <li><a href="#Visualizations">Visualizations</a></li>
     <ul>
-      <li><a href="#Visualizations">Visualizations</a></li>
-      <ul>
-        <li><a href="#Maps and Histograms">Maps and Histograms</a></li>
-      </ul>
+      <li><a href="#Maps and Histograms">Maps and Histograms</a></li>
     </ul>
-  </nav>
-</main>
+  </ul>
+</nav>
+
 
 
 <b> This page is on construction, I plan to write a post where I extend the theory ommited here. </b>
