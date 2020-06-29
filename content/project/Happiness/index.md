@@ -13,6 +13,7 @@ image:
   focal_point: Smart
 ---
 
+<aside>
 <nav class="section-nav">
   Table of Contents
   <ul>
@@ -22,7 +23,7 @@ image:
     </ul>
   </ul>
 </nav>
-
+</aside>
 
 
 <b> This page is on construction, I plan to write a post where I extend the theory ommited here. </b>
