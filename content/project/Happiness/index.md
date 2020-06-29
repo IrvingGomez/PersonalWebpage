@@ -10,10 +10,6 @@ tags:
 menu:
   main:
   - identifier: project
-    name: This is the blog section
-    title: Visualizations
-    url: #Visualizations
-    weight: -110
 
 image:
   focal_point: Smart
