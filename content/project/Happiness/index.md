@@ -53,13 +53,9 @@ Note: For some reason, the cloropleth map does not recognize some states like Ko
   <h2>Visualizations</h2>
 </section>
 
-## Visualizations
-
 <section id="Maps and Histograms">
   <h3>Maps and Histograms</h3>
 </section>
-
-### Maps and Histograms
 
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 
