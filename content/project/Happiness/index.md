@@ -41,6 +41,10 @@ Enjoy the interactive maps, perhaps you would have new insights of the world and
 
 Note: For some reason, the cloropleth map does not recognize some states like Kosovo, Somaliland or North Cyprus.
 
+# Visualizations
+
+## Maps and Histograms
+
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 
 <!-- Script to say the function of the dropdwon button 'Select Variable' -->
@@ -402,3 +406,5 @@ Note: For some reason, the cloropleth map does not recognize some states like Ko
     };
   </script>
 </div>
+
+# Some coomments
