@@ -3,6 +3,8 @@ title: World Happines Report (WHR) 2017
 summary: Currently working on this project.
 toc: true
 
+type: docs
+
 tags:
 - Visualization
 - Missing Values
