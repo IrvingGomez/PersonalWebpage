@@ -52,7 +52,7 @@ Enjoy the interactive maps, perhaps you would have new insights of the world and
 
 Note: For some reason, the cloropleth map does not recognize some states like Kosovo, Somaliland or North Cyprus.
 
-<section id="introduction">
+<section id="Visualizations">
   <h2>Visualizations</h2>
 </section>
 
