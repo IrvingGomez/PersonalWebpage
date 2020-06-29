@@ -15,12 +15,14 @@ image:
 {{% toc %}}
 
 <main>
-	<nav class="section-nav">
-		<ol>
-			<li><a href="#Visualizations">Visualizations</a></li>
-			<li><a href="#Maps and Histograms">Maps and Histograms</a></li>
-		</ol>
-	</nav>
+  <nav class="section-nav">
+    <ul>
+      <li><a href="#Visualizations">Visualizations</a></li>
+      <ul>
+        <li><a href="#Maps and Histograms">Maps and Histograms</a></li>
+      </ul>
+    </ul>
+  </nav>
 </main>
 
 
@@ -48,6 +50,10 @@ it was necessary to impute those missing values. This was done in 4 steps:
 Enjoy the interactive maps, perhaps you would have new insights of the world and your country.
 
 Note: For some reason, the cloropleth map does not recognize some states like Kosovo, Somaliland or North Cyprus.
+
+<section id="introduction">
+  <h2>Visualizations</h2>
+</section>
 
 # Visualizations
 
