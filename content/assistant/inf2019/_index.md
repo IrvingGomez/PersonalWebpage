@@ -48,9 +48,11 @@ Johnson, Kotz amd Balakrishnan - Continuous Univariate Distributions Vol.1 and 2
     September 3
     <ul>
       <li>
+	<span class="inline-svg"> <img src="static/img/Python-logo.svg"/>
         <a href="0_ECDF.py">
           ECDF with confidence bands with Python
         </a>
+	</span>
       </li>
       <li>
         <a href="Ayudantia_2_3septiembre.jl">
