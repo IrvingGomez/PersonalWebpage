@@ -3,14 +3,18 @@
 }
 
 .inline-svg {
-  display: inline;
+  display: inline-block;
   height: 1rem;
   position: relative;
 }
 
 .inline-svg > img {
-  display: inline;
+  display: inline-block;
   height: 1rem;
   position: relative;
 }
 
+span {
+  vertical-align: "bottom";
+  margin-top: -2rem;
+}
