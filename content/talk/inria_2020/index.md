@@ -15,7 +15,7 @@ all_day: true
 # Schedule page publish date (NOT talk date).
 publishDate: "2020-02-23T00:00:00Z"
 
-#authors: []
+authors: [Irving Gómez Méndez]
 #tags: []
 
 # Is this a featured talk? (true/false)
