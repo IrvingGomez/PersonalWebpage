@@ -1,19 +1,23 @@
 ---
-title: The Secret of Success
-summary: Need to add a summary
-tags:
-- Visualization
-- Real Data
-date: "2016-04-27T00:00:00Z"
+# Course title, summary, and position.
+linktitle: The main reasons of success
+summary: 
+weight: 1
 
-# Optional external URL for project (replaces project detail page).
-external_link: ""
+# Page metadata.
+title: The main reasons of success
+draft: false  # Is this a draft? true/false
+toc: false  # Show table of contents? true/false
+type: docs  # Do not modify.
 
-image:
-  focal_point: Smart
+# Add menu entry to sidebar.
+# - name: Declare this menu item as a parent with ID `name`.
+# - weight: Position of link in menu.
+menu:
+  success:
+    name: 
+    weight: 2
 ---
-
-<!-- <img src="success.png" alt="Secret of Success"> -->
 
 This is a tiny example of how to represent some data into a radar chart. The data was taken from
 <a href=https://www.makeovermonday.co.uk/data/data-sets-2017/, target="blank"> MakeoverMonday </a>, it is the data set of week 13 of 2017.
