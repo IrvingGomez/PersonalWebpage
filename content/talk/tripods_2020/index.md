@@ -1,5 +1,5 @@
 ---
-title: Some ideas for random forests algorithms with missing values
+title: Some ideas for random forests with missing values
 event: TRIPODS, CIMAT-UA
 #event_url: https://example.org
 location: Guanajuato, Mexico
