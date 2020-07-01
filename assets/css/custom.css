@@ -1,5 +1,9 @@
 .article-container {
-    max-width: 75%;
+    max-width: 85%;
+}
+
+.docs-article-container {
+    max-width: 85%;
 }
 
 .inline-svg {

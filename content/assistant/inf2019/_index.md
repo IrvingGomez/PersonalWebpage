@@ -89,7 +89,7 @@ Johnson, Kotz amd Balakrishnan - Continuous Univariate Distributions Vol.1 and 2
       <li>
 	<span class="inline-svg"> <img src="R_logo.svg"/>
           <a href="Normal_Inference.R">
-            Inference of normal distribution thorught maximum likelihood
+            Inference of normal distribution through maximum likelihood
           </a>
 	</span>
 	<br>
