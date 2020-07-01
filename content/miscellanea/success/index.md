@@ -14,9 +14,9 @@ type: docs  # Do not modify.
 # - name: Declare this menu item as a parent with ID `name`.
 # - weight: Position of link in menu.
 menu:
-  Success:
+  success:
     name: 
-    weight: 2
+    weight: 1
 ---
 
 <!-- <img src="success.png" alt="Secret of Success"> -->
