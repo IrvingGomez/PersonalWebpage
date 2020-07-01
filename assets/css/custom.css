@@ -2,17 +2,14 @@
     max-width: 85%;
 }
 
-.docs-article-container {
-    max-width: 100%;
+.docs-content {
+    max-width: 85%;
 }
 
 .docs-sidebar {
-    max-width: 10%;
+    max-width: 5%;
 }
 
-.article {
-    max-width: 85%;
-}
 
 .inline-svg {
   display: inline-block;
