@@ -3,6 +3,10 @@
 }
 
 .docs-article-container {
+    max-width: 100%;
+}
+
+.aarticle {
     max-width: 85%;
 }
 
