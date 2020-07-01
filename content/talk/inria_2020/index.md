@@ -7,7 +7,7 @@ location: Lille, France
 #abstract: ""
 
 # Talk start and end times.
-#   End time can optionally be hidden by prefixing the line with `#`.
+# End time can optionally be hidden by prefixing the line with `#`.
 date: "2020-03-06"
 date_end: ""
 all_day: true
@@ -15,7 +15,7 @@ all_day: true
 # Schedule page publish date (NOT talk date).
 publishDate: "2020-02-23T00:00:00Z"
 
-authors: [Irving Gómez Méndez]
+#authors:
 #tags: []
 
 # Is this a featured talk? (true/false)
