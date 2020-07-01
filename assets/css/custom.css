@@ -3,7 +3,11 @@
 }
 
 .docs-content {
-    max-width: 85%;
+    max-width: 100%;
+}
+
+.docs-article-container {
+    max-width: 100%;
 }
 
 .docs-sidebar {
