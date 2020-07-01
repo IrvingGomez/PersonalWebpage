@@ -30,7 +30,7 @@
 
 [[main]]
   name = "Miscellaneous"
-  url = "miscellaneous"
+  url = "miscellaneous/"
   weight = 60
 
 [[main]]
