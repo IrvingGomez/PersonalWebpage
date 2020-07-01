@@ -6,7 +6,11 @@
     max-width: 100%;
 }
 
-.aarticle {
+.docs-sidebar {
+    max-width: 10%;
+}
+
+.article {
     max-width: 85%;
 }
 
