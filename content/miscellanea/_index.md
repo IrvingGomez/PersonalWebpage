@@ -8,3 +8,15 @@ header:
   image: ""
 ---
 
+<nav class="section-nav">
+  <h2> Table of Contents </h2>
+  <ul>
+    <li> Maps and Related Visualizations </li>
+    <ul>
+      <li> World Happiness Report 2017 </li>
+      <ul>
+	<li><a href="">Confidence in Government</a></li>
+      </ul>
+    </ul>
+  </ul>
+</nav>
