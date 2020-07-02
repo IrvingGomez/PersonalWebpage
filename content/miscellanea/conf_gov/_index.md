@@ -2,7 +2,7 @@
 # Course title, summary, and position.
 linktitle: Confidence in Government
 summary: 
-#weight: 1
+weight: 1
 
 # Page metadata.
 title: Confidence in Government
@@ -13,10 +13,10 @@ type: docs  # Do not modify.
 # Add menu entry to sidebar.
 # - name: Declare this menu item as a parent with ID `name`.
 # - weight: Position of link in menu.
-#menu:
-#  conf_gov:
-#    name: 
-#    weight: 1
+menu:
+  conf_gov:
+    name: 
+    weight: 1
 ---
 
 
