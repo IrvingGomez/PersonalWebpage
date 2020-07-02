@@ -1,22 +1,11 @@
 ---
-# Course title, summary, and position.
-linktitle: Confidence in Government
-summary: 
-#weight: 1
+title: Miscellanea
+layout: docs  # Do not modify.
 
-# Page metadata.
-title: Confidence in Government
-draft: false  # Is this a draft? true/false
-toc: false  # Show table of contents? true/false
-type: docs  # Do not modify.
-
-# Add menu entry to sidebar.
-# - name: Declare this menu item as a parent with ID `name`.
-# - weight: Position of link in menu.
-menu:
-  conf_gov:
-#    name: 
-#    weight: 1
+# Optional header image (relative to `static/img/` folder).
+header:
+  caption: ""
+  image: ""
 ---
 
 
