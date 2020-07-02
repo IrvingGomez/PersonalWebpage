@@ -2,7 +2,7 @@
 # Course title, summary, and position.
 linktitle: Confidence in Government
 summary: 
-weight: 1
+#weight: 1
 
 # Page metadata.
 title: Confidence in Government
