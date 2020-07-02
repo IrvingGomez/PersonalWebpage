@@ -1,11 +1,6 @@
 ---
 title: Miscellanea
-layout: docs  # Do not modify.
-
-# Optional header image (relative to `static/img/` folder).
-header:
-  caption: ""
-  image: ""
+layout: docs
 ---
 
 <nav class="section-nav">
@@ -16,6 +11,7 @@ header:
       <li> World Happiness Report 2017 </li>
       <ul>
 	<li><a href="https://irvinggomez.com/miscellanea/conf_gov/">Confidence in Government</a></li>
+	<li><a href="https://irvinggomez.com/miscellanea/ladder/">Happiness score or subjective well-being</a></li>
       </ul>
     </ul>
   </ul>
