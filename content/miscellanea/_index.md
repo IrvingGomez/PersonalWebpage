@@ -10,9 +10,14 @@ layout: docs
     <ul>
       <li> World Happiness Report 2017 </li>
       <ul>
-	<li><a href="https://irvinggomez.com/miscellanea/ladder/">Happiness score or subjective well-being</a></li>
+	<li><a href="https://irvinggomez.com/miscellanea/Ladder/">Happiness score or subjective well-being</a></li>
 	<li><a href="https://irvinggomez.com/miscellanea/GDP/">Logarithm of GDP per capita based on PPP</a></li>
-	<li><a href="https://irvinggomez.com/miscellanea/conf_gov/">Confidence in Government</a></li>
+	<li><a href="https://irvinggomez.com/miscellanea/SocSupp/">Having someone to count on in times of trouble</a></li>
+	<li><a href="https://irvinggomez.com/miscellanea/HealthExp/">Healthy life expectancy at birth</a></li>
+	<li><a href="https://irvinggomez.com/miscellanea/Freedom/">Freedom to make life choices</a></li>
+	<li><a href="https://irvinggomez.com/miscellanea/Generosity/">Have you donated money to a charity in the past month?</a></li>
+	<li><a href="https://irvinggomez.com/miscellanea/ConfGov/">Confidence in Government</a></li>
+	<li><a href="https://irvinggomez.com/miscellanea/PossAffect/">Happiness, Laugh and Enjoyment (Possitive Affect)</a></li>
       </ul>
     </ul>
   </ul>
