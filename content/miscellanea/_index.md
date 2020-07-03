@@ -10,8 +10,9 @@ layout: docs
     <ul>
       <li> World Happiness Report 2017 </li>
       <ul>
-	<li><a href="https://irvinggomez.com/miscellanea/conf_gov/">Confidence in Government</a></li>
 	<li><a href="https://irvinggomez.com/miscellanea/ladder/">Happiness score or subjective well-being</a></li>
+	<li><a href="https://irvinggomez.com/miscellanea/GDP/">Logarithm of GDP per capita based on PPP</a></li>
+	<li><a href="https://irvinggomez.com/miscellanea/conf_gov/">Confidence in Government</a></li>
       </ul>
     </ul>
   </ul>
