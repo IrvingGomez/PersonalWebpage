@@ -19,35 +19,57 @@ image:
     <li><a href="#Visualizations">Visualizations</a></li>
     <ul>
       <li><a href="#Maps and Histograms">Maps and Histograms</a></li>
+      <li><a href="#Data Visualization in Latent Spaces">Data Visualization in Latent Spaces</a></li>
     </ul>
   </ul>
 </nav>
 
+It is common to find places that shows a map with the happiness score for each country find in the
+World Happiness Report (WHR). However, the WHR has much more information than just the happiness score.
+This work is devoted to those underlying reasons that yields (or not) happiness.
 
-<b> This page is on construction, I plan to write a post where I extend the theory ommited here. </b>
+The original data is open and free. I keep a copy in <a href="https://irvinggomez/miscellanea/whr2017.csv">https://irvinggomez/miscellanea/whr2017.csv</a>.
+For this analysis I only used the data of the year 2016. The features "Democratic Quality", "Delivery Quality", "Gini Index",
+"Gini Index, average 2000-13" and all the features like "Most people can be trusted..." where not considered, and arenot considered in the subsequent.
 
-<b> The main purpose is to show interactive graphs fruit of a statistical analysis of the data. </b>
+<section id="Imputation Process">
+  <h2>Imputation Process</h2>
+</section>
 
-An analysis of the data used for the World Hapiness Report 2017 of the United Nations.
+However, many countries have missing values in several features, so an imputation
+procedure must be performed. As a first imputation I used the records of the previous years and averaged them to have an imputed value for those
+features that are missing. Unfortunately, there are some countries that do not have historical records, so this approach cannot be perform.
+Those countries with no historical records in the missing feature where not considered in the first imputed data set.
 
-It is common to find places thta shows a map with the happiness score for each country, developed by the UN, which is find in the
-WHR. However, the WHR has much more information than just the happiness score. This analysis is devoted to all those underlying
-reasons that yields (or not) happiness. So, you are not going to find any map with the happiness score of the UN, however I have
-built a similar score based on an Auto-Encoder (AE) and Principal Component Analysis (PCA).
+For the countries with all the values of the year 2016 or in those where it was possible to impute the missing values from previous records,
+the data were standardized so every column has values between 0 and 1. Once the data has been standardized, I train an Autoencoder (AE)
+(a graphical schema of the AE is possible in the section <a href="#Data Visualization in Latent Spaces">Data Visualization in Latent Spaces</a>),
+and its encoder part was used to project the data into a non-linear space of dimension 2.
 
-The data disponible in (<b>Need to write URL of source data</b>) has incomplete information. So, in order to have the nice maps and graphs below,
-it was necessary to impute those missing values. This was done in 4 steps:
+With data projected in the latent space of dimension 2, I found the line that best approximate the data using PCA. The hypothetical countries utopia
+and dystopia where not used to train the AE or to find the best linear representation of this latent space, but both of them were projected into this final
+linear representation. Note that the line order the countries with utopia and dystopia been assigned to the edges, with this order I assign an integrated
+score to each country where utopia has a value equal to 10 and dystopia has a value equal to 0.
+
+At this point we have a data set with the countries that have values in all the features or that have historical records to easely impute the missing values.
+However, there wer countries with no historical records, that I have kept appart of the analysis. The next step of the imputation process was to predict the
+integrated score of the latter group of countries. To do so, I constructed a random forests, as it is proposed in my PhD dissertation,using the countries
+with an integrated score, but without imputing the missing values; then we predict the integrated score for the remain countries.
+
+Remember that the integrated score is just a position in a 2-dimensional line in the latent space of the AE. Now that all the countries have an integrated score,
+we can use the decoder part of teh AE, decode all the countries with missing values for the year 2016 and use this reconstruction as the final imputation for our
+data set. I think that this imputation would be better than simply averaging the previous historical records, since the AE can take into account more complicated
+non-linear relationships between the countries. The final imputed data set can be found in 
+<a href="https://irvinggomez/miscellanea/Data_164_countries.csv">https://irvinggomez/miscellanea/Data_164_countries.csv</a>
+
+In a nutshell, this is the procedure that I sued to impute the data:
 
 <ol>
  <li>Train an AE and use its encoder part.</li>
- <li>Use PCA in the latent space to asign a 'score' to each country.</li>
- <li>Use Random Forests (RF) to estimate the 'score' of the countries with missing values (as it is proposed in my PhD dissertation).</li>
+ <li>Use PCA in the latent space to asign an 'integrated score' to each country.</li>
+ <li>Use Random Forests (RF) to estimate the 'integrated score' of the countries with missing values (as it is proposed in my PhD dissertation).</li>
  <li>Use the decoder part of the AE to impute the missing values.</li>
 </ol>
-
-Enjoy the interactive maps, perhaps you would have new insights of the world and your country.
-
-Note: For some reason, the cloropleth map does not recognize some states like Kosovo, Somaliland or North Cyprus.
 
 <section id="Visualizations">
   <h2>Visualizations</h2>
@@ -56,6 +78,11 @@ Note: For some reason, the cloropleth map does not recognize some states like Ko
 <section id="Maps and Histograms">
   <h3>Maps and Histograms</h3>
 </section>
+
+Enjoy the interactive maps, perhaps you would have new insights of the world and your country. I only shows the maps and histograms for some features, maps for the
+rest of features can be found in <a href="https://irvinggomez/miscellanea/">https://irvinggomez/miscellanea/</a>
+
+Note: For some reason (independent to me) the map does not recognize some states like Kosovo, Somaliland or North Cyprus.
 
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 
@@ -320,7 +347,9 @@ Note: For some reason, the cloropleth map does not recognize some states like Ko
   </script>
 </div>
 
-### Data Visualization in Latent Spaces
+<section id="Data Visualization in Latent Spaces">
+  <h3>Data Visualization in Latent Spaces</h3>
+</section>
 
 <script>
   $(document).ready(function(){
@@ -419,4 +448,6 @@ Note: For some reason, the cloropleth map does not recognize some states like Ko
   </script>
 </div>
 
-## Some comments
+<section id="Some comments">
+  <h3>Some comments</h3>
+</section>
