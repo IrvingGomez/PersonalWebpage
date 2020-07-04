@@ -28,6 +28,9 @@ layout: docs
 	<li><a href="https://irvinggomez.com/miscellanea/Data_164_countries.csv">Imputed data set</a></li>
       </ul>
     </ul>
-    <li><a href="https://irvinggomez.com/miscellanea/Success/">The main reasons of success (example of a radar chart)</a></li>
+    <li>The main reasons of success
+    <ul>
+      <li><span class="inline-svg"> <img src="image.svg"/><a href="https://irvinggomez.com/miscellanea/Success/">Example of a radar chart</a></span></li>
+    </ul>
   </ul>
 </nav>
