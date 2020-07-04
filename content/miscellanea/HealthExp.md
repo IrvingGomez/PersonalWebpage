@@ -2,7 +2,9 @@
 title: Healthy life expectancy at birth
 layout: docs
 ---
-
+The healthy life expectancy at birth is calculated by the authors of the UN based on
+data from the World Health Organization (WHO), the World Development Indicators (WDI),
+and statistics published in journal articles.
 
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 

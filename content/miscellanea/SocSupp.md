@@ -2,7 +2,8 @@
 title: Having someone to count on in times of trouble
 layout: docs
 ---
-
+Social support (or having someone to count on in times of trouble) is the national average of the responses to the question "If you were in trouble,
+do you have relatives or friends you can count on to help you whenever you need them, or not?"
 
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 

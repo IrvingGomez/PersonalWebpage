@@ -3,6 +3,11 @@ title: Happiness, Laugh and Enjoyment (Possitive Affect)
 layout: docs
 ---
 
+Positive affect is defined as the average of three positive affect measures: happiness, laugh and enjoyment.
+These measures are the responses to the following three questions, respectively:
+"Did you experience happiness during A LOT OF THE DAY yesterday?", "Did you smile or laugh a lot yesterday?",
+and "Did you experience enjoyment during A LOT OF THE DAY yesterday?”
+
 
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 

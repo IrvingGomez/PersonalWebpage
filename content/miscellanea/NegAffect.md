@@ -2,7 +2,11 @@
 title: Worry, Sadness and Anger (Negative Affect)
 layout: docs
 ---
-
+Negative affect is defined as the average of three negative affect measures: worry, sadness and anger.
+These measures are the responses to the following three questions, respectively:
+"Did you experience worry during A LOT OF THE DAY yesterday?",
+"Did you experience sadness during A LOT OF THE DAY yesterday?",
+and "Did you experience anger during A LOT OF THE DAY yesterday?"
 
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 

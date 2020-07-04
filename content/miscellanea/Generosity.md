@@ -2,6 +2,9 @@
 title: Have you donated money to a charity in the past month?
 layout: docs
 ---
+Generosity is the residual of regressing national average of response to the GWP
+question "Have you donated money to a charity in the past month?" on GDP
+per capita.
 
 
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>

@@ -150,20 +150,20 @@ Note: For some reason (independent to me) the map does not recognize some states
 <div>
 <select name="select_var" id="select_var">
     <option value="ladder">Happiness score or subjective well-being</option>
-    <option value="social">Someone to count on in times of trouble (social support)</option>
+    <option value="social">Someone to count on in times of trouble (Social Support)</option>
     <option value="corrupt">Perception of corruption</option>
 </select>
 </div>
 
 <div class="ladder explanation">
-It is the national average response to the question of life evaluations. The English wording of the question is "Please imagine a ladder, with
+It is the national average response to the question: "Please imagine a ladder, with
 steps numbered from 0 at the bottom to 10 at the top. The top of the ladder represents the best possible life for you and the bottom of the ladder
 represents the worst possible life for you. On which step of the ladder would you say you personally feel you stand at this time?"
 </div>
 
 <div class="corrupt explanation">
-The measure is the national average of the survey responses to two questions: "Is corruption widespread throughout the government or not" and
-"Is corruption widespread within businesses or not?" The overall perception is just the average of the responses. 
+The measure is the national average responses to two questions: "Is corruption widespread throughout the government or not?" and
+"Is corruption widespread within businesses or not?" The overall perception is just the average of the responses.
 </div>
 
 <div class="social explanation">
@@ -481,9 +481,10 @@ do you have relatives or friends you can count on to help you whenever you need 
 
 We face a huge inequality all around the world, at the same time that Qatar enjoys a GDP of around 136,000 USD per capita, most of the world does not go over 20,000 USD
 and in Burundi it does not go up to 400 USD. Entire countries in America and Africa with a huge inequality in the household income. Countries without freedom and where
-the sadness and the anger are the common day. An entire world turn to red when it refers to the perception of corruption. However, at the same time that we struggle with
-all these problems, there are countries that might lead the way to solve them. Like the extraordinary effort of countries like Ruanda or Somalia to fight against
-corruption. An America colored with blue when it refers to happiness and enjoyment. And most of the world counting with someone in times of trouble.
+the sadness and the anger are the common day. An entire world turn to red when it refers to the perception of corruption or the generosity.
+However, at the same time that we struggle with all these problems, there are countries that might lead the way to solve them.
+Like the extraordinary effort of countries like Ruanda or Somalia to fight against corruption, or an America colored with blue when it refers to happiness and enjoyment.
+And most of the world counting with someone in times of trouble.
 
 
 

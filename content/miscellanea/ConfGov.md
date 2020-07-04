@@ -2,7 +2,7 @@
 title: Confidence in Government
 layout: docs
 ---
-
+It is the national average response to the question "Do you have confidence in the national government?"
 
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 

@@ -3,6 +3,7 @@ title: Logarithm of GDP per capita based on PPP
 layout: docs
 ---
 
+Logarithm of the Gross Domestic Product (GDP) per capita in purchasing power parity (PPP).
 
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 

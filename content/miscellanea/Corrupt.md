@@ -2,7 +2,8 @@
 title: Perception of Corruption in the World
 layout: docs
 ---
-
+The measure is the national average responses to two questions: "Is corruption widespread throughout the government or not?" and
+"Is corruption widespread within businesses or not?" The overall perception is just the average of the responses. 
 
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 

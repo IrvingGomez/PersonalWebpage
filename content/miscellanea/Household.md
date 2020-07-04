@@ -2,7 +2,10 @@
 title: Gini of household income
 layout: docs
 ---
-
+To calculate income, respondents are asked to report their household income in local currency.
+Those respondents who have difficulty answering the question are presented a set of ranges in local
+currency and are asked which group they fall into. Income variables are created by converting local
+currency to International Dollars (ID) using purchasing power parity (PPP) ratios.
 
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 

@@ -2,6 +2,8 @@
 title: Freedom to make life choices
 layout: docs
 ---
+It is the national average of responses to the question "Are you satisfied or dissatisfied with your freedom
+to choose what you do with your life?"
 
 
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
