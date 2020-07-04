@@ -453,7 +453,7 @@ Note: For some reason (independent to me) the map does not recognize some states
     };
   </script>
 
-  <figure src="AE_draw.jpg" title="Original Autoencoder">
+  <figure src="AE_draw_happiness.png" title="Autoencoder schema">
 </div>
 
 <section id="Some comments about the world">
