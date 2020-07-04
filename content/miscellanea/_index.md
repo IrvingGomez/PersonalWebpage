@@ -6,9 +6,9 @@ layout: docs
 <nav class="section-nav">
   <h2> Table of Contents </h2>
   <ul>
-    <li> Maps and Related Visualizations </li>
+    <li> World Happiness Report 2017 </li>
     <ul>
-      <li> World Happiness Report 2017 </li>
+      <li><span class="inline-svg"> <img src="map.svg"/>Maps and Related Visualizations</span></li>
       <ul>
 	<li><a href="https://irvinggomez.com/miscellanea/Ladder/">Happiness score or subjective well-being</a></li>
 	<li><a href="https://irvinggomez.com/miscellanea/GDP/">Logarithm of GDP per capita based on PPP</a></li>
@@ -22,6 +22,12 @@ layout: docs
 	<li><a href="https://irvinggomez.com/miscellanea/Corrupt/">Perception of Corruption in the World</a></li>
 	<li><a href="https://irvinggomez.com/miscellanea/Household/">Gini of household income</a></li>
       </ul>
+      <li><span class="inline-svg"> <img src="database.svg"/>Data sets</span></li>
+      <ul>
+	<li><a href="https://irvinggomez.com/miscellanea/whr2017.csv">Original data set</a></li>
+	<li><a href="https://irvinggomez.com/miscellanea/Data_164_countries.csv">Imputed data set</a></li>
+      </ul>
     </ul>
+    <li><a href="https://irvinggomez.com/miscellanea/Success/">The main reasons of success (example of a radar chart)</a></li>
   </ul>
 </nav>

@@ -1,22 +1,6 @@
 ---
-# Course title, summary, and position.
-linktitle: The main reasons of success
-summary: 
-weight: 1
-
-# Page metadata.
-title: The main reasons of success
-draft: false  # Is this a draft? true/false
-toc: false  # Show table of contents? true/false
-type: docs  # Do not modify.
-
-# Add menu entry to sidebar.
-# - name: Declare this menu item as a parent with ID `name`.
-# - weight: Position of link in menu.
-menu:
-  success:
-    name: 
-    weight: 2
+title: What are the main reasons of success?
+layout: docs
 ---
 
 This is a tiny example of how to represent some data into a radar chart. The data was taken from

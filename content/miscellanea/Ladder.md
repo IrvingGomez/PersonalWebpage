@@ -93,7 +93,7 @@ layout: docs
 </select>
 </div>
 
-<!-- Hitogram of Conf_Gov -->
+<!-- Hitogram of Ladder -->
 <div class="ladder histo show">
   <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
