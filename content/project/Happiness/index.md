@@ -104,12 +104,15 @@ Note: For some reason (independent to me) the map does not recognize some states
 	    var optionHisto = $(this).attr("value")
 	    if(optionVar){
 	      $(".map").not("." + optionVar).hide();
+	      $(".explanation").not("." + optionVar).hide();
 	      $(".map").not("." + optionMap).hide();
 	      $(".histo").not("." + optionVar).hide();
 	      $(".histo").not("." + optionHisto).hide();
+	      $(".explanation" + "." + optionVar).show();
               $(".map" + "." + optionVar + "." + optionMap).show();
               $(".histo" + "." + optionVar + "." + optionHisto).show();
 	    } else{
+	      $(".explanation").hide();
 	      $(".map").hide();
 	      $(".histo").hide();
 	    }
@@ -152,6 +155,21 @@ Note: For some reason (independent to me) the map does not recognize some states
 </select>
 </div>
 
+<div class="ladder explanation">
+It is the national average response to the question of life evaluations. The English wording of the question is "Please imagine a ladder, with
+steps numbered from 0 at the bottom to 10 at the top. The top of the ladder represents the best possible life for you and the bottom of the ladder
+represents the worst possible life for you. On which step of the ladder would you say you personally feel you stand at this time?"
+</div>
+
+<div class="corrupt explanation">
+The measure is the national average of the survey responses to two questions: "Is corruption widespread throughout the government or not" and
+"Is corruption widespread within businesses or not?" The overall perception is just the average of the responses. 
+</div>
+
+<div class="social explanation">
+Social support (or having someone to count on in times of trouble) is the national average of the responses to the question "If you were in trouble,
+do you have relatives or friends you can count on to help you whenever you need them, or not?"
+</div>
 
 <!-- Dropdwon button 'Select Resolution of Map' -->
 <div>
