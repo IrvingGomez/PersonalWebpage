@@ -171,6 +171,7 @@ Social support (or having someone to count on in times of trouble) is the nation
 do you have relatives or friends you can count on to help you whenever you need them, or not?"
 </div>
 
+<br>
 <!-- Dropdwon button 'Select Resolution of Map' -->
 <div>
 <select name="select_map" id="select_map">
