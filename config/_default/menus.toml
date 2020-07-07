@@ -29,9 +29,14 @@
   weight = 50
 
 [[main]]
+  name = "Blog"
+  url = "post/"
+  weight = 60
+
+[[main]]
   name = "Miscellanea"
   url = "miscellanea/"
-  weight = 60
+  weight = 70
 
 [[main]]
   name = "Contact"
