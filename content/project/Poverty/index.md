@@ -12,7 +12,7 @@ image:
   focal_point: Smart
 ---
 
-<figure src="AE_draw_happiness.png" title="Autoencoder schema">
+{{<figure src="AE_draw_poverty.png" title="Autoencoder schema">}}
 
 AE, colors considering Dystopia and Utopia
 
