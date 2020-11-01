@@ -24,8 +24,6 @@ AE, colors considering just Mexico
 
 Map of Mexico, colors considering Dystopia and Utopia
 
-<!DOCTYPE html>
-<head>    
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 
         <script>
