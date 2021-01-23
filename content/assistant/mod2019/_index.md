@@ -5,7 +5,7 @@ summary:
 weight: 1
 
 # Page metadata.
-title: Statistical Inference 2019
+title: Statistical Models 2019
 draft: false  # Is this a draft? true/false
 toc: false  # Show table of contents? true/false
 type: docs  # Do not modify.
