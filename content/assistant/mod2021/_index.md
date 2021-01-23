@@ -1,6 +1,6 @@
 ---
 # Course title, summary, and position.
-linktitle: Statistical Models 20221
+linktitle: Statistical Models 2021
 summary: 
 weight: 1
 
