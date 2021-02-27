@@ -27,7 +27,6 @@ Some usefull references:
       Alvin C. Rencher, G. Bruce Schaalje - Linear Models in Statistics (2008)
     </span>
   </li>
-
   <li>
     <span class="inline-svg"> <img src="book.svg"/>
       <a href="Notas_Rogelio(2011).pdf">
@@ -35,7 +34,16 @@ Some usefull references:
       </a>
     </span>
   </li>
+  <li>
+    <span class="inline-svg"> <img src="book.svg"/>
+      <a href="https://textbooks.math.gatech.edu/ila/">
+        Interactive Linear Algebra (to remember concepts that you might have forgotten)
+      </a>
+    </span>
+  </li>
 </ul>
+
+
 
 Presentation:
 
