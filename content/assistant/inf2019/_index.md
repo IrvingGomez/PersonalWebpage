@@ -11,7 +11,7 @@ type: docs  # Do not modify.
 menu:
   inf2019:
     name: 
-    weight: 3
+    weight: 2
 ---
 A reference about distributions:
 Johnson, Kotz amd Balakrishnan - Continuous Univariate Distributions Vol.1 and 2
