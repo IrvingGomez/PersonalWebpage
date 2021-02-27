@@ -43,8 +43,6 @@ Some usefull references:
   </li>
 </ul>
 
-
-
 Presentation:
 
 <ul>
