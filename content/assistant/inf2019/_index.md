@@ -1,7 +1,7 @@
 ---
 # Course title, summary, and position.
 linktitle: Statistical Inference 2019
-weight: 1
+weight: 2
 
 # Page metadata.
 title: Statistical Inference 2019
@@ -11,7 +11,7 @@ type: docs  # Do not modify.
 menu:
   inf2019:
     name: 
-    weight: 2
+    weight: 1
 ---
 A reference about distributions:
 Johnson, Kotz amd Balakrishnan - Continuous Univariate Distributions Vol.1 and 2
