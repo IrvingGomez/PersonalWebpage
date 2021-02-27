@@ -16,7 +16,7 @@ type: docs  # Do not modify.
 menu:
   mod2021:
     name: 
-    weight: 3
+    weight: 1
 ---
 
 Some usefull references:
@@ -37,6 +37,18 @@ Some usefull references:
   </li>
 </ul>
 
+Presentation:
+
+<ul>
+  <li>
+    <span class="inline-svg"> <img src="tv.svg"/>
+      <a href="Stat_Mod_part_1.pdf">
+        Presentation, part 1.
+      </a>
+    </span>
+  </li>
+</ul>
+
 Many of the examples were given to me by
 <a
   href="https://www.cimat.mx/es/Rogelio_Ramos_Quiroga"
@@ -47,15 +59,39 @@ I have tried to keep the original references inside code.
 
 <ul>
   <li>
-    January 22
+    February 12
     <ul>
       <li>
-	<span class="inline-svg"> <img src="book.svg"/>
-          <a href="January_22.pdf">
-            Conditional Normal Distribution
+	<span class="inline-svg"> <img src="python-logo.svg"/>
+          <a href="best_fit_line.py">
+            Best fit of a line by least squares.
+          </a>
+	</span>
+      </li>
+      <li>
+	<span class="inline-svg"> <img src="python-logo.svg"/>
+          <a href="best_fit_parabola.py">
+            Best fit of a parabola by least squares.
+          </a>
+	</span>
+      </li>
+      <li>
+	<span class="inline-svg"> <img src="python-logo.svg"/>
+          <a href="best_fit_trigonometric_function.py">
+            Best fit of a trigonometric function by least squares.
+          </a>
+	</span>
+      </li>
+      <li>
+	<span class="inline-svg"> <img src="python-logo.svg"/>
+          <a href="best_fit_ellipse.py">
+            Best fit of an ellipse by least squares.
           </a>
 	</span>
       </li>
     </ul>
   </li>
 </ul>
+
+
+
