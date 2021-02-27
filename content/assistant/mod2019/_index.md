@@ -2,7 +2,7 @@
 # Course title, summary, and position.
 linktitle: Statistical Models 2019
 summary: 
-weight: 1
+weight: 3
 
 # Page metadata.
 title: Statistical Models 2019
