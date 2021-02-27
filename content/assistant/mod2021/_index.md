@@ -37,7 +37,7 @@ Some usefull references:
   <li>
     <span class="inline-svg"> <img src="book.svg"/>
       <a href="https://textbooks.math.gatech.edu/ila/">
-        Interactive Linear Algebra
+        Interactive Linear Algebra (2019)
       </a> (to remember concepts that you might have forgotten)
     </span>
   </li>
