@@ -98,7 +98,7 @@ I have tried to keep the original references inside code.
     </ul>
   </li>
   <li>
-    march 12
+    March 12
     <ul>
       <li>
 	<span class="inline-svg"> <img src="python-logo.svg"/>
