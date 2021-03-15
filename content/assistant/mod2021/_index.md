@@ -97,6 +97,25 @@ I have tried to keep the original references inside code.
       </li>
     </ul>
   </li>
+  <li>
+    march 12
+    <ul>
+      <li>
+	<span class="inline-svg"> <img src="python-logo.svg"/>
+          <a href="5_best_fit_line_2.py">
+            Best fit of a line by least squares with confidence regions.
+          </a>
+	</span>
+      </li>
+      <li>
+	<span class="inline-svg"> <img src="python-logo.svg"/>
+          <a href="9_maximizing_ gain_problem.py">
+            Finding the best price to maximize the gain.
+          </a>
+	</span>
+      </li>
+    </ul>
+  </li>
 </ul>
 
 
