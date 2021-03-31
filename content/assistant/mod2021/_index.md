@@ -69,28 +69,28 @@ I have tried to keep the original references inside code.
     <ul>
       <li>
 	<span class="inline-svg"> <img src="python-logo.svg"/>
-          <a href="best_fit_line.py">
+          <a href="1_best_fit_line.py">
             Best fit of a line by least squares.
           </a>
 	</span>
       </li>
       <li>
 	<span class="inline-svg"> <img src="python-logo.svg"/>
-          <a href="best_fit_parabola.py">
+          <a href="2_best_fit_parabola.py">
             Best fit of a parabola by least squares.
           </a>
 	</span>
       </li>
       <li>
 	<span class="inline-svg"> <img src="python-logo.svg"/>
-          <a href="best_fit_trigonometric_function.py">
+          <a href="3_best_fit_trigonometric_function.py">
             Best fit of a trigonometric function by least squares.
           </a>
 	</span>
       </li>
       <li>
 	<span class="inline-svg"> <img src="python-logo.svg"/>
-          <a href="best_fit_ellipse.py">
+          <a href="4_best_fit_ellipse.py">
             Best fit of an ellipse by least squares.
           </a>
 	</span>
@@ -111,6 +111,51 @@ I have tried to keep the original references inside code.
 	<span class="inline-svg"> <img src="python-logo.svg"/>
           <a href="9_maximizing_ gain_problem.py">
             Finding the best price to maximize the gain.
+          </a>
+	</span>
+      </li>
+    </ul>
+  </li>
+  <li>
+    March 19
+    <ul>
+      <li>
+	<span class="inline-svg"> <img src="python-logo.svg"/>
+          <a href="11_local_poly_regression.py">
+            Local polinomial estimator.
+          </a>
+	</span>
+      </li>
+      <li>
+	<span class="inline-svg"> <img src="python-logo.svg"/>
+          <a href="12_robust_regression.py">
+            Robust regression.
+          </a>
+	</span>
+      </li>
+    </ul>
+  </li>
+  <li>
+    March 26
+    <ul>
+      <li>
+	<span class="inline-svg"> <img src="python-logo.svg"/>
+          <a href="5_best_fit_line_2_with_objects.py">
+            Best fit of a line by least squares with confidence regions, using python class.
+          </a>
+	</span>
+      </li>
+      <li>
+	<span class="inline-svg"> <img src="python-logo.svg"/>
+          <a href="6_Mahalanobis_distance.py">
+            Mahalanobis distance.
+          </a>
+	</span>
+      </li>
+      <li>
+	<span class="inline-svg"> <img src="python-logo.svg"/>
+          <a href="7_leverage_points.py">
+            Leverage points.
           </a>
 	</span>
       </li>
