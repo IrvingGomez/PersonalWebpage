@@ -19,29 +19,39 @@
   weight = 30
 
 [[main]]
+  name = "Publications"
+  url = "#publication"
+  weight = 40
+
+[[main]]
+  name = "Codes"
+  url = "codes/"
+  weight = 50
+
+[[main]]
   name = "Assistantships"
   url = "assistant/"
-  weight = 40
+  weight = 60
 
 [[main]]
   name = "PhD"
   url = "PhD/"
-  weight = 50
+  weight = 70
 
 [[main]]
   name = "Blog"
   url = "post/"
-  weight = 60
+  weight = 80
 
 [[main]]
   name = "Miscellanea"
   url = "miscellanea/"
-  weight = 70
+  weight = 90
 
 [[main]]
   name = "Contact"
   url = "#contact"
-  weight = 80
+  weight = 100
 
 
 # Link to a PDF of your resume/CV from the menu.
