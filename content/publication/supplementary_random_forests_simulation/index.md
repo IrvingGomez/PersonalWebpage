@@ -1,5 +1,5 @@
 ---
-title: "Supplemetary material: Regression with Missing Data, A Comparison Study of Techniques Based on Random Forests"
+title: "Supplemetary material: Regression with Missing Data, a Comparison Study of Techniques Based on Random Forests"
 authors:
 - admin
 - Emilien Joly
