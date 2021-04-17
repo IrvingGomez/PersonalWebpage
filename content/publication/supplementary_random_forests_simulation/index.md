@@ -2,7 +2,7 @@
 title: "Supplemetary material: Regression with Missing Data, A Comparison Study of Techniques Based on Random Forests"
 authors:
 - admin
-
+- Emilien Joly
 date: "2021-04-17T00:00:00Z"
 doi: ""
 
@@ -31,7 +31,7 @@ featured: false
 # links:
 # - name: ""
 #   url: ""
-url_pdf: ''
+url_pdf: https://irvinggomez.com/publication/supplementary_random_forests_simulation/Supplementary_RandomForestsSimulation.pdf
 url_code: ''
 url_dataset: ''
 url_poster: ''
