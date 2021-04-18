@@ -19,7 +19,12 @@ publication_types: ["3"]
 publication: ""
 publication_short: ""
 
-abstract: Supplementary material
+abstract: This paper tackles the problem of constructing a non-parametric predictor when the latent variables are given with incomplete information.
+The convenient predictor for this task is the random forest algorithm in conjunction to the so called CART criterion.
+The proposed technique enables a partial imputation of the missing values in the data set in a way that suits both a consistent estimation of the regression
+function as well as a probabilistic recovery of the missing values.
+A proof of the consistency of the random forest estimator that also simplifies the previous proofs of the classical consistency is given in the case where each
+latent variable is missing completely at random (MCAR).
 
 # Summary. An optional shortened abstract.
 summary: 
