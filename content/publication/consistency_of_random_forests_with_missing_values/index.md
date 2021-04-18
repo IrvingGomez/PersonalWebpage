@@ -1,5 +1,5 @@
 ---
-title: "Supplemetary material: Regression with Missing Data, a Comparison Study of Techniques Based on Random Forests"
+title: "On the consistency of a random forest algorithm in the presence of missing entries"
 authors:
 - admin
 - Emilien Joly
