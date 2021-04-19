@@ -37,21 +37,21 @@ menu:
   <li>
     <span class="inline-svg"> <img src="R_logo.svg"/>
       <a href="toy examples.R">
-	Example with toy data.
+	Example with a toy data.
       </a>
     </span>
   </li>
   <li>
     <span class="inline-svg"> <img src="R_logo.svg"/>
       <a href="Example_Hitters.R">
-	Example with the Hitters data.
+	Example using Hitters data set.
       </a>
     </span>
   </li>
   <li>
     <span class="inline-svg"> <img src="R_logo.svg"/>
       <a href="Example_Anderson iris.R">
-	Example using the Anderson iris data set.
+	Example using Anderson iris data set.
       </a>
     </span>
   </li>
