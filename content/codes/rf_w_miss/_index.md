@@ -5,7 +5,7 @@ summary:
 weight: 1
 
 # Page metadata.
-title: Statistical Models 2021
+title: Random Forests with Missing Data
 draft: false  # Is this a draft? true/false
 toc: false  # Show table of contents? true/false
 type: docs  # Do not modify.
@@ -14,7 +14,7 @@ type: docs  # Do not modify.
 # - name: Declare this menu item as a parent with ID `name`.
 # - weight: Position of link in menu.
 menu:
-  RandomForests_with_Missing:
+  rf_w_miss:
     name: 
     weight: 1
 ---
