@@ -1,9 +1,3 @@
-##############################
-#                            #
-# Examples with missing data #
-#                            #
-##############################
-
 source("random_forests_with_missing_values.R")
 source("plot_regtree_and_forest.R")
 
@@ -23,7 +17,7 @@ yy <- c(yy, 0.25, 3, 1.53)
 yy_name <- 'Petal Width'
 
 # The usual tree
-miss_iris_tree <- miss_regTree(XX, yy, nodesize = 50)
+miss_iris_tree <- miss_regTree_RF(XX, yy, random=FALSE, nodesize = 50)
 
 # Structure of the tree
 miss_iris_tree$Structure
@@ -46,10 +40,10 @@ matrix.plot(connect_matrix)
 miss_tree.conect(x = c(2,6), tree = miss_iris_tree)
 
 # Prediction with the tree
-miss_tree.pred(x = c(2,4.5),  tree = miss_iris_tree)
-miss_tree.pred(x = c(6,NA),   tree = miss_iris_tree)
-miss_tree.pred(x = c(NA,4.5), tree = miss_iris_tree)
-miss_tree.pred(x = c(2,NA),   tree = miss_iris_tree)
+miss_tree.pred(x = c(2,4.5),  tree = miss_iris_tree)$y_pred
+miss_tree.pred(x = c(6,NA),   tree = miss_iris_tree)$y_pred
+miss_tree.pred(x = c(NA,4.5), tree = miss_iris_tree)$y_pred
+miss_tree.pred(x = c(2,NA),   tree = miss_iris_tree)$y_pred
 
 # A random tree
 miss_iris_random_tree <- miss_regTree_RF(XX, yy, nodesize = 50)
@@ -61,7 +55,7 @@ numCores <- detectCores()
 cl <- parallel::makeCluster(numCores, setup_strategy = "sequential")
 registerDoParallel(cl)
 
-miss_iris_random_forest <- miss_regRF(XX, yy)
+miss_iris_random_forest <- miss_regRF(XX, yy, nodesize = 50)
 
 # The OOB error
 miss_iris_random_forest$OOB.err <- miss_oob.err(miss_iris_random_forest)

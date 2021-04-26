@@ -33,8 +33,8 @@ miss_tree.plot <- function(tree,
                          point_color = TRUE,
                          point_palette = NULL,
                          point_breaks = NULL,
-                         n1 = 100,
-                         n2 = 100,
+                         n1 = 20,
+                         n2 = 20,
                          rad = 1){
   
   #About the parameters
@@ -351,7 +351,7 @@ miss_tree.plot <- function(tree,
       aux <- function(x,y){
         df <- cbind(x,y)
         df <- as.data.frame(df)
-        miss_tree.pred(df,tree)}
+        miss_tree.pred(df,tree)$y_pred}
       
       f <- Vectorize(aux, vectorize.args = c("x", "y"))
       
@@ -550,8 +550,8 @@ miss_RF.plot <- function(forest,
     #points(x0, y0, col=sort_colors) 
   }
   if(p==2){
-    X <- forest$X #x_plot
-    y <- forest$y
+    X <- forest$X.keep #x_plot
+    y <- forest$y.keep
     
     df <- cbind(X, y)
     df <- distinct(df)

@@ -1,9 +1,3 @@
-#################################
-#                               #
-# Examples with no-missing data #
-#                               #
-#################################
-
 source("random_forests_with_missing_values.R")
 source("plot_regtree_and_forest.R")
 
@@ -19,7 +13,7 @@ colnames(X_space) <- colnames(XX)
 yy <- c(rnorm(3,1,0.1), rnorm(3,2,0.1), rnorm(3,2.5,0.1), c(3,3))
 
 # the toy tree
-toy.tree <- miss_regTree(XX, yy, X_space = X_space)
+toy.tree <- miss_regTree_RF(XX, yy, random=FALSE, X_space = X_space)
 
 x11()
 miss_tree.plot(toy.tree)

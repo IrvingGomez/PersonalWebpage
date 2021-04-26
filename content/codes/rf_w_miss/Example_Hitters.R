@@ -1,9 +1,3 @@
-#################################
-#                               #
-# Examples with no-missing data #
-#                               #
-#################################
-
 source("random_forests_with_missing_values.R")
 source("plot_regtree_and_forest.R")
 
@@ -29,7 +23,7 @@ XX <- XX[!NA_places,]
 yy <- yy[!NA_places]
 
 # The tree presented in the mentioned book
-hitter_tree <- miss_regTree(XX, yy, nodesize = 100)
+hitter_tree <- miss_regTree_RF(XX, yy, random=FALSE, nodesize = 100)
 
 x11()
 miss_tree.plot(hitter_tree, eps_x=0.5, eps_y=5, add=FALSE)
@@ -61,7 +55,7 @@ miss_tree.pred(c(2,NA), tree = hitter_tree)
 
 
 ## A deeper tree
-hitter_tree_2 <- miss_regTree(XX, yy, nodesize = 10)
+hitter_tree_2 <- miss_regTree_RF(XX, yy, random=FALSE, nodesize = 10)
 
 x11()
 miss_tree.plot(hitter_tree_2, eps_x=0.5, eps_y=5, add=FALSE,
@@ -79,7 +73,7 @@ miss_tree.plot(hitter_tree_2, in2D = FALSE,
 
 
 ## An even deeper tree
-hitter_tree_3 <- miss_regTree(XX, yy, nodesize = 1)
+hitter_tree_3 <- miss_regTree_RF(XX, yy, random=FALSE, nodesize = 1)
 
 x11()
 miss_tree.plot(hitter_tree_3, eps_x=0.5, eps_y=5, add=FALSE,
@@ -101,8 +95,8 @@ numCores <- detectCores()
 cl <- parallel::makeCluster(numCores, setup_strategy = "sequential")
 registerDoParallel(cl)
 
-set.seed(222)
-hitter_RF <- miss_regRF(XX, yy)
+set.seed(111)
+hitter_RF <- miss_regRF(XX, yy, nodesize = 50)
 
 # Let's see the OOB error
 hitter_RF$OOB.err <- miss_oob.err(hitter_RF)
@@ -112,8 +106,8 @@ plot(round(hitter_RF$OOB.err,3), type = 'l', pch = 21,
      ylab = 'OOB.err', xlab = 'ntree')
 
 
-miss_RF.plot(hitter_RF, y_name = yy_name, add = FALSE, n1 = 20, n2 = 20)
+miss_RF.plot(hitter_RF, y_name = yy_name, add = FALSE)
 
-miss_RF.plot(hitter_RF, y_name = yy_name, rad = 0.2, n1 = 20, n2 = 20)
+miss_RF.plot(hitter_RF, y_name = yy_name, rad = 20)
 
 stopCluster(cl)
