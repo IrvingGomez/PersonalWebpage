@@ -1,7 +1,7 @@
 ---
 # Course title, summary, and position.
 linktitle: Statistical Models 2021
-summary: 
+summary:
 weight: 1
 
 # Page metadata.
@@ -15,7 +15,7 @@ type: docs  # Do not modify.
 # - weight: Position of link in menu.
 menu:
   mod2021:
-    name: 
+    name:
     weight: 1
 ---
 
@@ -161,7 +161,56 @@ I have tried to keep the original references inside code.
       </li>
     </ul>
   </li>
+  <li>
+    April 23
+    <ul>
+      <li>
+	<span class="inline-svg"> <img src="python-logo.svg"/>
+          <a href="16_ridge_regression.py">
+            Example of ridge regression with the prostate dataset.
+          </a>
+	</span>
+      </li>
+      <li>
+	<span class="inline-svg"> <img src="database.svg"/>
+          <a href="prostate_dataset.txt">
+            Prostate database.
+          </a>
+	</span>
+      </li>
+    </ul>
+  </li>
+  <li>
+    April 30
+    <ul>
+      <li>
+	<span class="inline-svg"> <img src="R_logo.svg"/>
+          <a href="10_splines.pdf">
+            Cubic Splines with R.
+          </a>
+	</span>
+      </li>
+      <li>
+	<span class="inline-svg"> <img src="Python-logo.svg"/>
+          <a href="10_splines.py">
+            Cubic splines with Python.
+          </a>
+	</span>
+      </li>
+      <li>
+	<span class="inline-svg"> <img src="julia-dots.svg"/>
+          <a href="10_splines.jl">
+            Cubic splines with Julia.
+          </a>
+	</span>
+      </li>
+      <li>
+	<span class="inline-svg"> <img src="Python-logo.svg"/>
+          <a href="15_gam_example_wage.py">
+            Example of a Generalized Additive Model.
+          </a>
+	</span>
+      </li>
+    </ul>
+  </li>
 </ul>
-
-
-
