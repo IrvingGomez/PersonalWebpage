@@ -205,6 +205,13 @@ I have tried to keep the original references inside code.
 	</span>
       </li>
       <li>
+  <span class="inline-svg"> <img src="Python-logo.svg"/>
+          <a href="13_smooth_splines.py">
+            Smooth splines with Python.
+          </a>
+  </span>
+      </li>
+      <li>
 	<span class="inline-svg"> <img src="Python-logo.svg"/>
           <a href="15_gam_example_wage.py">
             Example of a Generalized Additive Model.
