@@ -68,32 +68,32 @@ I have tried to keep the original references inside code.
     February 12
     <ul>
       <li>
-	<span class="inline-svg"> <img src="python-logo.svg"/>
+	      <span class="inline-svg"> <img src="python-logo.svg"/>
           <a href="1_best_fit_line.py">
             Best fit of a line by least squares.
           </a>
-	</span>
+	      </span>
       </li>
       <li>
-	<span class="inline-svg"> <img src="python-logo.svg"/>
+	      <span class="inline-svg"> <img src="python-logo.svg"/>
           <a href="2_best_fit_parabola.py">
             Best fit of a parabola by least squares.
           </a>
-	</span>
+	      </span>
       </li>
       <li>
-	<span class="inline-svg"> <img src="python-logo.svg"/>
+	      <span class="inline-svg"> <img src="python-logo.svg"/>
           <a href="3_best_fit_trigonometric_function.py">
             Best fit of a trigonometric function by least squares.
           </a>
-	</span>
+	      </span>
       </li>
       <li>
-	<span class="inline-svg"> <img src="python-logo.svg"/>
+	      <span class="inline-svg"> <img src="python-logo.svg"/>
           <a href="4_best_fit_ellipse.py">
             Best fit of an ellipse by least squares.
           </a>
-	</span>
+	      </span>
       </li>
     </ul>
   </li>
@@ -101,18 +101,18 @@ I have tried to keep the original references inside code.
     March 12
     <ul>
       <li>
-	<span class="inline-svg"> <img src="python-logo.svg"/>
+	      <span class="inline-svg"> <img src="python-logo.svg"/>
           <a href="5_best_fit_line_2.py">
             Best fit of a line by least squares with confidence regions.
           </a>
-	</span>
+	      </span>
       </li>
       <li>
-	<span class="inline-svg"> <img src="python-logo.svg"/>
+	      <span class="inline-svg"> <img src="python-logo.svg"/>
           <a href="9_maximizing_ gain_problem.py">
             Finding the best price to maximize the gain.
           </a>
-	</span>
+	      </span>
       </li>
     </ul>
   </li>
@@ -120,18 +120,18 @@ I have tried to keep the original references inside code.
     March 19
     <ul>
       <li>
-	<span class="inline-svg"> <img src="python-logo.svg"/>
+	      <span class="inline-svg"> <img src="python-logo.svg"/>
           <a href="11_local_poly_regression.py">
             Local polinomial estimator.
           </a>
-	</span>
+	      </span>
       </li>
       <li>
-	<span class="inline-svg"> <img src="python-logo.svg"/>
+	      <span class="inline-svg"> <img src="python-logo.svg"/>
           <a href="12_robust_regression.py">
             Robust regression.
           </a>
-	</span>
+	      </span>
       </li>
     </ul>
   </li>
@@ -139,25 +139,25 @@ I have tried to keep the original references inside code.
     March 26
     <ul>
       <li>
-	<span class="inline-svg"> <img src="python-logo.svg"/>
+	      <span class="inline-svg"> <img src="python-logo.svg"/>
           <a href="5_best_fit_line_2_with_objects.py">
             Best fit of a line by least squares with confidence regions, using python class.
           </a>
-	</span>
+	      </span>
       </li>
       <li>
-	<span class="inline-svg"> <img src="python-logo.svg"/>
+	      <span class="inline-svg"> <img src="python-logo.svg"/>
           <a href="6_Mahalanobis_distance.py">
             Mahalanobis distance.
           </a>
-	</span>
+	      </span>
       </li>
       <li>
-	<span class="inline-svg"> <img src="python-logo.svg"/>
+	      <span class="inline-svg"> <img src="python-logo.svg"/>
           <a href="7_leverage_points.py">
             Leverage points.
           </a>
-	</span>
+	      </span>
       </li>
     </ul>
   </li>
@@ -165,18 +165,18 @@ I have tried to keep the original references inside code.
     April 23
     <ul>
       <li>
-	<span class="inline-svg"> <img src="python-logo.svg"/>
+	      <span class="inline-svg"> <img src="python-logo.svg"/>
           <a href="16_ridge_regression.py">
             Example of ridge regression with the prostate dataset.
           </a>
-	</span>
+	      </span>
       </li>
       <li>
-	<span class="inline-svg"> <img src="database.svg"/>
+	      <span class="inline-svg"> <img src="database.svg"/>
           <a href="prostate_dataset.txt">
             Prostate database.
           </a>
-	</span>
+	      </span>
       </li>
     </ul>
   </li>
@@ -184,39 +184,72 @@ I have tried to keep the original references inside code.
     April 30
     <ul>
       <li>
-	<span class="inline-svg"> <img src="R_logo.svg"/>
+	      <span class="inline-svg"> <img src="R_logo.svg"/>
           <a href="10_splines.pdf">
             Cubic Splines with R.
           </a>
-	</span>
+	      </span>
       </li>
       <li>
-	<span class="inline-svg"> <img src="Python-logo.svg"/>
+	      <span class="inline-svg"> <img src="Python-logo.svg"/>
           <a href="10_splines.py">
             Cubic splines with Python.
           </a>
-	</span>
+	      </span>
       </li>
       <li>
-	<span class="inline-svg"> <img src="julia-dots.svg"/>
+	      <span class="inline-svg"> <img src="julia-dots.svg"/>
           <a href="10_splines.jl">
             Cubic splines with Julia.
           </a>
-	</span>
+	      </span>
       </li>
       <li>
-  <span class="inline-svg"> <img src="Python-logo.svg"/>
+        <span class="inline-svg"> <img src="Python-logo.svg"/>
           <a href="13_smooth_splines.py">
             Smooth splines with Python.
           </a>
-  </span>
+        </span>
       </li>
       <li>
-	<span class="inline-svg"> <img src="Python-logo.svg"/>
+	      <span class="inline-svg"> <img src="Python-logo.svg"/>
           <a href="15_gam_example_wage.py">
             Example of a Generalized Additive Model.
           </a>
-	</span>
+	      </span>
+      </li>
+    </ul>
+  </li>
+  <li>
+    May 07
+    <ul>
+      <li>
+	      <span class="inline-svg"> <img src="Python-logo.svg"/>
+          <a href="17_logistic_regression_heart_disease.py">
+            Logistic Regression (Coronary Heart Disease).
+          </a>
+	      </span>
+      </li>
+      <li>
+	      <span class="inline-svg"> <img src="database.svg"/>
+          <a href="Heart_Disease_vs_Age.csv">
+            Coronay Heart Disease Data.
+          </a>
+	      </span>
+      </li>
+      <li>
+	      <span class="inline-svg"> <img src="Python-logo.svg"/>
+          <a href="19_logistic_regression_languages_classification.py">
+            Logistic Regression (Languages Classification).
+          </a>
+	      </span>
+      </li>
+      <li>
+	      <span class="inline-svg"> <img src="database.svg"/>
+          <a href="words_languages.csv">
+            Words in Different Languages.
+          </a>
+	      </span>
       </li>
     </ul>
   </li>
