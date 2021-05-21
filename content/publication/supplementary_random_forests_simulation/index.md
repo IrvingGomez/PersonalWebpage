@@ -1,5 +1,5 @@
 ---
-title: "Supplemetary material: Regression with Missing Data, a Comparison Study of Techniques Based on Random Forests"
+title: "Supplemetary Material: Regression with Missing Data, a Comparison Study of Techniques Based on Random Forests"
 authors:
 - admin
 - Emilien Joly
@@ -22,7 +22,7 @@ publication_short: ""
 abstract: Supplementary material
 
 # Summary. An optional shortened abstract.
-summary: 
+summary:
 
 tags:
 
@@ -41,7 +41,7 @@ url_source: ''
 url_video: ''
 
 # Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
+# To use, add an image named `featured.jpg/png` to your page's folder.
 #image:
 #  caption: ''
 #  focal_point: ""
