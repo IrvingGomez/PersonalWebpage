@@ -37,7 +37,7 @@ featured: false
 # links:
 # - name: ""
 #   url: ""
-url_pdf: https://irvinggomez.com/publication/supplementary_random_forests_simulation/Supplementary_RandomForestsSimulation.pdf
+url_pdf:
 url_code: ''
 url_dataset: ''
 url_poster: ''
