@@ -1,9 +1,9 @@
 ---
-title: "On the consistency of a random forest algorithm in the presence of missing entries"
+title: "On the Consistency of a Random Forest Algorithm in the Presence of Missing Entries"
 authors:
 - admin
 - Emilien Joly
-date: "2020-11-12T00:00:00Z"
+date: "2021-04-17T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -19,10 +19,16 @@ publication_types: ["3"]
 publication: ""
 publication_short: ""
 
-abstract: This paper tackles the problem of constructing a non-parametric predictor when the latent variables are given with incomplete information. The convenient predictor for this task is the random forest algorithm in conjunction to the so called CART criterion. The proposed technique enables a partial imputation of the missing values in the data set in a way that suits both a consistent estimation of the regression unction as well as a probabilistic recovery of the missing values. A proof of the consistency of the random forest estimator that also simplifies the previous proofs of the classical consistency is given in the case where each latent variable is missing completely at random (MCAR).
+abstract: This paper tackles the problem of constructing a non-parametric predictor when the latent
+variables are given with incomplete information. The convenient predictor for this task is the
+random forest algorithm in conjunction to the so-called CART criterion. The proposed technique
+enables a partial imputation of the missing values in the data set in a way that suits both a
+consistent estimator of the regression function as well as a partial recovery of the missing values.
+A proof of the consistency of the random forest estimator is given in the case where each latent
+variable is missing completely at random (MCAR).
 
 # Summary. An optional shortened abstract.
-summary: 
+summary: We prove the consistency of a random forests algorithm with missing entries.
 
 tags:
 
@@ -31,7 +37,7 @@ featured: false
 # links:
 # - name: ""
 #   url: ""
-url_pdf: https://arxiv.org/pdf/2011.05433.pdf
+url_pdf: https://irvinggomez.com/publication/supplementary_random_forests_simulation/Supplementary_RandomForestsSimulation.pdf
 url_code: ''
 url_dataset: ''
 url_poster: ''
@@ -41,7 +47,7 @@ url_source: ''
 url_video: ''
 
 # Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
+# To use, add an image named `featured.jpg/png` to your page's folder.
 #image:
 #  caption: ''
 #  focal_point: ""
