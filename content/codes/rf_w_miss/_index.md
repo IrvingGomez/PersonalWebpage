@@ -1,7 +1,7 @@
 ---
 # Course title, summary, and position.
 linktitle: Random Forests with Missing Data
-summary: 
+summary:
 weight: 1
 
 # Page metadata.
@@ -15,48 +15,14 @@ type: docs  # Do not modify.
 # - weight: Position of link in menu.
 menu:
   rf_w_miss:
-    name: 
+    name:
     weight: 1
 ---
 
-<ul>
-  <li>
-    <span class="inline-svg"> <img src="R_logo.svg"/>
-      <a href="random_forests_with_missing_values.R">
-	Functions to build trees and random forests with missing data.
-      </a>
-    </span>
-  </li>
-  <li>
-    <span class="inline-svg"> <img src="R_logo.svg"/>
-      <a href="plot_regtree_and_forest.R">
-	Functions to plot trees and random forests with missing data.
-      </a>
-    </span>
-  </li>
-  <li>
-    <span class="inline-svg"> <img src="R_logo.svg"/>
-      <a href="toy examples.R">
-	Example with a toy data.
-      </a>
-    </span>
-  </li>
-  <li>
-    <span class="inline-svg"> <img src="R_logo.svg"/>
-      <a href="Example_Hitters.R">
-	Example using Hitters data set.
-      </a>
-    </span>
-  </li>
-  <li>
-    <span class="inline-svg"> <img src="R_logo.svg"/>
-      <a href="Example_Anderson iris.R">
-	Example using Anderson iris data set.
-      </a>
-    </span>
-  </li>
-</ul>
+The codes to construct random forests with missing data are found in <a href="https://github.com/IrvingGomez/Random_forests_with_missing_values">https://github.com/IrvingGomez/Random_forests_with_missing_values</a>. There is possible to find examples on its use, in particular the example <a href="https://github.com/IrvingGomez/Random_forests_with_missing_values/blob/main/examples/Example_Anderson%20iris.ipynb">Example_Anderson iris.ipynb</a> shows must of the features.
 
+Here are two images with the graphics that are possible to obtain, representing a decision tree with missing values.
 
+<img src="usual_iris_tree.png" width="40%;">
 
-
+<img src="iris_tree_with_missing.png" width="40%;">
