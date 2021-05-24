@@ -54,4 +54,4 @@ In a nutshell here are some comments:
   </li>
 </ul>
 
-One more thing, if after the first year or two years of doing the PhD you feel discouraged and do not want to continue, just leave it. Nobody is going to complain for that decision and there are plenty of interesting things to do outside academia!
+One more thing, if after the first year or two years of doing the PhD you feel discouraged and do not want to continue, just leave it.The beginning of the PhD is the most enjoyable part of the process, if you already feel discouraged and overwhelmed by that point, I think that those feelings are just going to increase with time. Nobody should complain you for that decision and there are plenty of interesting things to do outside academia!
