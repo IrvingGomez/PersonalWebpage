@@ -23,6 +23,4 @@ The codes to construct random forests with missing data are found in <a href="ht
 
 Here are two images with the graphics that are possible to obtain, representing a decision tree with missing values.
 
-<img src="usual_iris_tree.png" width="40%;">
-
-<img src="iris_tree_with_missing.png" width="40%;">
+<img src="usual_iris_tree.png" width="40%;"> <img src="iris_tree_with_missing.png" width="40%;">
