@@ -11,7 +11,7 @@ categories:
 date: "2020-07-07"
 lastmod: "2020-07-07"
 featured: false
-draft: false
+draft: true
 ---
 
 <a href= "https://bulletninja.com">https://bulletninja.com</a>
