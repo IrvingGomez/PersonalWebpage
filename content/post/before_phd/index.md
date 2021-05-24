@@ -29,11 +29,11 @@ The first post that can clarify (a lot) many issues about a PhD is <a href="http
     Definitely DO NOT compare yourself with others. There is no worldwide standard for a PhD (I will come back to this point later). In some places a PhD is just a continuation of your advisor's research and is focused on publishing. Other PhD's (like mine) are focused on the development of your own original research, so you might have less publications that others.
   </li>
   <li>
-    "I don’t need to write that down, I’ll remember it" is the biggest lie you can tell yourself!. I could not have told it better.
+    "I don’t need to write that down, I’ll remember it" is the biggest lie you can tell yourself! I could not have told it better.
   </li>
 </ul>
 
-Like I said before, there is no standard of what a PhD thesis is. From one institution to another the rules are different, and the conditions to get the degree are different as well. In a nutshell, everybody knows (more less) what a doctor should be, but there is no consensus on how to become one. About these problems I really recommend to read <a href="https://www.nature.com/news/what-s-the-point-of-the-phd-thesis-1.20203">What’s the point of the PhD thesis?</a>. There is a sentence there that I find really interesting: "The job market for postdoc positions is very competitive, so if you can get a paper published during your PhD then you're helping yourself. I'm wondering: would it not have been better to write these instead of the thesis, which took me five months to write?" Like I said, <b>Submit asap!</b>, right now I feel in the same way. I wonder why I expended so many months writing a manuscript (that nobody really gives a damn) instead of writing papers.
+Like I said before, there is no standard of what a PhD thesis is. From one institution to another the rules are different, and the conditions to get the degree are different as well. In a nutshell, everybody knows (more less) what a doctor should be, but there is no consensus on how to become one. About these problems I really recommend to read <a href="https://www.nature.com/news/what-s-the-point-of-the-phd-thesis-1.20203">What’s the point of the PhD thesis?</a>. There is a sentence there that I find really interesting: "The job market for postdoc positions is very competitive, so if you can get a paper published during your PhD then you're helping yourself. I'm wondering: would it not have been better to write these instead of the thesis, which took me five months to write?" Like I said, <b>submit asap!</b>. Right now I feel in the same way, I wonder why I expended so many months writing a manuscript (that nobody really gives a damn) instead of writing papers.
 
 As commented in <a href="https://www.nature.com/news/back-to-the-thesis-1.20202">Back to the thesis</a> and <a href="https://www.nature.com/news/the-past-present-and-future-of-the-phd-thesis-1.20207">The past, present and future of the PhD thesis</a> the concept of what is and what is not a PhD thesis has changed during the time, but that is not what I would like to emphasize in this part, instead I want to retake the sentence: "(..) students in the process of writing a thesis can find themselves in a very dark place indeed: lost in information, overwhelmed by literature, stuck for the next sentence, seduced by procrastination and wondering why on earth they signed up to this torture at all." Writing the manuscript is everything but enjoyable, start doing that as soon as possible.
 
@@ -44,7 +44,7 @@ In a nutshell here are some comments:
     Writing a thesis is BORING as hell, start asap!
   </li>
   <li>
-    Submitting yo journals is a pain in the ass, start asap!
+    Submitting to journals is a pain in the ass, start asap!
   </li>
   <li>
     You better make a plan for such a long time project as a PhD.
