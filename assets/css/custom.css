@@ -30,6 +30,11 @@
   position: relative;
 }
 
+.images_row > img {
+  display: inline-block;
+  position: relative;
+}
+
 span {
   vertical-align: "bottom";
   margin-top: -2rem;
