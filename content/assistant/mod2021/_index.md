@@ -174,7 +174,7 @@ I have tried to keep the original references inside code.
       <li>
 	      <span class="inline-svg"> <img src="database.svg"/>
           <a href="prostate_dataset.txt">
-            Prostate database.
+            Prostate data.
           </a>
 	      </span>
       </li>
@@ -186,7 +186,7 @@ I have tried to keep the original references inside code.
       <li>
 	      <span class="inline-svg"> <img src="R_logo.svg"/>
           <a href="10_splines.pdf">
-            Cubic Splines with R.
+            Cubic splines with R.
           </a>
 	      </span>
       </li>
@@ -214,7 +214,7 @@ I have tried to keep the original references inside code.
       <li>
 	      <span class="inline-svg"> <img src="Python-logo.svg"/>
           <a href="15_gam_example_wage.py">
-            Example of a Generalized Additive Model.
+            Example of a generalized additive model.
           </a>
 	      </span>
       </li>
@@ -226,28 +226,94 @@ I have tried to keep the original references inside code.
       <li>
 	      <span class="inline-svg"> <img src="Python-logo.svg"/>
           <a href="17_logistic_regression_heart_disease.py">
-            Logistic Regression (Coronary Heart Disease).
+            Logistic regression (coronary heart disease).
           </a>
 	      </span>
       </li>
       <li>
 	      <span class="inline-svg"> <img src="database.svg"/>
           <a href="Heart_Disease_vs_Age.csv">
-            Coronay Heart Disease Data.
+            coronay heart disease data.
           </a>
 	      </span>
       </li>
       <li>
 	      <span class="inline-svg"> <img src="Python-logo.svg"/>
           <a href="19_logistic_regression_languages_classification.py">
-            Logistic Regression (Languages Classification).
+            logistic regression (languages classification).
           </a>
 	      </span>
       </li>
       <li>
 	      <span class="inline-svg"> <img src="database.svg"/>
           <a href="words_languages.csv">
-            Words in Different Languages.
+            words in different languages.
+          </a>
+	      </span>
+      </li>
+    </ul>
+  </li>
+  <li>
+    May 14
+    <ul>
+      <li>
+	      <span class="inline-svg"> <img src="Python-logo.svg"/>
+          <a href="14_logistic_regression_irisdata.py">
+            Logistic regression (iris data).
+          </a>
+	      </span>
+      </li>
+      <li>
+	      <span class="inline-svg"> <img src="Python-logo.svg"/>
+          <a href="18_logistic_regression_british_crime_survey.py">
+            Logistic regression (British crime survey).
+          </a>
+	      </span>
+      </li>
+      <li>
+	      <span class="inline-svg"> <img src="database.svg"/>
+          <a href="BritishCrimeSurvey2000.sav">
+            British crime survey data.
+          </a>
+	      </span>
+      </li>
+      <li>
+	      <span class="inline-svg"> <img src="Python-logo.svg"/>
+          <a href="20_poisson_regression_aids.py">
+            Poisson regression (AIDS cases in Belgium).
+          </a>
+	      </span>
+      </li>
+    </ul>
+  </li>
+  <li>
+    May 21
+    <ul>
+      <li>
+	      <span class="inline-svg"> <img src="Python-logo.svg"/>
+          <a href="21_non_linear_logistic_growth.py">
+            Non-linear regression (chicken's weight), part 1.
+          </a>
+	      </span>
+      </li>
+      <li>
+	      <span class="inline-svg"> <img src="Python-logo.svg"/>
+          <a href="21_non_linear_logistic_growth_2.py">
+            Non-linear regression (chicken's weight), part 2.
+          </a>
+	      </span>
+      </li>
+      <li>
+	      <span class="inline-svg"> <img src="Python-logo.svg"/>
+          <a href="21_non_linear_logistic_growth_3.py">
+            Non-linear regression (chicken's weight), part 3.
+          </a>
+	      </span>
+      </li>
+      <li>
+	      <span class="inline-svg"> <img src="database.svg"/>
+          <a href="ChickWeight.csv">
+            Ckiken's weight data.
           </a>
 	      </span>
       </li>
