@@ -1,5 +1,5 @@
 ---
-title: 'Thing to know before the PhD'
+title: 'Things to know before the PhD'
 #subtitle: 'Some subtitle'
 summary: Some things that I would like somebody told me before and during my PhD.
 authors:
