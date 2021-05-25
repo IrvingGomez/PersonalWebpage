@@ -14,7 +14,7 @@ featured: false
 draft: false
 ---
 
-There are a lot of things that I would like that somebody would have told me before I started my PhD. However, I learned most of these issues by myself during the process. However, if you search a little bit you can find articles of people that, like me, decided to write their own experience. So, instead of telling you my whole story, I am going to make reference to those articles, just adding some comments.
+There are a lot of things that I would like that somebody would have told me before I started my PhD. Unfortunately, I learned most of these issues by myself during the process. But, if you search a little bit you can find articles of people that, like me, decided to write their own experience. So, instead of telling you my whole story, I am going to make reference to those articles, just adding some comments.
 
 The first post that can clarify (a lot) many issues about a PhD is <a href="https://www.nature.com/articles/d41586-018-07332-x">Twenty things I wish I’d known when I started my PhD</a>, which has been my inspiration for this post. Here are some of the points that I find more important:
 
