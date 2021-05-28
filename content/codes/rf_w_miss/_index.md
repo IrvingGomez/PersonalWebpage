@@ -19,8 +19,8 @@ menu:
     weight: 1
 ---
 
-The codes to construct random forests with missing data are found in <a href="https://github.com/IrvingGomez/Random_forests_with_missing_values">https://github.com/IrvingGomez/Random_forests_with_missing_values</a>. There is possible to find examples on its use, in particular the example <a href="https://github.com/IrvingGomez/Random_forests_with_missing_values/blob/main/examples/Example_Anderson%20iris.ipynb">Example_Anderson iris.ipynb</a> shows must of the features.
+The codes to construct random forests with missing data are found in <a href="https://github.com/IrvingGomez/Random_forests_with_missing_values">https://github.com/IrvingGomez/Random_forests_with_missing_values</a>. There, it is possible to find examples on its use, in particular the example <a href="https://github.com/IrvingGomez/Random_forests_with_missing_values/blob/main/examples/Example_Anderson%20iris.ipynb">Example_Anderson iris.ipynb</a> shows most of the features.
 
-Here are two images as an example representing a decision tree with missing values.
+Here are two images as an example, representing a decision tree with missing values.
 
 <span class="images_row"> <img src="usual_iris_tree.png" width="45%;"> <img src="iris_tree_with_missing.png" width="45%;"> </span>
