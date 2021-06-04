@@ -21,7 +21,7 @@ This is an analysis of the CONEVAL's data for the measurement of poverty in Mexi
 ## Human Poverty Index
 Before the arrival of the modern Multidimensional Poverty Index, the poverty was measured through the Human Poverty Index (HPI), as a complement of the Human Development Index (HDI) and was first introduced in 1997. This index is was actually two different indexes, the HPI-1 for developing countries and HPI-2 for high-income OECD countries (<a href="https://en.wikipedia.org/wiki/Human_Poverty_Index">https://en.wikipedia.org/wiki/Human_Poverty_Index</a>).
 
-The HPI-1 is given by the formula: \[\text{HPI-1}  \left[{\frac {1}{3}}\left(P_{1}^{\alpha }+P_{2}^{\alpha }+P_{3}^{\alpha }\right)\right]^{{{\frac {1}{\alpha }}}},\quad \alpha=3\]
+The HPI-1 is given by the formula: $$\text{HPI-1}  \left[{\frac {1}{3}}\left(P_{1}^{\alpha }+P_{2}^{\alpha }+P_{3}^{\alpha }\right)\right]^{{{\frac {1}{\alpha }}}},\quad \alpha=3$$
 
 where
 
