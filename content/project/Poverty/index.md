@@ -12,7 +12,32 @@ image:
   focal_point: Smart
 ---
 
-{{<figure src="AE_draw_poverty.png" title="Autoencoder schema" width="200%">}}
+{{<figure src="AE_draw_poverty.png" title="Autoencoder schema" width="150%">}}
+
+This is an analysis of the CONEVAL's data for the measurement of poverty in Mexico in 2018, the data are free and can be found in <a href="https://www.coneval.org.mx/Medicion/MP/Paginas/Programas_BD_08_10_12_14_16_18.aspx">https://www.coneval.org.mx/Medicion/MP/Paginas/Programas_BD_08_10_12_14_16_18.aspx</a>.
+
+# History
+
+## Human Poverty Index
+Before the arrival of the modern Multidimensional Poverty Index, the poverty was measured through the Human Poverty Index (HPI), as a complement of the Human Development Index (HDI) and was first introduced in 1997. This index is was actually two different indexes, the HPI-1 for developing countries and HPI-2 for high-income OECD countries (<a href="https://en.wikipedia.org/wiki/Human_Poverty_Index">https://en.wikipedia.org/wiki/Human_Poverty_Index</a>).
+
+The HPI-1 is given by the formula: \[\text{HPI-1}  \left[{\frac {1}{3}}\left(P_{1}^{\alpha }+P_{2}^{\alpha }+P_{3}^{\alpha }\right)\right]^{{{\frac {1}{\alpha }}}},\quad \alpha=3\]
+
+where
+
+<ul>
+  <li> $P_1$: Probability at birth of not surviving to age 40 (times 100). </li>
+  <li> $P_2$: Adult illiteracy rate. </li>
+  <li> $P_3$: Arithmetic average of 3 characteristics:
+    <ul>
+      <li> The percentage of the population without access to safe water. </li>
+      <li> The percentage of population without access to health services. </li>
+      <li> The percentage of malnourished children under five. </li>
+    </ul>
+  </li>
+</ul>
+
+$\alpha=3$
 
 AE, colors considering Dystopia and Utopia
 
