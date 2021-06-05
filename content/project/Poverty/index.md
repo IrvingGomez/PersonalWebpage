@@ -195,24 +195,24 @@ In this section I the histogram for the 5 variables that I personally consider t
 
 <!-- Script to say the function of the dropdwon button 'Select Variable -->
 <script>
-  $(document).ready(function(){
-    $("#select_var").change(function(){
-      $(this).find("option:selected").each(function(){
-        var optionVar = $(this).attr("value");
-        if (optionVar){
-          $(".histo").not("." + optionVar).hide();
-  	      $("." + optionVar).show();  
-        } else{
-          $(.histo).hide();
-        }
-      });
+$(document).ready(function(){
+    $(#"select_var").change(function(){
+        $(this).find("option:selected").each(function(){
+            var optionValue = $(this).attr("value");
+            if(optionValue){
+                $(".histo").not("." + optionValue).hide();
+                $("." + optionValue).show();
+            } else{
+                $(".histo").hide();
+            }
+        });
     }).change();
-  });
+});
 </script>
 
 <!-- Dropdwon button 'Select Variable' -->
 <div>
-<select name="select_var" id="select_var">
+<select id="select_var">
     <option value="privation">Privation</option>
     <option value="extreme_privation">Extreme Privation</option>
     <option value="poverty_income">Poverty by Income</option>
