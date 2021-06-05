@@ -24,7 +24,9 @@ Before the arrival of the modern Multidimensional Poverty Index, the poverty was
 ### HPI-1
 The HPI-1 is given by the formula:
 
-$$HPI_1 = [\\frac{1}{3}({P_1}^\alpha+{P_2}^\alpha+{P_3}^\alpha)],\quad \alpha=3,$$
+$$HPI_1 = [({P_1}^\alpha+{P_2}^\alpha+{P_3}^\alpha)],\quad \alpha=3,$$
+
+$1/3$
 
 where
 
