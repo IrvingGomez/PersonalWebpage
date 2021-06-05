@@ -193,6 +193,8 @@ Biplot
 
 In this section I the histogram for the 5 variables that I personally consider to be the most imperative to be reduced: Privation, Extreme Privation, Poverty by Income, Extreme Poverty by Income and Lack of Food.
 
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+
 <!-- Script to say the function of the dropdwon button 'Select Variable -->
 <script>
 $(document).ready(function(){
