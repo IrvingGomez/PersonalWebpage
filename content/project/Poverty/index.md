@@ -215,12 +215,17 @@ $(document).ready(function(){
 <!-- Dropdwon button 'Select Variable' -->
 <div>
 <select id="select_var">
+    <option value="prueba">Prueba</option>
     <option value="privation">Privation</option>
     <option value="extreme_privation">Extreme Privation</option>
     <option value="poverty_income">Poverty by Income</option>
     <option value="extreme_poverty_income">Extreme Poverty by Income</option>
     <option value="lack_food">Lack of Food</option>
 </select>
+</div>
+
+<div class="prueba histo">
+<b> Esto es solo una prueba </b>
 </div>
 
 <div class="privation histo">
