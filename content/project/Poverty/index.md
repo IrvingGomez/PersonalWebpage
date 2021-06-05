@@ -26,6 +26,8 @@ The HPI-1 is given by the formula:
 
 $$HPI_1=\frac{1}{3}$$
 
+$x^2_2$
+
 where
 
 <ul>
@@ -48,7 +50,7 @@ where
 <ul>
   <li> $P_1$: Probability at birth of not surviving to age 60. </li>
   <li> $P_2$: Adults lacking functional literacy skills. </li>
-  <li> $P_3$: Population below income poverty line (50\% of median adjusted household disposable income). </li>
+  <li> $P_3$: Population below income poverty line (50% of median adjusted household disposable income). </li>
   <li> $P_4$: Rate of long-term unemployment (lasting 12 months or more). </li>
 </ul>
 
