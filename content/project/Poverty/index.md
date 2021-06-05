@@ -26,7 +26,7 @@ The HPI-1 is given by the formula:
 
 $$HPI_1=\frac{1}{3}$$
 
-$x^2_2$
+$x^2$
 
 where
 
