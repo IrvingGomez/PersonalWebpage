@@ -12,7 +12,7 @@ image:
   focal_point: Smart
 ---
 
-{{<figure src="AE_draw_poverty.png" title="Autoencoder schema" width="150%">}}
+{{<figure src="AE_draw_poverty.png" title="Autoencoder schema" width="80%">}}
 
 This is an analysis of the CONEVAL's data for the measurement of poverty in Mexico in 2018, the data are free and can be found in <a href="https://www.coneval.org.mx/Medicion/MP/Paginas/Programas_BD_08_10_12_14_16_18.aspx">https://www.coneval.org.mx/Medicion/MP/Paginas/Programas_BD_08_10_12_14_16_18.aspx</a>.
 
@@ -22,7 +22,9 @@ This is an analysis of the CONEVAL's data for the measurement of poverty in Mexi
 Before the arrival of the modern Multidimensional Poverty Index, the poverty was measured through the Human Poverty Index (HPI), as a complement of the Human Development Index (HDI) and was first introduced in 1997. This index is was actually two different indexes, the HPI-1 for developing countries and HPI-2 for high-income OECD countries (<a href="https://en.wikipedia.org/wiki/Human_Poverty_Index">https://en.wikipedia.org/wiki/Human_Poverty_Index</a>).
 
 ### HPI-1
-The HPI-1 is given by the formula: $\text{HPI-1}  \left[{\frac {1}{3}}\left(P_{1}^{\alpha }+P_{2}^{\alpha }+P_{3}^{\alpha }\right)\right]^{{{\frac {1}{\alpha }}}},\quad \alpha=3$
+The HPI-1 is given by the formula:
+
+$$HPI_1=\left[{\frac {1}{3}}\left(P_{1}^{\alpha }+P_{2}^{\alpha }+P_{3}^{\alpha }\right)\right]^{{{\frac {1}{\alpha }}}},\quad \alpha=3$$
 
 where
 
@@ -41,7 +43,7 @@ where
 $\alpha=3$
 
 ### HPI-2
-The HPI-2 is given by the formula: $ HPI_2  \left[{\frac {1}{4}}\left(P_{1}^{\alpha }+P_{2}^{\alpha }+P_{3}^{\alpha }+P_{4}^{\alpha }\right)\right]^{{{\frac {1}{\alpha }}}},\quad \alpha=3$
+The HPI-2 is given by the formula: $$HPI_2=\left[{\frac {1}{4}}\left(P_{1}^{\alpha }+P_{2}^{\alpha }+P_{3}^{\alpha }+P_{4}^{\alpha }\right)\right]^{{{\frac {1}{\alpha }}}},\quad \alpha=3$$
 
 where
 
