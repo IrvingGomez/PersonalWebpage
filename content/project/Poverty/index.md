@@ -199,8 +199,12 @@ In this section I the histogram for the 5 variables that I personally consider t
     $("#select_var").change(function(){
       $(this).find("option:selected").each(function(){
         var optionVar = $(this).attr("value");
-  	    $(".histo").not("." + optionVar).hide();
-	      $(".histo" + "." + optionVar).show();
+        if (optionVar){
+          $(".histo").not("." + optionVar).hide();
+  	      $("." + optionVar).show();  
+        } else{
+          $(.histo).hide();
+        }
       });
     }).change();
   });
