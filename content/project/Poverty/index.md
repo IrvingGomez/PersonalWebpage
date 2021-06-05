@@ -41,7 +41,9 @@ where
 </ul>
 
 ### HPI-2
-The HPI-2 is given by the formula: $$HPI_2=\left[{\frac {1}{4}}\left(P_{1}^{\alpha }+P_{2}^{\alpha }+P_{3}^{\alpha }+P_{4}^{\alpha }\right)\right]^{{{\frac {1}{\alpha }}}},\quad \alpha=3$$
+The HPI-2 is given by the formula:
+
+{{<figure src="HPI2.png">}}
 
 where
 
