@@ -12,7 +12,7 @@ image:
   focal_point: Smart
 ---
 
-{{<figure src="AE_draw_poverty.png" title="Autoencoder schema" width="80%">}}
+{{<figure src="AE_draw_poverty.png" title="Autoencoder schema" width="50%">}}
 
 This is an analysis of the CONEVAL's data for the measurement of poverty in Mexico in 2018, the data are free and can be found in <a href="https://www.coneval.org.mx/Medicion/MP/Paginas/Programas_BD_08_10_12_14_16_18.aspx">https://www.coneval.org.mx/Medicion/MP/Paginas/Programas_BD_08_10_12_14_16_18.aspx</a>.
 
@@ -24,7 +24,7 @@ Before the arrival of the modern Multidimensional Poverty Index, the poverty was
 ### HPI-1
 The HPI-1 is given by the formula:
 
-$$HPI_1=\left[{\frac {1}{3}}\left(P_{1}^{\alpha }+P_{2}^{\alpha }+P_{3}^{\alpha }\right)\right]^{{{\frac {1}{\alpha }}}},\quad \alpha=3$$
+$$HPI_1=\frac{1}{3}$$
 
 where
 
@@ -39,8 +39,6 @@ where
     </ul>
   </li>
 </ul>
-
-$\alpha=3$
 
 ### HPI-2
 The HPI-2 is given by the formula: $$HPI_2=\left[{\frac {1}{4}}\left(P_{1}^{\alpha }+P_{2}^{\alpha }+P_{3}^{\alpha }+P_{4}^{\alpha }\right)\right]^{{{\frac {1}{\alpha }}}},\quad \alpha=3$$
