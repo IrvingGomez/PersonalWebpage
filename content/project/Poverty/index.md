@@ -198,7 +198,7 @@ In this section I the histogram for the 5 variables that I personally consider t
 <!-- Script to say the function of the dropdwon button 'Select Variable -->
 <script>
 $(document).ready(function(){
-    $(#"select_var").change(function(){
+    $("#select_var").change(function(){
         $(this).find("option:selected").each(function(){
             var optionValue = $(this).attr("value");
             if(optionValue){
