@@ -12,8 +12,6 @@ image:
   focal_point: Smart
 ---
 
-{{<figure src="AE_draw_poverty.png" title="Autoencoder schema">}}
-
 This is an analysis of the Coneval's data for the measurement of poverty in Mexico in 2018, the data are free and can be found in <a href="https://www.coneval.org.mx/Medicion/MP/Paginas/Programas_BD_08_10_12_14_16_18.aspx">https://www.coneval.org.mx/Medicion/MP/Paginas/Programas_BD_08_10_12_14_16_18.aspx</a>.
 
 # History
@@ -78,13 +76,13 @@ The construction of the methodology was done with the cooperation of national an
 
 As a result of all the described efforts, the Coneval elaborated the "Medología para la medición multidimencional en México" ("Methodology for the multidimensional measurement in Mexico"), whose third edition can be found in <a href="https://www.coneval.org.mx/InformesPublicaciones/InformesPublicaciones/Documents/Metodologia-medicion-multidimensional-3er-edicion.pdf"> https://www.coneval.org.mx/InformesPublicaciones/InformesPublicaciones/Documents/Metodologia-medicion-multidimensional-3er-edicion.pdf </a>. I personally find this document really well-written, including 4 appendices explaining the statistical methodology to calculate all the indexes and statistics used in the study.
 
-Other countries like Colombia, Chile, Philippines, Bhutan, Morocco, Algeria, Tunes, South Africa, England and Peru have implemented their multidimensional poverty index based on the methodology developed in Mexico. And, like I said this methodology is the official one in the UN since 2010.
+Other countries like Colombia, Chile, Philippines, Bhutan, Morocco, Algeria, Tunes, South Africa, England and Peru have implemented their multidimensional poverty index based on the methodology developed in Mexico. And, like I said this methodology is the official one in the UN since 2010, with Mexico being the first country to implement it.
 
 # Data Analysis
 
 Here I present my own analysis of the Coneval's data for the measurement of poverty in Mexico in 2018, the data are free and can be found in <a href="https://www.coneval.org.mx/Medicion/MP/Paginas/Programas_BD_08_10_12_14_16_18.aspx">https://www.coneval.org.mx/Medicion/MP/Paginas/Programas_BD_08_10_12_14_16_18.aspx</a>. Note that this is not the methodology used by the Coneval to calculate the multidimensional poverty index.
 
-I am going to focus just on 12 indicators available in the data set, and I'll do the analysis at a state level. These indicators can be divided in three categories:
+I am going to focus just on 10 indicators available in the data set, and I'll do the analysis at a state level. These indicators can be divided in two categories:
 
 <b>Social Rights</b>
 <ul>
@@ -103,6 +101,39 @@ Two global indicators are calculated:
   <li> Extreme privation (carencias3) This is a binary variable, if a person does not have access at least three of the previous social rights, then extreme privation equals one, On the other hand, if a person has access to at least two of the previous social rights, extreme privation equals zero. </li>
 </ul>
 
+<b>Economic Well-being</b>
+
+For these indicators, it is used the income per capita and the prices of basic food to generate two thresholds:
+
+<ul>
+  <li> Poverty line by income (plb). This is a binary variable, if a person can hardly pay for the basic needs then this variable is one, otherwise it is zero. </li>
+  <li> Extreme poverty line by income (plb m). This is a binary variable, if a person cannot pay for needs even using all its resources, then that person lives in extreme poverty and this variable equals one, otherwise it is zero. </li>
+</ul>
+
+Other variables, that I do not include in this analysis are related with the inequality in a society and correspond to a third category of variables. Two of these variables (among others) are:
+
+<b> Society </b>
+<ul>
+  <li> Gini coefficient in income </li>
+  <li> Access to paved roads </li>
+</ul>
+
+By the way, based on the on the poverty line income and the privation indicators, it is possible to make the following graph, classifying the people in four different categories.
+
+<ul>
+  <li> Category I: In this category are those people whose income is beyond the poverty line and who does not have any privation.</li>
+  <li> Category II: In this category are those people that are moving out of poverty, in this category are those people whose income is beyond the poverty line, but face some privation. The idea is that they will eventually solve the privation(s) they might face with the income that they have. </li>
+  <li> Category III: In this category are those people who are vulnerable to face poverty, in this category are those people who does not face any privation, but since they their income is under the poverty line, they might face some privation(s) in the future </li>
+  <li> Category IV: In this category are those people who live in poverty, who face some privation and whose income is below the poverty income line. </li>
+</ul>
+
+{{<figure src="pobreza_1.png" title="The four categories.">}}
+
+On the other hand, the extreme poverty line and the extreme privation indicator allows the identification of people who live in extreme poverty
+
+{{<figure src="pobreza_extrema.png" title="The four categories and extreme poverty.">}}
+
+{{<figure src="AE_draw_poverty.png" title="Autoencoder schema">}}
 
 AE, colors considering Dystopia and Utopia
 
