@@ -1,5 +1,5 @@
 ---
-title: Regresión con datos perdidos usando Bosques Aleatorios
+title: Regresión con Datos Perdidos Usando Bosques Aleatorios
 event: Probability and Statistics Seminar, CIMAT
 #event_url: https://example.org
 location: Guanajuato, Mexico
