@@ -8,7 +8,7 @@ location: Guanajuato, Mexico
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2020-07-012"
+date: "2020-07-12"
 date_end: ""
 all_day: true
 
