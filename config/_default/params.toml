@@ -89,11 +89,11 @@ email = "gomendez.irving@gmail.com"
 phone = "+52 (55) 3730 7802"
 
 # Directions for visitors to locate you.
-directions = "CIMAT, Office D-304"
+#directions = "CIMAT, Office D-304"
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-address = {street = "Jalisco S/N", city = "Guanajuato", region = "Guanajuato", postcode = "36023", country = "Mexico", country_code = "MX"}
+#address = {street = "Jalisco S/N", city = "Guanajuato", region = "Guanajuato", postcode = "36023", country = "Mexico", country_code = "MX"}
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
