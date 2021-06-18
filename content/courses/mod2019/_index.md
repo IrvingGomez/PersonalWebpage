@@ -1,8 +1,8 @@
 ---
 # Course title, summary, and position.
-linktitle: Statistical Models 2019
-summary: 
-weight: 3
+linktitle: Statistical Models 2019 (CIMAT Assistantship)
+summary:
+weight: 5
 
 # Page metadata.
 title: Statistical Models 2019
@@ -15,7 +15,7 @@ type: docs  # Do not modify.
 # - weight: Position of link in menu.
 menu:
   mod2019:
-    name: 
+    name:
     weight: 1
 ---
 

@@ -1,7 +1,7 @@
 ---
 # Course title, summary, and position.
-linktitle: Statistical Inference 2019
-weight: 2
+linktitle: Statistical Inference 2019 (CIMAT Assistantship)
+weight: 4
 
 # Page metadata.
 title: Statistical Inference 2019
@@ -10,7 +10,7 @@ type: docs  # Do not modify.
 # Add menu entry to sidebar.
 menu:
   inf2019:
-    name: 
+    name:
     weight: 1
 ---
 A reference about distributions:
