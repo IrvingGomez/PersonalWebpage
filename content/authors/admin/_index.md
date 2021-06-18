@@ -34,7 +34,7 @@ education:
   - course: MSc in Probability and Statistics
     institution: Centro de Investigación en Matemáticas
     year: 2016
-  - course: BSc in Mathematical Engineer
+  - course: BSc in Mathematical Engineering
     institution: Instituto Politécnico Nacional
     year: 2014
 
