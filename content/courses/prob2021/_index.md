@@ -25,7 +25,7 @@ Syllabus, evaluation and other information:
   <li>
     <span class="inline-svg"> <img src="book.svg"/>
       <a href="programa_prob_1_2021.pdf">
-        Syllabus, evaluation and other information:
+        Syllabus, evaluation and other information.
       </a>
     </span>
   </li>
