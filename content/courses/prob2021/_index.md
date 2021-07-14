@@ -19,6 +19,18 @@ menu:
     weight: 1
 ---
 
+Syllabus, evaluation and other information:
+
+<ul>
+  <li>
+    <span class="inline-svg"> <img src="book.svg"/>
+      <a href="programa_prob_1_2021.pdf">
+        Syllabus, evaluation and other information:
+      </a>
+    </span>
+  </li>
+</ul>
+
 Some usefull references:
 
 <ul>
@@ -56,42 +68,42 @@ Presentation:
   <li>
     <span class="inline-svg"> <img src="tv.svg"/>
       <a href="probability_1_2021_part_1.pdf">
-        Probability Theory I.
+        Probability Theory I
       </a>
     </span>
   </li>
   <li>
     <span class="inline-svg"> <img src="tv.svg"/>
       <a href="probability_1_2021_part_2.pdf">
-        Probability Theory II.
+        Probability Theory II
       </a>
     </span>
   </li>
   <li>
     <span class="inline-svg"> <img src="tv.svg"/>
       <a href="probability_1_2021_part_3.pdf">
-        Random Variables I.
+        Random Variables I
       </a>
     </span>
   </li>
   <li>
     <span class="inline-svg"> <img src="tv.svg"/>
       <a href="probability_1_2021_part_4.pdf">
-        Random Variables II.
+        Random Variables II
       </a>
     </span>
   </li>
   <li>
     <span class="inline-svg"> <img src="tv.svg"/>
       <a href="probability_1_2021_part_5.pdf">
-        Expected Values and Moments.
+        Expected Values and Moments
       </a>
     </span>
   </li>
   <li>
     <span class="inline-svg"> <img src="tv.svg"/>
       <a href="probability_1_2021_part_6.pdf">
-        Transformation and Simulation of Random Variables.
+        Transformation and Simulation of Random Variables
       </a>
     </span>
   </li>
