@@ -41,7 +41,7 @@ Some usefull references:
   </li>
 </ul>
 
-Presentation:
+Presentations:
 
 <ul>
   <li>
@@ -53,11 +53,30 @@ Presentation:
   </li>
   <li>
     <span class="inline-svg"> <img src="tv.svg"/>
-      <a href="linear_regression.pdf">
-        Linear Regression
+      <a href="collinearity.pdf">
+        Detecting Collinearity
       </a>
     </span>
   </li>
+  <li>
+    <span class="inline-svg"> <img src="tv.svg"/>
+      <a href="ridge_regression.pdf">
+        Ridge Regression
+      </a>
+    </span>
+  </li>
+  <li>
+    <span class="inline-svg"> <img src="tv.svg"/>
+      <a href="cross_validation.pdf">
+        Cross Validation
+      </a>
+    </span>
+  </li>
+</ul>
+
+Codes:
+
+<ul>
   <li>
     <span class="inline-svg"> <img src="Python-logo.svg"/>
       <a href="1_best_fit_line.py">
@@ -90,6 +109,41 @@ Presentation:
     <span class="inline-svg"> <img src="Python-logo.svg"/>
       <a href="5_best_fit_line_2_with_objects.py">
         Best fit of a line by least squares with confidence regions, using python class.
+      </a>
+    </span>
+  </li>
+  <li>
+    <span class="inline-svg"> <img src="Python-logo.svg"/>
+      <a href="6_example_variance_decomposition.py">
+        Example of variance Decomposition.
+      </a>
+    </span>
+  </li>
+  <li>
+    <span class="inline-svg"> <img src="Python-logo.svg"/>
+      <a href="8_bank_marketing.py">
+        Detecting collinearity and Box-Cox transformation with the bank marketing dataset.
+      </a>
+    </span>
+  </li>
+  <li>
+    <span class="inline-svg"> <img src="database.svg"/>
+      <a href="bank-additional.csv">
+         Bank marketing dataset.
+      </a>
+    </span>
+  </li>
+  <li>
+    <span class="inline-svg"> <img src="python-logo.svg"/>
+      <a href="7_ridge_regression.py">
+        Example of ridge regression with the prostate dataset.
+      </a>
+    </span>
+  </li>
+  <li>
+    <span class="inline-svg"> <img src="database.svg"/>
+      <a href="prostate_dataset.txt">
+        Prostate data.
       </a>
     </span>
   </li>

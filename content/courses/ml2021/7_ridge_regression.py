@@ -14,6 +14,7 @@ from sklearn.linear_model import Ridge, RidgeCV
 from sklearn.model_selection import RepeatedKFold
 from sklearn.metrics import mean_squared_error
 from sklearn.preprocessing import StandardScaler
+from statsmodels.stats.outliers_influence import variance_inflation_factor
 
 data = pd.read_csv("prostate_dataset.txt", sep='\t')
 data = data.drop(['col'], axis=1)
@@ -83,6 +84,8 @@ y_train = train_data['lpsa']
 X_test = test_data.drop('lpsa', axis=1)
 y_test = test_data['lpsa']
 
+X_train.describe()
+
 scaler = StandardScaler().fit(X_train)
 X_train = pd.DataFrame(scaler.transform(X_train), columns = X_train.columns)
 X_test = pd.DataFrame(scaler.transform(X_test), columns = X_test.columns)
@@ -93,6 +96,8 @@ X_test = pd.DataFrame(scaler.transform(X_test), columns = X_test.columns)
 ##                            ##
 ################################
 
+np.linalg.cond(X_train)
+
 corr_matrix = pd.concat([X_train, y_train], axis=1).corr()
 plt.figure(figsize=(10,7.5))
 sns.heatmap(corr_matrix, cmap='Purples')
@@ -101,9 +106,34 @@ sns.pairplot(pd.concat([X_train, y_train], axis=1), kind="reg", corner = True,
     plot_kws={'line_kws':{'color':'orange'}, 'scatter_kws': {'color': 'rebeccapurple'}},
     diag_kws={'color': 'rebeccapurple'})
 
-# Let's see the eigenvalues of the matrix XTX
-d = np.linalg.svd(X_train, compute_uv=False)
-np.round(d**2,2)
+
+# Variance Inlfation Factors
+# VIFS bigger than 5 might suggest collinearity
+vif = pd.DataFrame()
+vif["VIF_Factor"] = np.round([variance_inflation_factor(X_train.values, i) for i in range(X_train.shape[1])],2)
+vif["features"] = X_train.columns
+vif
+
+# SVD
+u, d, vt = np.linalg.svd(X_train)
+v = vt.T
+
+# Singular Values
+d
+
+# Condition Indexes
+d[0]/d
+#There is no evidence of collinearity
+
+# Variance-Decomposition Proportions
+phis = v**2/d**2
+var_decomp_proportions = phis.T/sum(phis.T)
+
+pd.DataFrame(var_decomp_proportions).style.set_precision(2).background_gradient(cmap='Purples', vmin=0, vmax=1)
+
+plt.figure(figsize=(10,7.5))
+sns.heatmap(var_decomp_proportions, cmap='Purples')
+
 
 n_lambdas = 200
 lambdas = np.logspace(0, 5, n_lambdas)
