@@ -6,10 +6,11 @@
 #########################
 
 import numpy as np
-np.set_printoptions(suppress=True)
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
+import statsmodels.api as sm
+
 from sklearn.linear_model import Ridge, RidgeCV
 from sklearn.model_selection import RepeatedKFold
 from sklearn.metrics import mean_squared_error
@@ -78,6 +79,17 @@ data = data.drop(['train'], axis=1)
 train_data = train_data.drop(['train'], axis=1)
 test_data = test_data.drop(['train'], axis=1)
 
+scaler = StandardScaler().fit(train_data)
+train_data = pd.DataFrame(scaler.transform(train_data), columns = train_data.columns)
+test_data = pd.DataFrame(scaler.transform(test_data), columns = test_data.columns)
+
+n_train, p = X_train.shape
+n_test, p = X_test.shape
+
+
+train_data = train_data/np.sqrt(n_train)
+test_data = test_data/np.sqrt(n_test)
+
 X_train = train_data.drop('lpsa', axis=1)
 y_train = train_data['lpsa']
 
@@ -85,10 +97,6 @@ X_test = test_data.drop('lpsa', axis=1)
 y_test = test_data['lpsa']
 
 X_train.describe()
-
-scaler = StandardScaler().fit(X_train)
-X_train = pd.DataFrame(scaler.transform(X_train), columns = X_train.columns)
-X_test = pd.DataFrame(scaler.transform(X_test), columns = X_test.columns)
 
 ################################
 ##                            ##
@@ -123,6 +131,7 @@ d
 
 # Condition Indexes
 d[0]/d
+
 #There is no evidence of collinearity
 
 # Variance-Decomposition Proportions
@@ -134,9 +143,16 @@ pd.DataFrame(var_decomp_proportions).style.set_precision(2).background_gradient(
 plt.figure(figsize=(10,7.5))
 sns.heatmap(var_decomp_proportions, cmap='Purples')
 
+## Regresion Ridge
+results = sm.OLS(y_train,X_train).fit()
+s2 = results.scale
+params = results.params
+
+lambda_0 = p*s2/(params.T @ params)
+lambda_0
 
 n_lambdas = 200
-lambdas = np.logspace(0, 5, n_lambdas)
+lambdas = np.logspace(-2, 5, n_lambdas)
 df_l = []
 coefs = []
 
@@ -198,6 +214,13 @@ clf.alpha_
 clf.best_score_
 clf.coef_
 clf.intercept_
+
+aux = np.linalg.inv(X_train.T @ X_train + clf.alpha_ * np.eye(p))
+ridge_vifs = np.diag(aux @ X_train.T @ X_train @ aux)
+
+ridge_vifs
+
+vif
 
 mean_squared_error(y_test, clf.predict(X_test))
 

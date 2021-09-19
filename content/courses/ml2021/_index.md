@@ -147,4 +147,39 @@ Codes:
       </a>
     </span>
   </li>
+  <li>
+    <span class="inline-svg"> <img src="python-logo.svg"/>
+      <a href="7_robust_regression.py">
+        Example of robust regression.
+      </a>
+    </span>
+  </li>
+  <li>
+    <span class="inline-svg"> <img src="python-logo.svg"/>
+      <a href="8_splines.py">
+        Example of cubic splines.
+      </a>
+    </span>
+  </li>
+  <li>
+    <span class="inline-svg"> <img src="python-logo.svg"/>
+      <a href="9_smooth_splines.py">
+        Example of smoothd splines.
+      </a>
+    </span>
+  </li>
+  <li>
+    <span class="inline-svg"> <img src="python-logo.svg"/>
+      <a href="9_gam_example_wage.py">
+        Example of a generalized additive model (GAM) with the wage dataset.
+      </a>
+    </span>
+  </li>
+  <li>
+    <span class="inline-svg"> <img src="python-logo.svg"/>
+      <a href="10_kde.py">
+        Example a kernel density estimator.
+      </a>
+    </span>
+  </li>
 </ul>

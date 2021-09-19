@@ -6,14 +6,16 @@
 #########################
 
 import numpy as np
-np.set_printoptions(suppress=True)
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
+import statsmodels.api as sm
+
 from sklearn.linear_model import Ridge, RidgeCV
 from sklearn.model_selection import RepeatedKFold
 from sklearn.metrics import mean_squared_error
 from sklearn.preprocessing import StandardScaler
+from statsmodels.stats.outliers_influence import variance_inflation_factor
 
 data = pd.read_csv("prostate_dataset.txt", sep='\t')
 data = data.drop(['col'], axis=1)
@@ -77,21 +79,32 @@ data = data.drop(['train'], axis=1)
 train_data = train_data.drop(['train'], axis=1)
 test_data = test_data.drop(['train'], axis=1)
 
+scaler = StandardScaler().fit(train_data)
+train_data = pd.DataFrame(scaler.transform(train_data), columns = train_data.columns)
+test_data = pd.DataFrame(scaler.transform(test_data), columns = test_data.columns)
+
+n_train, p = X_train.shape
+n_test, p = X_test.shape
+
+
+train_data = train_data/np.sqrt(n_train)
+test_data = test_data/np.sqrt(n_test)
+
 X_train = train_data.drop('lpsa', axis=1)
 y_train = train_data['lpsa']
 
 X_test = test_data.drop('lpsa', axis=1)
 y_test = test_data['lpsa']
 
-scaler = StandardScaler().fit(X_train)
-X_train = pd.DataFrame(scaler.transform(X_train), columns = X_train.columns)
-X_test = pd.DataFrame(scaler.transform(X_test), columns = X_test.columns)
+X_train.describe()
 
 ################################
 ##                            ##
 ## Exploring multicolinearity ##
 ##                            ##
 ################################
+
+np.linalg.cond(X_train)
 
 corr_matrix = pd.concat([X_train, y_train], axis=1).corr()
 plt.figure(figsize=(10,7.5))
@@ -101,12 +114,45 @@ sns.pairplot(pd.concat([X_train, y_train], axis=1), kind="reg", corner = True,
     plot_kws={'line_kws':{'color':'orange'}, 'scatter_kws': {'color': 'rebeccapurple'}},
     diag_kws={'color': 'rebeccapurple'})
 
-# Let's see the eigenvalues of the matrix XTX
-d = np.linalg.svd(X_train, compute_uv=False)
-np.round(d**2,2)
+
+# Variance Inlfation Factors
+# VIFS bigger than 5 might suggest collinearity
+vif = pd.DataFrame()
+vif["VIF_Factor"] = np.round([variance_inflation_factor(X_train.values, i) for i in range(X_train.shape[1])],2)
+vif["features"] = X_train.columns
+vif
+
+# SVD
+u, d, vt = np.linalg.svd(X_train)
+v = vt.T
+
+# Singular Values
+d
+
+# Condition Indexes
+d[0]/d
+
+#There is no evidence of collinearity
+
+# Variance-Decomposition Proportions
+phis = v**2/d**2
+var_decomp_proportions = phis.T/sum(phis.T)
+
+pd.DataFrame(var_decomp_proportions).style.set_precision(2).background_gradient(cmap='Purples', vmin=0, vmax=1)
+
+plt.figure(figsize=(10,7.5))
+sns.heatmap(var_decomp_proportions, cmap='Purples')
+
+## Regresion Ridge
+results = sm.OLS(y_train,X_train).fit()
+s2 = results.scale
+params = results.params
+
+lambda_0 = p*s2/(params.T @ params)
+lambda_0
 
 n_lambdas = 200
-lambdas = np.logspace(0, 5, n_lambdas)
+lambdas = np.logspace(-2, 5, n_lambdas)
 df_l = []
 coefs = []
 
@@ -168,6 +214,13 @@ clf.alpha_
 clf.best_score_
 clf.coef_
 clf.intercept_
+
+aux = np.linalg.inv(X_train.T @ X_train + clf.alpha_ * np.eye(p))
+ridge_vifs = np.diag(aux @ X_train.T @ X_train @ aux)
+
+ridge_vifs
+
+vif
 
 mean_squared_error(y_test, clf.predict(X_test))
 
