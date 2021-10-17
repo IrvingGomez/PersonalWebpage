@@ -9,6 +9,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.linear_model import LogisticRegression
+from scipy.stats import norm
 
 # Data from Hosmer, D.W. & Lemeshow, S. (1989) Applied logistic regression. Wiley
 # Data are ages (in years) and indicator of significant damage in the coronary of 100 people
@@ -16,6 +17,7 @@ dat = pd.read_csv('Heart_Disease_vs_Age.csv')
 n = dat.shape[0]
 X = np.vstack([np.ones(n), dat['age']]).T
 y = dat['chd']
+alpha = 0.05
 
 # Logistic regression by hand
 b = [0,0] # initial values
@@ -35,15 +37,20 @@ while((tolera > tolm) and (itera < iterm)):
   histo  = np.vstack([histo, b])
   itera  = itera+1
 
-histo
-
 n0 = 50
 x0 = np.linspace(dat['age'].min(), dat['age'].max(), n0)
 X0 = np.vstack([np.ones(n0), x0]).T
+p0 = 1/(1+np.exp(-X0 @ b))
+
+aux_conf = np.sqrt(np.diag(X0 @ np.linalg.solve(X.T @ W @ X, X0.T)) * (p0*(1-p0))**2)
+
+upp_conf = np.minimum(p0 + norm.ppf(1-alpha/2)*aux_conf, 1)
+low_conf = np.maximum(p0 - norm.ppf(1-alpha/2)*aux_conf, 0)
 
 plt.figure(figsize=(10,7.5))
+plt.fill_between(x0, low_conf, upp_conf, facecolor='yellow', alpha=0.5, label='Confidence interval')
 plt.plot(dat['age'], dat['chd'], 'o')
-plt.plot(x0, 1/(1+np.exp(-X0 @ b)), 'r'),
+plt.plot(x0, p0, 'r'),
 plt.xlabel('Age')
 plt.ylabel('Prob. of Coronary Heart Disease')
 

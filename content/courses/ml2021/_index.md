@@ -143,7 +143,7 @@ Codes:
   <li>
     <span class="inline-svg"> <img src="database.svg"/>
       <a href="prostate_dataset.txt">
-        Prostate data.
+        Prostate dataset.
       </a>
     </span>
   </li>
@@ -179,6 +179,69 @@ Codes:
     <span class="inline-svg"> <img src="python-logo.svg"/>
       <a href="10_kde.py">
         Example a kernel density estimator.
+      </a>
+    </span>
+  </li>
+  <li>
+    <span class="inline-svg"> <img src="python-logo.svg"/>
+      <a href="11_local_polinomial_regression.py">
+        Example of local polinomial regression.
+      </a>
+    </span>
+  </li>
+  <li>
+    <span class="inline-svg"> <img src="python-logo.svg"/>
+      <a href="12_other_regression_heart_disease.py">
+        Using non ad-hoc methods in classification.
+      </a>
+    </span>
+  </li>
+  <li>
+    <span class="inline-svg"> <img src="python-logo.svg"/>
+      <a href="12_logistic_regression_heart_disease.py">
+        Example of logistic regression using the heart disease dataset.
+      </a>
+    </span>
+  </li>
+  <li>
+    <span class="inline-svg"> <img src="database.svg"/>
+      <a href="Heart_Disease_vs_Age.csv">
+        Heart disease dataset.
+      </a>
+    </span>
+  </li>
+  <li>
+    <span class="inline-svg"> <img src="python-logo.svg"/>
+      <a href="13_logistic_regression_languages_classification.py">
+        Example of logistic regression to classify languages.
+      </a>
+    </span>
+  </li>
+  <li>
+    <span class="inline-svg"> <img src="python-logo.svg"/>
+      <a href="14_logistic_regression_irisdata.py">
+        Example of logistic regression using the iris flower dataset.
+      </a>
+    </span>
+  </li>
+  <li>
+    <span class="inline-svg"> <img src="python-logo.svg"/>
+      <a href="15_logistic_regression_british_crime_survey.py">
+        Example of logistic regression using a crime British survey.
+      </a>
+    </span>
+  </li>
+  <li>
+    <span class="inline-svg"> <img src="database.svg"/>
+      <a href="BritishCrimeSurvey2000.sav">
+        British crime survey dataset of 2000.
+      </a>
+    </span>
+  </li>
+  <li>
+    <span class="inline-svg"> <img src="book.svg"/>
+      <a href="British Crime Survey Info.pdf">
+        British crime survey information of 2000.
       </a>
     </span>
   </li>

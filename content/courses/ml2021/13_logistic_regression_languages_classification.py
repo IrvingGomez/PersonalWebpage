@@ -34,6 +34,8 @@ disimilar_vect = np.vectorize(disimilar_levenshtein)
 dat = pd.read_csv('words_languages.csv')
 dat
 
+dat[dat['Language'].isin(['Spanish', 'German', 'English', 'Portuguese', 'Esperanto', 'Russian'])]
+
 dat[['Language', 'Family']].groupby('Family').agg('count')
 
 # Let's make logistic regression using germanic and romance languages
