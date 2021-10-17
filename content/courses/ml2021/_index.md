@@ -115,7 +115,7 @@ Codes:
   <li>
     <span class="inline-svg"> <img src="Python-logo.svg"/>
       <a href="6_example_variance_decomposition.py">
-        Example of variance Decomposition.
+        Example of variance decomposition.
       </a>
     </span>
   </li>
@@ -164,7 +164,7 @@ Codes:
   <li>
     <span class="inline-svg"> <img src="python-logo.svg"/>
       <a href="9_smooth_splines.py">
-        Example of smoothd splines.
+        Example of smoothed splines.
       </a>
     </span>
   </li>
