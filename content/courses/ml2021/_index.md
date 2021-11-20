@@ -290,7 +290,7 @@ Codes:
   <li>
     <span class="inline-svg"> <img src="python-logo.svg"/>
       <a href="19_lda_as_reduction_technique.py">
-        Example of LDA as a supervised reduction of dimensionality technique using the English vowels dataset.
+        Example of LDA as a supervised reduction of dimensionality technique.
       </a>
     </span>
   </li>
@@ -337,7 +337,7 @@ Codes:
     </span>
   </li>
   <li>
-    <span class="inline-svg"> <img src="pyhton-logo.svg"/>
+    <span class="inline-svg"> <img src="python-logo.svg"/>
       <a href="24_svd_images.py">
         Reconstruction of images using SVD.
       </a>
@@ -351,14 +351,14 @@ Codes:
     </span>
   </li>
   <li>
-    <span class="inline-svg"> <img src="pyhton-logo.svg"/>
+    <span class="inline-svg"> <img src="python-logo.svg"/>
       <a href="25_k_means.py">
         Example of k-means using simulated data.
       </a>
     </span>
   </li>
   <li>
-    <span class="inline-svg"> <img src="pyhton-logo.svg"/>
+    <span class="inline-svg"> <img src="python-logo.svg"/>
       <a href="26_k_means_segmentation.py">
         Segmentation of images using k-means.
       </a>
