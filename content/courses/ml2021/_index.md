@@ -218,6 +218,13 @@ Codes:
     </span>
   </li>
   <li>
+    <span class="inline-svg"> <img src="database.svg"/>
+      <a href="words_languages.csv">
+        Worlds in different languages dataset.
+      </a>
+    </span>
+  </li>
+  <li>
     <span class="inline-svg"> <img src="python-logo.svg"/>
       <a href="14_logistic_regression_irisdata.py">
         Example of logistic regression using the iris flower dataset.
@@ -242,6 +249,125 @@ Codes:
     <span class="inline-svg"> <img src="book.svg"/>
       <a href="British Crime Survey Info.pdf">
         British crime survey information of 2000.
+      </a>
+    </span>
+  </li>
+  <li>
+    <span class="inline-svg"> <img src="python-logo.svg"/>
+      <a href="16_lda_breast_cancer.py">
+        Example of LDA using the breast cancer dataset.
+      </a>
+    </span>
+  </li>
+  <li>
+    <span class="inline-svg"> <img src="python-logo.svg"/>
+      <a href="17_example_qda.py">
+        Example of QDA using simulated data.
+      </a>
+    </span>
+  </li>
+  <li>
+    <span class="inline-svg"> <img src="python-logo.svg"/>
+      <a href="18_classification_vowels.py">
+        Classification of English vowels with different methods.
+      </a>
+    </span>
+  </li>
+  <li>
+    <span class="inline-svg"> <img src="database.svg"/>
+      <a href="vowel_train.csv">
+        English vowels training dataset.
+      </a>
+    </span>
+  </li>
+  <li>
+    <span class="inline-svg"> <img src="database.svg"/>
+      <a href="vowel_test.csv">
+        English vowels testing dataset.
+      </a>
+    </span>
+  </li>
+  <li>
+    <span class="inline-svg"> <img src="python-logo.svg"/>
+      <a href="19_lda_as_reduction_technique.py">
+        Example of LDA as a supervised reduction of dimensionality technique using the English vowels dataset.
+      </a>
+    </span>
+  </li>
+  <li>
+    <span class="inline-svg"> <img src="python-logo.svg"/>
+      <a href="20_classification_knn_irisdata.py">
+        Example of knn to classify the iris data.
+      </a>
+    </span>
+  </li>
+  <li>
+    <span class="inline-svg"> <img src="python-logo.svg"/>
+      <a href="21_regression_knn_bone_density.py">
+        Example of knn in regression using the bones mineral density dataset.
+      </a>
+    </span>
+  </li>
+  <li>
+    <span class="inline-svg"> <img src="database.svg"/>
+      <a href="bones_mineral_density.csv">
+        Bones mineral density dataset.
+      </a>
+    </span>
+  </li>
+  <li>
+    <span class="inline-svg"> <img src="python-logo.svg"/>
+      <a href="22_knn_MNIST.py">
+        Example of knn to classify MNIST digits.
+      </a>
+    </span>
+  </li>
+  <li>
+    <span class="inline-svg"> <img src="python-logo.svg"/>
+      <a href="23_pca_swiss_bank.py">
+        Example of PCA using the Swiss bank notes dataset.
+      </a>
+    </span>
+  </li>
+  <li>
+    <span class="inline-svg"> <img src="database.svg"/>
+      <a href="banknotes.scv">
+        Swiss bank notes dataset.
+      </a>
+    </span>
+  </li>
+  <li>
+    <span class="inline-svg"> <img src="pyhton-logo.svg"/>
+      <a href="24_svd_images.py">
+        Reconstruction of images using SVD.
+      </a>
+    </span>
+  </li>
+  <li>
+    <span class="inline-svg"> <img src="photo.svg"/>
+      <a href="Taguchi.jpg">
+        Genichi Taguchi.
+      </a>
+    </span>
+  </li>
+  <li>
+    <span class="inline-svg"> <img src="pyhton-logo.svg"/>
+      <a href="25_k_means.py">
+        Example of k-means using simulated data.
+      </a>
+    </span>
+  </li>
+  <li>
+    <span class="inline-svg"> <img src="pyhton-logo.svg"/>
+      <a href="26_k_means_segmentation.py">
+        Segmentation of images using k-means.
+      </a>
+    </span>
+  </li>
+  <li>
+    <span class="inline-svg"> <img src="photo.svg"/>
+      <a href="GIR.jpg">
+        GIR (from invader Zim).
       </a>
     </span>
   </li>
