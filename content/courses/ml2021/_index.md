@@ -108,7 +108,7 @@ Codes:
   <li>
     <span class="inline-svg"> <img src="Python-logo.svg"/>
       <a href="5_best_fit_line_2_with_objects.py">
-        Best fit of a line by least squares with confidence regions, using python class.
+        Best fit of a line by least squares with confidence regions, using a python class.
       </a>
     </span>
   </li>
@@ -297,7 +297,7 @@ Codes:
   <li>
     <span class="inline-svg"> <img src="python-logo.svg"/>
       <a href="20_classification_knn_irisdata.py">
-        Example of knn to classify the iris data.
+        Example of knn to classify the iris flower data.
       </a>
     </span>
   </li>
