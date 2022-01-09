@@ -2,7 +2,7 @@
 # Course title, summary, and position.
 linktitle: Machine Learning 2021 (Universidad Iberoamericana)
 summary:
-weight: 1
+weight: 2
 
 # Page metadata.
 title: Machine Learning 2021

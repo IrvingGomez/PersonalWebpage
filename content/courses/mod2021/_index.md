@@ -2,7 +2,7 @@
 # Course title, summary, and position.
 linktitle: Statistical Models 2021 (CIMAT Assistantship)
 summary:
-weight: 3
+weight: 4
 
 # Page metadata.
 title: Statistical Models 2021

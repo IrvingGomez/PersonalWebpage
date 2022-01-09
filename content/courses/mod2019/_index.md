@@ -2,7 +2,7 @@
 # Course title, summary, and position.
 linktitle: Statistical Models 2019 (CIMAT Assistantship)
 summary:
-weight: 5
+weight: 6
 
 # Page metadata.
 title: Statistical Models 2019

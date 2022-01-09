@@ -2,7 +2,7 @@
 # Course title, summary, and position.
 linktitle: Actuarial Probability 2021 (Universidad Iberoamericana)
 summary:
-weight: 2
+weight: 3
 
 # Page metadata.
 title: Actuarial Probability 2021
