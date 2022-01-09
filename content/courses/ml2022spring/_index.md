@@ -1,11 +1,11 @@
 ---
 # Course title, summary, and position.
-linktitle: Machine Learning 2022-1 (Universidad Iberoamericana)
+linktitle: Machine Learning 2022-Spring (Universidad Iberoamericana)
 summary:
 weight: 1
 
 # Page metadata.
-title: Machine Learning 2022-1
+title: Machine Learning 2022-Spring
 draft: false  # Is this a draft? true/false
 toc: false  # Show table of contents? true/false
 type: docs  # Do not modify.
