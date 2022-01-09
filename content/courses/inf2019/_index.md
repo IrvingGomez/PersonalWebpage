@@ -1,7 +1,7 @@
 ---
 # Course title, summary, and position.
 linktitle: Statistical Inference 2019 (CIMAT Assistantship)
-weight: 5
+weight: 6
 
 # Page metadata.
 title: Statistical Inference 2019
