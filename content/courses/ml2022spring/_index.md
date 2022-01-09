@@ -24,7 +24,7 @@ Syllabus, evaluation and other information:
 <ul>
   <li>
     <span class="inline-svg"> <img src="book.svg"/>
-      <a href="programa_ml_2022_1">
+      <a href="programa_ml_2022_1.pdf">
         Syllabus, evaluation and other information.
       </a>
     </span>
