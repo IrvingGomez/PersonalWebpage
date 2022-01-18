@@ -53,6 +53,13 @@ Presentations:
   </li>
   <li>
     <span class="inline-svg"> <img src="tv.svg"/>
+      <a href="linear_regression.pdf">
+        Linear Regression
+      </a>
+    </span>
+  </li>
+  <li>
+    <span class="inline-svg"> <img src="tv.svg"/>
       <a href="collinearity.pdf">
         Detecting Collinearity
       </a>

@@ -2,7 +2,7 @@
 title: An Introduction to Causality
 event: MAC, Webinar on Applied Mathematics
 #event_url: https://example.org
-location: Guanajuato, Mexico
+location: Virtual
 #summary: How to appropriate handle missing data through random forests.
 #abstract: ""
 
