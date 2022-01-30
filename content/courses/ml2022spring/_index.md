@@ -1,11 +1,11 @@
 ---
 # Course title, summary, and position.
-linktitle: Machine Learning 2022-Spring (Universidad Iberoamericana)
+linktitle: Machine Learning (Universidad Iberoamericana)
 summary:
 weight: 2
 
 # Page metadata.
-title: Machine Learning 2022-Spring
+title: Machine Learning
 draft: false  # Is this a draft? true/false
 toc: false  # Show table of contents? true/false
 type: docs  # Do not modify.
@@ -55,13 +55,6 @@ Presentations:
     <span class="inline-svg"> <img src="tv.svg"/>
       <a href="linear_regression.pdf">
         Linear Regression
-      </a>
-    </span>
-  </li>
-  <li>
-    <span class="inline-svg"> <img src="tv.svg"/>
-      <a href="collinearity.pdf">
-        Detecting Collinearity
       </a>
     </span>
   </li>
