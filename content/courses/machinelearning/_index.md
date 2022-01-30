@@ -58,6 +58,13 @@ Presentations:
       </a>
     </span>
   </li>
+  <li>
+    <span class="inline-svg"> <img src="tv.svg"/>
+      <a href="collinearity.pdf">
+        Collinearity
+      </a>
+    </span>
+  </li>
 </ul>
 Codes:
 
