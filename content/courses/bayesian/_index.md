@@ -24,7 +24,7 @@ Syllabus, evaluation and other information:
 <ul>
   <li>
     <span class="inline-svg"> <img src="book.svg"/>
-      <a href="programa_bayesian_2022_1.pdf">
+      <a href="programa_bayesian_2022_1.pdf" target="_blank">
         Syllabus, evaluation and other information.
       </a>
     </span>
@@ -36,7 +36,7 @@ Presentation:
 <ul>
   <li>
     <span class="inline-svg"> <img src="tv.svg"/>
-      <a href="bayesian_statistics_2022.pdf">
+      <a href="bayesian_statistics_2022.pdf" target="_blank">
         Bayesian Statistics
       </a>
     </span>
