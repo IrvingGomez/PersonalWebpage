@@ -1,11 +1,11 @@
 ---
 # Course title, summary, and position.
-linktitle: Bayesian Statistics 2022-Spring (Universidad Iberoamericana)
+linktitle: Bayesian Statistics (Universidad Iberoamericana)
 summary:
 weight: 1
 
 # Page metadata.
-title: Bayesian Statistics-Spring
+title: Bayesian Statistics
 draft: false  # Is this a draft? true/false
 toc: false  # Show table of contents? true/false
 type: docs  # Do not modify.
@@ -31,30 +31,13 @@ Syllabus, evaluation and other information:
   </li>
 </ul>
 
-Some usefull references:
-
-<ul>
-  <li>
-    <span class="inline-svg"> <img src="book.svg"/>
-      Hastie, Tibshirani, Friedman - Elements of Statistical Learning.
-    </span>
-  </li>
-</ul>
-
-Presentations:
+Presentation:
 
 <ul>
   <li>
     <span class="inline-svg"> <img src="tv.svg"/>
-      <a href="statistical_learning.pdf">
-        Statistical and Machine Learning
-      </a>
-    </span>
-  </li>
-  <li>
-    <span class="inline-svg"> <img src="tv.svg"/>
-      <a href="collinearity.pdf">
-        Detecting Collinearity
+      <a href="bayesian_statistics_2022.pdf">
+        Bayesian Statistics
       </a>
     </span>
   </li>
