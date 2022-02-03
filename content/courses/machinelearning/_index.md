@@ -65,7 +65,15 @@ Presentations:
       </a>
     </span>
   </li>
+  <li>
+    <span class="inline-svg"> <img src="tv.svg"/>
+      <a href="ridge_regression.pdf">
+        Ridge Regression
+      </a>
+    </span>
+  </li>
 </ul>
+
 Codes:
 
 <ul>
@@ -104,7 +112,6 @@ Codes:
       </a>
     </span>
   </li>
-  <!--
   <li>
     <span class="inline-svg"> <img src="Python-logo.svg"/>
       <a href="6_example_variance_decomposition.py">
@@ -126,6 +133,7 @@ Codes:
       </a>
     </span>
   </li>
+  <!--
   <li>
     <span class="inline-svg"> <img src="python-logo.svg"/>
       <a href="7_ridge_regression.py">
