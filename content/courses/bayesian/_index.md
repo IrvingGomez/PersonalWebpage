@@ -42,3 +42,36 @@ Presentation:
     </span>
   </li>
 </ul>
+
+Codes:
+
+<ul>
+  <li>
+    <span class="inline-svg"> <img src="Python-logo.svg"/>
+      <a href="3_beta_binomial.ipynb">
+        Beta-Binomial model.
+      </a>
+    </span>
+  </li>
+  <li>
+    <span class="inline-svg"> <img src="Python-logo.svg"/>
+      <a href="4_height_example.ipynb">
+        Modeling the height of the !Kung people.
+      </a>
+    </span>
+  </li>
+  <li>
+    <span class="inline-svg"> <img src="Python-logo.svg"/>
+      <a href="5_height_regression.ipynb">
+        Regression model of the height over the weight.
+      </a>
+    </span>
+  </li>
+  <li>
+    <span class="inline-svg"> <img src="database.svg"/>
+      <a href="Howell1.csv">
+         Data of the !Kung people.
+      </a>
+    </span>
+  </li>
+</ul>
