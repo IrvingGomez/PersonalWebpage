@@ -72,6 +72,13 @@ Presentations:
       </a>
     </span>
   </li>
+  <li>
+    <span class="inline-svg"> <img src="tv.svg"/>
+      <a href="cross_validation.pdf">
+        Cross Validation
+      </a>
+    </span>
+  </li>
 </ul>
 
 Codes:
@@ -133,7 +140,6 @@ Codes:
       </a>
     </span>
   </li>
-  <!--
   <li>
     <span class="inline-svg"> <img src="python-logo.svg"/>
       <a href="7_ridge_regression.py">
@@ -148,6 +154,7 @@ Codes:
       </a>
     </span>
   </li>
+  <!--
   <li>
     <span class="inline-svg"> <img src="python-logo.svg"/>
       <a href="7_robust_regression.py">
