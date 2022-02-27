@@ -154,7 +154,6 @@ Codes:
       </a>
     </span>
   </li>
-  <!--
   <li>
     <span class="inline-svg"> <img src="python-logo.svg"/>
       <a href="7_robust_regression.py">
@@ -190,6 +189,7 @@ Codes:
       </a>
     </span>
   </li>
+  <!--
   <li>
     <span class="inline-svg"> <img src="python-logo.svg"/>
       <a href="11_local_polinomial_regression.py">
