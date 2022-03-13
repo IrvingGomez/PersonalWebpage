@@ -79,10 +79,28 @@ Presentations:
       </a>
     </span>
   </li>
+  <li>
+    <span class="inline-svg"> <img src="tv.svg"/>
+      <a href="normal_ml_with_restrictions.pdf">
+        Maximum Likelihood with Restrictions
+      </a>
+    </span>
+  </li>
+  <li>
+    <span class="inline-svg"> <img src="tv.svg"/>
+      <a href="cross_validation.pdf">
+        B-Splines
+      </a>
+    </span>
+  </li>
 </ul>
 
 Codes:
 
+Codes and data for the course are available at the github repository:
+<a href="https://github.com/IrvingGomez/Machine_Learning">https://github.com/IrvingGomez/Machine_Learning</a>
+
+<!--
 <ul>
   <li>
     <span class="inline-svg"> <img src="Python-logo.svg"/>
@@ -189,7 +207,6 @@ Codes:
       </a>
     </span>
   </li>
-  <!--
   <li>
     <span class="inline-svg"> <img src="python-logo.svg"/>
       <a href="11_local_polinomial_regression.py">
