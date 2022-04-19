@@ -93,6 +93,13 @@ Presentations:
       </a>
     </span>
   </li>
+  <li>
+    <span class="inline-svg"> <img src="tv.svg"/>
+      <a href="EM_algorithm.pdf">
+        EM algorithm, Gaussian mixture and k-means
+      </a>
+    </span>
+  </li>
 </ul>
 
 Codes:
