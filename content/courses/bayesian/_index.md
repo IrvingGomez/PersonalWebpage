@@ -37,7 +37,12 @@ Presentation:
   <li>
     <span class="inline-svg"> <img src="tv.svg"/>
       <a href="bayesian_statistics_2022_parte1.pdf">
-        Bayesian Statistics
+        Bayesian Statistics, Part1
+      </a>
+    </span>
+    <span class="inline-svg"> <img src="tv.svg"/>
+      <a href="bayesian_statistics_2022_parte2.pdf">
+        Bayesian Statistics, Part2
       </a>
     </span>
   </li>
