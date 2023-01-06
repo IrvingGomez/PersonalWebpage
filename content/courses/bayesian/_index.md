@@ -24,7 +24,7 @@ Syllabus, evaluation and other information:
 <ul>
   <li>
     <span class="inline-svg"> <img src="book.svg"/>
-      <a href="programa_bayesian_2022_2.pdf">
+      <a href="programa_bayesian_2023_1.pdf">
         Syllabus, evaluation and other information.
       </a>
     </span>
