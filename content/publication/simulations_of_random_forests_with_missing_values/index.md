@@ -26,6 +26,8 @@ simulated. We study the quadratic errors of our algorithm and compare it to the 
 missing value algorithms in the literature. A quick algorithmic complexity study is also given.
 "
 
+To cite this article: Irving Gómez-Méndez & Emilien Joly (2023) Regression with missing data, a comparison study of techniques based on random forests, Journal of Statistical Computation and Simulation, DOI: 10.1080/00949655.2022.2163646
+
 # Summary. An optional shortened abstract.
 summary: "Simulation study of the algorithm to handle missing entries based on random forests."
 
