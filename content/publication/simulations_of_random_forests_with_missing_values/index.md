@@ -33,7 +33,7 @@ This is an original manuscript of an article published by Taylor & Francis in Jo
 To cite this article:<br>
 
 Irving Gómez-Méndez & Emilien Joly (2023) Regression with missing data, a comparison study of techniques based on random forests,
-Journal of Statistical Computation and Simulation, DOI: 10.1080\/00949655.2022.2163646<br><br>
+Journal of Statistical Computation and Simulation, DOI: 10.1080/00949655.2022.2163646<br><br>
 
 To get the .bib format for the citation clic on the Cite button.
 "
