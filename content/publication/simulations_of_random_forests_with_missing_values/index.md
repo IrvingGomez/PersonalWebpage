@@ -16,17 +16,27 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication: ""
+publication: "Regression with missing data, a comparison study of techniques based on random forests"
 publication_short: ""
 
-abstract: "In this paper we present the practical benefits of a new random forest algorithm to deal with
-missing values in the sample. This follows a first paper on the consistency of this new algorithm.
-Many different missing value mechanisms (such as MCAR, MAR, NMAR) are considered and
-simulated. We study the quadratic errors of our algorithm and compare it to the most popular
-missing value algorithms in the literature. A quick algorithmic complexity study is also given.
-"
+abstract: "In this paper, we present the practical benefits of a new random forest algorithm to deal with missing values in the sample.
+The purpose of this work is to compare the different solutions to deal with missing values using random forests and describe the new
+algorithm performance as well as its algorithmic complexity. A variety of data-missing mechanisms (MCAR, MAR, MNAR) are considered and
+simulated. We study the quadratic errors and the bias of our algorithm and compare them to the most popular missing values random forests
+algorithms in the literature. In particular, we compare those techniques for both regression and prediction purposes. This work follows
+the paper of Gómez-Méndez and Joly [On the consistency of a random forest algorithm in the presence of missing entries. 2020. Available from:
+arXiv:201105433] on the consistency of this new algorithm.
 
-<div> something something </div>
+This is an original manuscript of an article published by Taylor & Francis in Journal of Statistical Computation And Simulation on
+20 December 2022, available at: http://www.tandfonline.com/doi/full/10.1080/00949655.2022.2163646.
+
+To cite this article:
+
+Irving Gómez-Méndez & Emilien Joly (2023) Regression with missing data, a comparison study of techniques based on random forests,
+Journal of Statistical Computation and Simulation, DOI: 10.1080/00949655.2022.2163646
+
+To get the .bib format for the citation clic on the Cite button.
+"
 
 # Summary. An optional shortened abstract.
 summary: "Simulation study of the algorithm to handle missing entries based on random forests."
