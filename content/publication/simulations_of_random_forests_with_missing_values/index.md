@@ -26,17 +26,17 @@ simulated. We study the quadratic errors and the bias of our algorithm and compa
 algorithms in the literature. In particular, we compare those techniques for both regression and prediction purposes. This work follows
 the paper of Gómez-Méndez and Joly [On the consistency of a random forest algorithm in the presence of missing entries. 2020. Available from:
 arXiv:201105433] on the consistency of this new algorithm.<br><br>
+"
 
-This is an original manuscript of an article published by Taylor & Francis in Journal of Statistical Computation And Simulation on
+comments: "This is an original manuscript of an article published by Taylor & Francis in Journal of Statistical Computation and Simulation on
 20 December 2022, available at: http://www.tandfonline.com/doi/full/10.1080/00949655.2022.2163646.<br><br>
 
 To cite this article:<br>
 
 Irving Gómez-Méndez & Emilien Joly (2023) Regression with missing data, a comparison study of techniques based on random forests,
-Journal of Statistical Computation and Simulation, DOI: 10.1080/00949655.2022.2163646<br><br>
+Journal of Statistical Computation and Simulation.<br><br>
 
-To get the .bib format for the citation clic on the Cite button.
-"
+To get the .bib format for the citation clic on the Cite button."
 
 # Summary. An optional shortened abstract.
 summary: "Simulation study of the algorithm to handle missing entries based on random forests."
