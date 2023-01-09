@@ -26,6 +26,8 @@ simulated. We study the quadratic errors of our algorithm and compare it to the 
 missing value algorithms in the literature. A quick algorithmic complexity study is also given.
 "
 
+<div> something something </div>
+
 # Summary. An optional shortened abstract.
 summary: "Simulation study of the algorithm to handle missing entries based on random forests."
 
