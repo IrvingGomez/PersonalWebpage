@@ -28,7 +28,7 @@ the paper of Gómez-Méndez and Joly [On the consistency of a random forest algo
 arXiv:201105433] on the consistency of this new algorithm.<br><br>
 
 This is an original manuscript of an article published by Taylor & Francis in Journal of Statistical Computation and Simulation on
-20 December 2022, available at: http://www.tandfonline.com/doi/full/10.1080/00949655.2022.2163646.<br><br>
+09 January 2023, available at: http://www.tandfonline.com/doi/full/10.1080/00949655.2022.2163646.<br><br>
 
 To cite this article:<br>
 
