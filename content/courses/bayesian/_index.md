@@ -36,7 +36,7 @@ Presentation:
 <ul>
   <li>
     <span class="inline-svg"> <img src="tv.svg"/>
-      <a href="bayesian_statistics_2022_parte1.pdf">
+      <a href="bayesian_statistics_2023_parte1.pdf">
         Bayesian Statistics, Part1
       </a>
     </span>
