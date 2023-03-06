@@ -24,6 +24,7 @@ interests:
 - Computational Statistics
 - Nonparametric Statistics
 - Inference with Missing Data
+- Causality and Causal Inference
 - Data Science and Machine Learning
 
 education:
@@ -71,5 +72,11 @@ social:
 #- Visitors
 ---
 
-I am PhD in Probability and Statistics from the <a href="https://www.cimat.mx" target="_blank"> Centro de Investigación en Matemáticas (CIMAT)</a> with the thesis entitled 'Random Forests and Autoencoders with Missing Data' under the direction of <a href="https://www.cimat.mx/es/emilien-joly" target="_blank"> Emilien Joly </a>.
-From January to March 2020, I was in a research stay at <a href="https://www.inria.fr/centre/lille" target="_blank"> Inria-Lille</a> in collaboration with <a href="https://jilljenn.github.io/" target="_blank"> Jill-Jênn Vie </a> working on variational autoencoders with missing data.
+I am a postdoctoral researcher at the at the
+Artificial Intelligence, Data Science and Analytics Research Team at National Electronic and Computer Technology Center (NECTEC) in Thailand,
+I hold a PhD in Probability and  Statistics from the
+<a href="https://www.cimat.mx" target="_blank"> Centro de Investigación en Matemáticas (CIMAT)</a> with the thesis titled
+'Random Forests and Autoencoders with Missing Data' under the direction of
+<a href="https://www.cimat.mx/es/emilien-joly" target="_blank"> Emilien Joly </a>.
+From January to March 2020, I was in a research stay at <a href="https://www.inria.fr/centre/lille" target="_blank"> Inria-Lille</a>
+in collaboration with <a href="https://jjv.ie/" target="_blank"> Jill-Jênn Vie </a> working on variational autoencoders with missing data.
