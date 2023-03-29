@@ -40,12 +40,14 @@ Presentation:
         Bayesian Statistics, Part1
       </a>
     </span>
+  </li>
+  <li>
     <span class="inline-svg"> <img src="tv.svg"/>
       <a href="bayesian_statistics_2023_parte2.pdf">
         Bayesian Statistics, Part1
       </a>
     </span>
-  <li>
+  </li>
 </ul>
 
 Codes:
