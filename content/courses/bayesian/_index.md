@@ -44,7 +44,7 @@ Presentation:
   <li>
     <span class="inline-svg"> <img src="tv.svg"/>
       <a href="bayesian_statistics_2023_parte2.pdf">
-        Bayesian Statistics, Part1
+        Bayesian Statistics, Part2
       </a>
     </span>
   </li>
