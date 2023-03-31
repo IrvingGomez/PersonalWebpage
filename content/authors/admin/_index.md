@@ -72,8 +72,8 @@ social:
 #- Visitors
 ---
 
-I am a postdoctoral researcher at the
-Strategic Analytics Networks with Machine Learning and AI (SAI) laboratory
+I am a postdoctoral researcher at the laboratory of
+Strategic Analytics Networks with Machine Learning and AI (SAI) 
 of the Data Science and Analytics Research Group (DSARG) at the 
 <a href="https://www.nectec.or.th/" target="_blank"> National Electronics and Computer Technology Center (NECTEC)</a> in Thailand.
 I hold a PhD in Probability and  Statistics from the
