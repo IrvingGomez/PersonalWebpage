@@ -73,8 +73,9 @@ social:
 ---
 
 I am a postdoctoral researcher at the
-Artificial Intelligence, Data Science and Analytics Research Team at the 
-<a href="https://www.nectec.or.th/" target="_blank"> National Electronic and Computer Technology Center (NECTEC)</a> in Thailand.
+Strategic Analytics Networks with Machine Learning and AI (SAI) laboratory
+of the Data Science and Analytics Research Group (DSARG) at the 
+<a href="https://www.nectec.or.th/" target="_blank"> National Electronics and Computer Technology Center (NECTEC)</a> in Thailand.
 I hold a PhD in Probability and  Statistics from the
 <a href="https://www.cimat.mx" target="_blank"> Centro de Investigación en Matemáticas (CIMAT)</a> with the thesis titled
 'Random Forests and Autoencoders with Missing Data' under the direction of
