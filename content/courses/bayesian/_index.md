@@ -54,3 +54,36 @@ Codes:
 
 Codes and data for the course are available at the github repository:
 <a href="https://github.com/IrvingGomez/Bayesian_Statistics">https://github.com/IrvingGomez/Bayesian_Statistics</a>
+
+Some references for related topics:
+
+<ul>
+  <li>
+    <span class="inline-svg"> <img src="book.svg"/>
+      <a href="Statistical Rethinking.pdf">
+        Statistical Rethinking
+      </a>
+    </span>
+  </li>
+  <li>
+    <span class="inline-svg"> <img src="book.svg"/>
+      <a href="Applied Missing Data Analysis.pdf">
+        Applied Missing Data Analysis
+      </a>
+    </span>
+  </li>
+  <li>
+    <span class="inline-svg"> <img src="book.svg"/>
+      <a href="Bayesian Reasoning and Machine Learning.pdf">
+        Bayesian Reasoning and Machine Learning
+      </a>
+    </span>
+  </li>
+  <li>
+    <span class="inline-svg"> <img src="book.svg"/>
+      <a href="Approximate Bayesian computational methods.pdf">
+        Approximate Bayesian computational methods
+      </a>
+    </span>
+  </li>
+</ul>
