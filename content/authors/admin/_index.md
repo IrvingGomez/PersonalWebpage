@@ -77,7 +77,7 @@ Strategic Analytics Networks with Machine Learning and AI (SAI)
 of the Data Science and Analytics Research Group (DSARG) at the 
 <a href="https://www.nectec.or.th/" target="_blank"> National Electronics and Computer Technology Center (NECTEC)</a> in Thailand.
 I hold a PhD in Probability and  Statistics from the
-<a href="https://www.cimat.mx" target="_blank"> Centro de Investigación en Matemáticas (CIMAT)</a> with the thesis titled
+<a href="https://www.cimat.mx" target="_blank"> Centro de Investigación en Matemáticas (CIMAT)</a> with the thesis entitled
 'Random Forests and Autoencoders with Missing Data' under the direction of
 <a href="https://www.cimat.mx/es/emilien-joly" target="_blank"> Emilien Joly </a>.
 From January to March 2020, I was in a research stay at <a href="https://www.inria.fr/centre/lille" target="_blank"> Inria-Lille</a>

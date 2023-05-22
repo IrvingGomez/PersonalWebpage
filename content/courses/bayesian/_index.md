@@ -37,14 +37,21 @@ Presentation:
   <li>
     <span class="inline-svg"> <img src="tv.svg"/>
       <a href="bayesian_statistics_2023_parte1.pdf">
-        Bayesian Statistics, Part1
+        Bayesian Statistics, Part I
       </a>
     </span>
   </li>
   <li>
     <span class="inline-svg"> <img src="tv.svg"/>
       <a href="bayesian_statistics_2023_parte2.pdf">
-        Bayesian Statistics, Part2
+        Bayesian Statistics, Part II
+      </a>
+    </span>
+  </li>
+  <li>
+    <span class="inline-svg"> <img src="tv.svg"/>
+      <a href="bayesian_statistics_2023_parte3.pdf">
+        Bayesian Statistics, Part III
       </a>
     </span>
   </li>
@@ -54,36 +61,3 @@ Codes:
 
 Codes and data for the course are available at the github repository:
 <a href="https://github.com/IrvingGomez/Bayesian_Statistics">https://github.com/IrvingGomez/Bayesian_Statistics</a>
-
-Some references for related topics:
-
-<ul>
-  <li>
-    <span class="inline-svg"> <img src="book.svg"/>
-      <a href="Statistical Rethinking.pdf">
-        Statistical Rethinking
-      </a>
-    </span>
-  </li>
-  <li>
-    <span class="inline-svg"> <img src="book.svg"/>
-      <a href="Applied Missing Data Analysis.pdf">
-        Applied Missing Data Analysis
-      </a>
-    </span>
-  </li>
-  <li>
-    <span class="inline-svg"> <img src="book.svg"/>
-      <a href="Bayesian Reasoning and Machine Learning.pdf">
-        Bayesian Reasoning and Machine Learning
-      </a>
-    </span>
-  </li>
-  <li>
-    <span class="inline-svg"> <img src="book.svg"/>
-      <a href="Approximate Bayesian computational methods.pdf">
-        Approximate Bayesian computational methods
-      </a>
-    </span>
-  </li>
-</ul>
