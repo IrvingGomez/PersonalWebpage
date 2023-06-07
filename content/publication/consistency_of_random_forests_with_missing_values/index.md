@@ -16,7 +16,7 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: ""
+publication: "On the consistency of a random forest algorithm in the presence of missing esntries"
 publication_short: ""
 
 abstract: "This paper tackles the problem of constructing a non-parametric predictor when the latent
