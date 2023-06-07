@@ -25,7 +25,7 @@ random forest algorithm in conjunction to the so-called CART criterion. The prop
 enables a partial imputation of the missing values in the data set in a way that suits both a
 consistent estimator of the regression function as well as a partial recovery of the missing values.
 A proof of the consistency of the random forest estimator is given in the case where each latent
-variable is missing completely at random (MCAR)."
+variable is missing completely at random (MCAR).<br><br>
 
 This is an original manuscript of an article published by Taylor & Francis in Journal of Nonparametric Statistics on
 06 June 2023, available at: http://www.tandfonline.com/doi/full/10.1080/10485252.2023.2219783.<br><br>
@@ -36,6 +36,7 @@ Irving Gómez-Méndez & Emilien Joly (2023). On the consistency of a random fore
 Journal of Nonparametric Statistics.<br><br>
 
 To get the .bib format for the citation clic on the Cite button above.
+"
 
 # Summary. An optional shortened abstract.
 summary: "We prove the consistency of a random forests algorithm with missing entries."
