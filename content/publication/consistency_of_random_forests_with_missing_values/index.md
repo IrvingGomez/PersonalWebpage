@@ -13,7 +13,7 @@ publishDate: "2017-01-01T00:00:00Z"
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["3"]
+publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
 publication: ""
@@ -26,6 +26,16 @@ enables a partial imputation of the missing values in the data set in a way that
 consistent estimator of the regression function as well as a partial recovery of the missing values.
 A proof of the consistency of the random forest estimator is given in the case where each latent
 variable is missing completely at random (MCAR)."
+
+This is an original manuscript of an article published by Taylor & Francis in Journal of Nonparametric Statistics on
+06 June 2023, available at: http://www.tandfonline.com/doi/full/10.1080/10485252.2023.2219783.<br><br>
+
+To cite this article:<br>
+
+Irving Gómez-Méndez & Emilien Joly (2023). On the consistency of a random forest algorithm in the presence of missing entries,
+Journal of Nonparametric Statistics.<br><br>
+
+To get the .bib format for the citation clic on the Cite button above.
 
 # Summary. An optional shortened abstract.
 summary: "We prove the consistency of a random forests algorithm with missing entries."
