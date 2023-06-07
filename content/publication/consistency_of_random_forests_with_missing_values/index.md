@@ -28,7 +28,7 @@ A proof of the consistency of the random forest estimator is given in the case w
 variable is missing completely at random (MCAR)."
 
 This is an original manuscript of an article published by Taylor & Francis in Journal of Nonparametric Statistics on
-06 June 2023, available at.<br><br>
+06 June 2023, available at: http://www.tandfonline.com/doi/full/10.1080/10485252.2023.2219783.<br><br>
 
 To cite this article:<br>
 
