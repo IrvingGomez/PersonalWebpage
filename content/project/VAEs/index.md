@@ -1,6 +1,5 @@
 ---
 title: Variational Autoencoders with Missing Data
-summary: Currently working on this project.
 tags:
 - Deep Learning
 - Visualization

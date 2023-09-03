@@ -1,6 +1,6 @@
 ---
 title: World Happines Report (WHR) 2017
-summary: Currently working on this project.
+summary: Multivariate analysis of the data from the WHR 2017
 toc: true
 
 tags:

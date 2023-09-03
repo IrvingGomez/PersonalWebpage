@@ -1,6 +1,6 @@
 ---
 title: Poverty in Mexico 2018
-summary: Currently working on this project.
+summary: Analysis of poverty in Mexico using public datasets and development of a poverty index using autoencoders.
 toc: true
 
 tags:
