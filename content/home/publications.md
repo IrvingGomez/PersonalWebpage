@@ -22,13 +22,6 @@ subtitle = ""
 
   # Page order. Descending (desc) or ascending (asc) date.
   order = "desc"
-
-  # Filter posts by a taxonomy term.
-  #[content.filters]
-  #  tag = ""
-  #  category = ""
-  #  publication_type = ""
-  #  exclude_featured = false
   
 [design]
   # Toggle between the various page layout types.
@@ -66,6 +59,6 @@ subtitle = ""
  css_class = ""
 +++
 
-{{% alert note %}}
-Click here to [filter publications]({{< ref "/publication/_index.md" >}}).
-{{% /alert %}}
+# {{% alert note %}}
+# Click here to [filter publications]({{< ref "/publication/_index.md" >}}).
+# {{% /alert %}}
