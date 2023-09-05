@@ -43,7 +43,6 @@ through Bayesian hierarchical models. arXiv preprint arXiv:2308.16578<br><br>
 
 To get the .bib format for the citation clic on the Cite button above.
 "
-"
 
 # Summary. An optional shortened abstract.
 summary:
