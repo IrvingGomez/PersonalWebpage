@@ -1,10 +1,10 @@
 ---
-title: "Regression with Missing Data, a Comparison Study of Techniques Based on Random Forests"
+title: "Regression with missing data, a comparison study of techniques based on random forests"
 authors:
 - admin
 - Emilien Joly
 date: "2021-05-20T00:00:00Z"
-doi: ""
+doi: "https://doi.org/10.1080/00949655.2022.2163646"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2017-01-01T00:00:00Z"

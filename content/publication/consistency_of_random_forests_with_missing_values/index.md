@@ -4,7 +4,7 @@ authors:
 - admin
 - Emilien Joly
 date: "2021-05-20T00:00:00Z"
-doi: ""
+doi: "https://doi.org/10.1080/10485252.2023.2219783"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2017-01-01T00:00:00Z"
