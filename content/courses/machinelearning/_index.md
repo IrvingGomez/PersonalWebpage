@@ -105,7 +105,7 @@ Presentations:
 Codes:
 
 Codes and data for the course are available at the github repository:
-<a href="https://github.com/IrvingGomez/Machine_Learning">https://github.com/IrvingGomez/Machine_Learning</a>
+<a href="https://github.com/IrvingGomez/MachineLearning">https://github.com/IrvingGomez/MachineLearning</a>
 
 <!--
 <ul>

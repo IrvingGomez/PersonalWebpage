@@ -67,4 +67,4 @@ Presentation:
 Codes:
 
 Codes and data for the course are available at the github repository:
-<a href="https://github.com/IrvingGomez/Bayesian_Statistics">https://github.com/IrvingGomez/Bayesian_Statistics</a>
+<a href="https://github.com/IrvingGomez/BayesianStatistics">https://github.com/IrvingGomez/BayesianStatistics</a>
