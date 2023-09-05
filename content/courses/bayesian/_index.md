@@ -55,6 +55,13 @@ Presentation:
       </a>
     </span>
   </li>
+  <li>
+    <span class="inline-svg"> <img src="tv.svg"/>
+      <a href="bayesian_statistics_2023_parte4.pdf">
+        Bayesian Statistics, Part IV
+      </a>
+    </span>
+  </li>
 </ul>
 
 Codes:
