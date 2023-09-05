@@ -1,5 +1,5 @@
 ---
-title: "Income a journey through hierarchical models"
+title: "Income, education, and other poverty-related variables: a journey through Bayesian hierarchical models"
 authors:
 - admin
 - Chainarong Amornbunchornvej
