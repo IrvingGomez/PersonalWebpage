@@ -64,7 +64,17 @@ Presentation:
   </li>
 </ul>
 
-Codes:
+Notes:
+
+<ul>
+  <li>
+    <span class="inline-svg"> <img src="book.svg"/>
+      <a href="EntropyDivergenceKullbackLeiblerInformation.pdf">
+        Syllabus, evaluation and other information.
+      </a>
+    </span>
+  </li>
+</ul>
 
 Codes and data for the course are available at the github repository:
 <a href="https://github.com/IrvingGomez/BayesianStatistics">https://github.com/IrvingGomez/BayesianStatistics</a>
