@@ -74,6 +74,13 @@ Notes:
       </a>
     </span>
   </li>
+  <li>
+    <span class="inline-svg"> <img src="book.svg"/>
+      <a href="CheatsheetBayesianModelsStudentsVersion.pdf">
+        Cheatsheet of Bayesian models (to be completed by the students).
+      </a>
+    </span>
+  </li>
 </ul>
 
 Codes and data for the course are available at the github repository:
