@@ -70,7 +70,7 @@ Notes:
   <li>
     <span class="inline-svg"> <img src="book.svg"/>
       <a href="EntropyDivergenceKullbackLeiblerInformation.pdf">
-        Syllabus, evaluation and other information.
+        Entropy, Kullback-Leibler divergence, and information.
       </a>
     </span>
   </li>
