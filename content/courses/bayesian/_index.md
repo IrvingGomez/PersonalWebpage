@@ -1,6 +1,6 @@
 ---
 # Course title, summary, and position.
-linktitle: Bayesian Statistics (Universidad Iberoamericana)
+linktitle: Bayesian Statistics
 summary:
 weight: 1
 
