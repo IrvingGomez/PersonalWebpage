@@ -31,40 +31,13 @@ Syllabus, evaluation and other information:
   </li>
 </ul>
 
-Presentation:
+The notes of the course are now online!
+<a href="https://irvinggomez.github.io/BayesianStatisticsNotes/intro.html">Bayesian statistics: Course notes</a>
 
-<ul>
-  <li>
-    <span class="inline-svg"> <img src="tv.svg"/>
-      <a href="bayesian_statistics_2023_parte1.pdf">
-        Bayesian Statistics, Part I
-      </a>
-    </span>
-  </li>
-  <li>
-    <span class="inline-svg"> <img src="tv.svg"/>
-      <a href="bayesian_statistics_2023_parte2.pdf">
-        Bayesian Statistics, Part II
-      </a>
-    </span>
-  </li>
-  <li>
-    <span class="inline-svg"> <img src="tv.svg"/>
-      <a href="bayesian_statistics_2023_parte3.pdf">
-        Bayesian Statistics, Part III
-      </a>
-    </span>
-  </li>
-  <li>
-    <span class="inline-svg"> <img src="tv.svg"/>
-      <a href="bayesian_statistics_2023_parte4.pdf">
-        Bayesian Statistics, Part IV
-      </a>
-    </span>
-  </li>
-</ul>
+Codes and data for the course are available at the github repository:
+<a href="https://github.com/IrvingGomez/BayesianStatistics">https://github.com/IrvingGomez/BayesianStatistics</a>
 
-Notes:
+Complementary material:
 
 <ul>
   <li>
@@ -97,5 +70,39 @@ Notes:
   </li>
 </ul>
 
-Codes and data for the course are available at the github repository:
-<a href="https://github.com/IrvingGomez/BayesianStatistics">https://github.com/IrvingGomez/BayesianStatistics</a>
+Former presentations:
+
+```{warning}
+I do not give maintenance anymore to these presentations.
+```
+
+<ul>
+  <li>
+    <span class="inline-svg"> <img src="tv.svg"/>
+      <a href="bayesian_statistics_2023_parte1.pdf">
+        Bayesian Statistics, Part I
+      </a>
+    </span>
+  </li>
+  <li>
+    <span class="inline-svg"> <img src="tv.svg"/>
+      <a href="bayesian_statistics_2023_parte2.pdf">
+        Bayesian Statistics, Part II
+      </a>
+    </span>
+  </li>
+  <li>
+    <span class="inline-svg"> <img src="tv.svg"/>
+      <a href="bayesian_statistics_2023_parte3.pdf">
+        Bayesian Statistics, Part III
+      </a>
+    </span>
+  </li>
+  <li>
+    <span class="inline-svg"> <img src="tv.svg"/>
+      <a href="bayesian_statistics_2023_parte4.pdf">
+        Bayesian Statistics, Part IV
+      </a>
+    </span>
+  </li>
+</ul>
