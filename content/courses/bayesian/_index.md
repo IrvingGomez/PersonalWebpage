@@ -70,7 +70,11 @@ Complementary material:
   </li>
 </ul>
 
-Former presentations:
+Former presentations (in Spanish):
+
+{{< notice warning >}}}
+I do not give maintenance anymore to these presentations.
+{{< /notice >}}
 
 ```{warning}
 I do not give maintenance anymore to these presentations.
