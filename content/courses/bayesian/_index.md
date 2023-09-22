@@ -88,6 +88,13 @@ Notes:
       </a>
     </span>
   </li>
+  <li>
+    <span class="inline-svg"> <img src="book.svg"/>
+      <a href="HierarchicalNormalModel.pdf">
+        Hierarchical normal model.
+      </a>
+    </span>
+  </li>
 </ul>
 
 Codes and data for the course are available at the github repository:
