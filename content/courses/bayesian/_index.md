@@ -72,13 +72,9 @@ Complementary material:
 
 Former presentations (in Spanish):
 
-{{< notice warning >}}}
+{{% alert note %}}
 I do not give maintenance anymore to these presentations.
-{{< /notice >}}
-
-```{warning}
-I do not give maintenance anymore to these presentations.
-```
+{{% /alert %}}
 
 <ul>
   <li>
