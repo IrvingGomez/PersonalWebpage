@@ -16,7 +16,7 @@ type: docs  # Do not modify.
 menu:
   bayesian:
     name:
-    weight: 2
+    weight: 1
 ---
 
 Syllabus, evaluation and other information:

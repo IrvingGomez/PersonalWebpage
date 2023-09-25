@@ -2,7 +2,7 @@
 # Course title, summary, and position.
 linktitle: Machine Learning (Universidad Iberoamericana)
 summary:
-weight: 2
+weight: 3
 
 # Page metadata.
 title: Machine Learning

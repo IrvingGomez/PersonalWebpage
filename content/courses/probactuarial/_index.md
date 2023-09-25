@@ -2,7 +2,7 @@
 # Course title, summary, and position.
 linktitle: Actuarial Probability 2021 (Universidad Iberoamericana)
 summary:
-weight: 4
+weight: 2
 
 # Page metadata.
 title: Actuarial Probability 2021
@@ -14,7 +14,7 @@ type: docs  # Do not modify.
 # - name: Declare this menu item as a parent with ID `name`.
 # - weight: Position of link in menu.
 menu:
-  prob2021:
+  probactuarial:
     name:
     weight: 1
 ---
