@@ -1,11 +1,11 @@
 ---
 # Course title, summary, and position.
-linktitle: Actuarial Probability 2021 (Universidad Iberoamericana)
+linktitle: Actuarial Probability
 summary:
 weight: 2
 
 # Page metadata.
-title: Actuarial Probability 2021
+title: Actuarial Probability
 draft: false  # Is this a draft? true/false
 toc: false  # Show table of contents? true/false
 type: docs  # Do not modify.
@@ -24,7 +24,7 @@ Syllabus, evaluation and other information:
 <ul>
   <li>
     <span class="inline-svg"> <img src="book.svg"/>
-      <a href="programa_prob_1_2021.pdf">
+      <a href="ProgramaProb1_2023.pdf">
         Syllabus, evaluation and other information.
       </a>
     </span>
