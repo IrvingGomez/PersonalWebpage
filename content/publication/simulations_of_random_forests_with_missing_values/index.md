@@ -48,7 +48,7 @@ featured: false
 # links:
 # - name: ""
 #   url: ""
-url_pdf: 'https://irvinggomez.com/publication/simulations_of_random_forests_with_missing_values/RandomForestsSimulation.pdf'
+url_pdf: 'https://irvinggomez.com/publication/simulations_of_random_forests_with_missing_values/Preprint_RandomForestsSimulation.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
