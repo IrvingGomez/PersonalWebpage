@@ -1,6 +1,6 @@
 ---
 # Course title, summary, and position.
-linktitle: Machine Learning (Universidad Iberoamericana)
+linktitle: Machine Learning
 summary:
 weight: 3
 
