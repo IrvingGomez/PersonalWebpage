@@ -14,5 +14,12 @@ layout: docs  # Do not modify.
       <li><span class="inline-svg"> <img src="Python-logo.svg"/><a href="https://irvinggomez.com/codes/CreateDesignMatricesWithPatsy.py">Create design matrices with Patsy.</a></li>
       <li><span class="inline-svg"> <img src="database.svg"/><a href="https://irvinggomez.com/miscellanea/student-mat.csv">Data set of study habits.</a></li>
     </ul>
+    <li>Examples of decorators</li>
+    <ul>
+      <li><span class="inline-svg"> <img src="Python-logo.svg"/><a href="https://irvinggomez.com/codes/Decorators/decorator_example.ipynb">Example 1 of decarators.</a></li>
+      <li><span class="inline-svg"> <img src="Python-logo.svg"/><a href="https://irvinggomez.com/codes/Decorators/decorator_example_2.ipynb">Example 2 of decarators.</a></li>
+      <li><span class="inline-svg"> <img src="Python-logo.svg"/><a href="https://irvinggomez.com/codes/Decorators/decorator_example_3.ipynb">Example 3 of decarators.</a></li>
+      <li><span class="inline-svg"> <img src="Python-logo.svg"/><a href="https://irvinggomez.com/codes/Decorators/ExamplesDecorators.ipynb">More examples of decarators.</a></li>
+    </ul>
   </ul>
 </nav>
