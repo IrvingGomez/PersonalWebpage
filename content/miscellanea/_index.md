@@ -1,10 +1,9 @@
 ---
-title: Miscellanea
+title: Miscellanea and codes
 layout: docs
 ---
 
 <nav class="section-nav">
-  <h2> Table of Contents </h2>
   <ul>
     <li> World Happiness Report 2017 </li>
     <ul>
