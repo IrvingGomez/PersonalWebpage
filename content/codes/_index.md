@@ -20,7 +20,7 @@ There were some minor details
     <ul>
       <li><span class="inline-svg"> <img src="Python-logo.svg"/><a href="./Decorators/decorator_example.ipynb">Example 1 of decarators.</a></li>
       <li><span class="inline-svg"> <img src="Python-logo.svg"/><a href="/Decorators/decorator_example_2.ipynb">Example 2 of decarators.</a></li>
-      <li><span class="inline-svg"> <img src="Python-logo.svg"/><a href="decorator_example_3.ipynb">Example 3 of decarators.</a></li>
+      <li><span class="inline-svg"> <img src="Python-logo.svg"/><a href="file://decorator_example_3.ipynb">Example 3 of decarators.</a></li>
       <li><span class="inline-svg"> <img src="Python-logo.svg"/><a href="/Decorators/ExamplesDecorators.ipynb">More examples of decarators.</a></li>
     </ul>
   </ul>
