@@ -3,6 +3,8 @@ title: Codes
 layout: docs  # Do not modify.
 ---
 
+There were some minor details
+
 <nav class="section-nav">
   <ul>
     <li>Squid Game</li>
@@ -11,8 +13,8 @@ layout: docs  # Do not modify.
     </ul>
     <li>Create design matrices with Patsy</li>
     <ul>
-      <li><span class="inline-svg"> <img src="Python-logo.svg"/><a href="https://irvinggomez.com/codes/CreateDesignMatricesWithPatsy.py">Create design matrices with Patsy.</a></li>
-      <li><span class="inline-svg"> <img src="database.svg"/><a href="https://irvinggomez.com/miscellanea/student-mat.csv">Data set of study habits.</a></li>
+      <li><span class="inline-svg"> <img src="Python-logo.svg"/><a href="https://irvinggomez.com/codes/CreateDesignMatricesWithPatsy/CreateDesignMatricesWithPatsy.py">Create design matrices with Patsy.</a></li>
+      <li><span class="inline-svg"> <img src="database.svg"/><a href="https://irvinggomez.com/codes/CreateDesignMatricesWithPatsy/student-mat.csv">Data set of study habits.</a></li>
     </ul>
     <li>Examples of decorators</li>
     <ul>
