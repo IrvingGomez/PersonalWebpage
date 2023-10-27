@@ -37,5 +37,12 @@ layout: docs
       <li><a href="https://irvinggomez.com/miscellanea/map_poverty_ae_mexico_with_topies.html">Map of poverty in Mexico, colors considering Dystopia and Utopia.</a></li>
       <li><a href="https://irvinggomez.com/miscellanea/map_poverty_ae_mexico_no_topies.html">Map of poverty in Mexico, colors considering the states.</a></li>
     </ul>
+    <li>Testing</li>
+    <ul>
+      <li><a href="https://irvinggomez.com/miscellanea/decorator_example.ipynb">Map of poverty in Mexico, colors considering Dystopia and Utopia.</a></li>
+      <li><a href="https://irvinggomez.com/miscellanea/decorator_example_1.ipynb">Map of poverty in Mexico, colors considering the states.</a></li>
+      <li><a href="https://irvinggomez.com/miscellanea/decorator_example_2.ipynb">Map of poverty in Mexico, colors considering Dystopia and Utopia.</a></li>
+      <li><a href="https://irvinggomez.com/miscellanea/ExamplesDecorators.ipynb">Map of poverty in Mexico, colors considering the states.</a></li>
+    </ul>
   </ul>
 </nav>
