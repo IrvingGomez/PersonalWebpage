@@ -13,7 +13,7 @@ There were some minor details
     </ul>
     <li>Create design matrices with Patsy</li>
     <ul>
-      <li><span class="inline-svg"> <img src="Python-logo.svg"/><a href="https://irvinggomez.com/codes/CreateDesignMatricesWithPatsy.ipynb">Create design matrices with Patsy.</a></li>
+      <li><span class="inline-svg"> <img src="Python-logo.svg"/><a href="https://irvinggomez.com/codes/CreateDesignMatricesWithPatsy/canicas_juego.py">Create design matrices with Patsy.</a></li>
       <li><span class="inline-svg"> <img src="database.svg"/><a href="https://irvinggomez.com/codes/CreateDesignMatricesWithPatsy/student-mat.csv">Data set of study habits.</a></li>
     </ul>
     <li>Examples of decorators</li>
