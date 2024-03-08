@@ -73,9 +73,9 @@ social:
 ---
 
 I am an assistant professor at
-<a href="https://www.cmkl.ac.th/" target="_blank"> CMKL University</a>
-teaching competencies at the B.Eng. in Artificial Intelligence and Computer Engineering
-<a href="https://www.cmkl.ac.th/aice/bachelor/overview" target="_blank"> (AiCE) program</a>.
+<a href="https://www.cmkl.ac.th/" target="_blank"> CMKL University</a>,
+teaching competencies at the B.Eng. in
+<a href="https://www.cmkl.ac.th/aice/bachelor/overview" target="_blank"> Artificial Intelligence and Computer Engineering (AiCE) program</a>.
 I also teach every here and there some courses at the Ibero-American University
 <a href="https://ibero.mx" target="_blank"> Ibero-American University</a> at the
 <a href="https://licenciaturas.ibero.mx/actuaria" target="_blank"> actuarial program</a>.
