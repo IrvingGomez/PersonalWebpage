@@ -3,7 +3,7 @@ title: Miscellanea and codes
 layout: docs
 ---
 
-A miscellanea of codes can be found in <a href="https://github.com/IrvingGomez/Miscellanea">this repository</a>
+A miscellanea of codes can be found in <a href="https://github.com/IrvingGomez/Miscellanea">this repository</a>.
 
 <nav class="section-nav">
   <ul>
@@ -35,8 +35,8 @@ A miscellanea of codes can be found in <a href="https://github.com/IrvingGomez/M
     </ul>
     <li>Poverty in Mexico 2018</li>
     <ul>
-      <li><a href="https://irvinggomez.com/miscellanea/map_poverty_ae_mexico_with_topies.html">Map of poverty in Mexico, colors considering Dystopia and Utopia.</a></li>
-      <li><a href="https://irvinggomez.com/miscellanea/map_poverty_ae_mexico_no_topies.html">Map of poverty in Mexico, colors considering the states.</a></li>
+      <li><a href="https://irvinggomez.com/miscellanea/map_poverty_ae_mexico_with_topies.html">Map of poverty in Mexico, colors considering Dystopia and Utopia</a></li>
+      <li><a href="https://irvinggomez.com/miscellanea/map_poverty_ae_mexico_no_topies.html">Map of poverty in Mexico, colors considering the states</a></li>
     </ul>
   </ul>
 </nav>
