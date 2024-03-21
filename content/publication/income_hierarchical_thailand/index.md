@@ -4,7 +4,7 @@ authors:
 - admin
 - Chainarong Amornbunchornvej
 date: "2023-09-04T00:00:00Z"
-doi: "https://doi.org/10.48550/arXiv.2308.16578"
+doi: "https://doi.org/10.1016/j.heliyon.2024.e27968"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2023-09-04T00:00:00Z"
@@ -13,7 +13,7 @@ publishDate: "2023-09-04T00:00:00Z"
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["3"]
+publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
 publication: ""
@@ -34,12 +34,10 @@ The impact of the region in the households' income is almost vanished when educa
 Therefore, education might have a mediation role between regions and the income. Our work can serve as a guideline for other countries that 
 require the Bayesian hierarchical approach to model their variables and get insight from data.<br><br>
 
-This is a preprint available at: https://arxiv.org/abs/2308.16578.<br><br>
-
 To cite this article:<br>
 
-Irving Gómez-Méndez & Chainarong Amornbunchornvej (2023). Income, education, and other poverty-related variables: a journey 
-through Bayesian hierarchical models. arXiv preprint arXiv:2308.16578<br><br>
+Irving Gómez-Méndez & Chainarong Amornbunchornvej (2024). Income, education, and other poverty-related variables: a journey 
+through Bayesian hierarchical models. Heliyon, Volume 10, Issue 6, e27968<br><br>
 
 To get the .bib format for the citation clic on the Cite button above.
 "
@@ -54,7 +52,7 @@ featured: false
 # links:
 # - name: ""
 #   url: ""
-url_pdf: https://irvinggomez.com/publication/income_hierarchical_thailand/Income a journey through hierarchical models.pdf
+url_pdf: https://irvinggomez.com/publication/income_hierarchical_thailand/IncomeEducationAndOtherPovertyRelatedVariables.pdf
 url_code: ''
 url_dataset: ''
 url_poster: ''
