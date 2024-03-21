@@ -3,11 +3,11 @@ title: "Income, education, and other poverty-related variables: a journey throug
 authors:
 - admin
 - Chainarong Amornbunchornvej
-date: "2024-08-03T00:00:00Z"
+date: "2024-03-08T00:00:00Z"
 doi: "https://doi.org/10.1016/j.heliyon.2024.e27968"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2024-08-03T00:00:00Z"
+publishDate: "2024-03-08T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
