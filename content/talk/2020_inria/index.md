@@ -1,21 +1,21 @@
 ---
-title: Consistency of a Random Forest Algorithm with Missing Entries
-event: Hispoanohablante Seminar, CIMAT
+title: Some ideas for random forests with missing values
+event: Sequel Seminar, Inria Lille
 #event_url: https://example.org
-location: Guanajuato, Mexico
+location: Lille, France
 #summary: How to appropriate handle missing data through random forests.
 #abstract: ""
 
 # Talk start and end times.
-#   End time can optionally be hidden by prefixing the line with `#`.
-date: "2020-07-12"
+# End time can optionally be hidden by prefixing the line with `#`.
+date: "2020-03-06"
 date_end: ""
 all_day: true
 
 # Schedule page publish date (NOT talk date).
-#publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2020-02-23T00:00:00Z"
 
-#authors: []
+#authors:
 #tags: []
 
 # Is this a featured talk? (true/false)

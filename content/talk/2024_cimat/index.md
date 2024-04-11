@@ -1,21 +1,21 @@
 ---
-title: Some Ideas for Random Forests with Missing Values
-event: Sequel Seminar, Inria Lille
+title: Introduction to probabilistic graphical models and causal reasoning
+event: Probability and Statistics Seminar, CIMAT
 #event_url: https://example.org
-location: Lille, France
+location: Guanajuato, Mexico
 #summary: How to appropriate handle missing data through random forests.
 #abstract: ""
 
 # Talk start and end times.
-# End time can optionally be hidden by prefixing the line with `#`.
-date: "2020-03-06"
+#   End time can optionally be hidden by prefixing the line with `#`.
+date: "2022-01-15"
 date_end: ""
 all_day: true
 
 # Schedule page publish date (NOT talk date).
-publishDate: "2020-02-23T00:00:00Z"
+publishDate: "2021-06-06T00:00:00Z"
 
-#authors:
+#authors: []
 #tags: []
 
 # Is this a featured talk? (true/false)

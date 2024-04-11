@@ -1,19 +1,19 @@
 ---
-title: Regresión con Datos Perdidos Usando Bosques Aleatorios
-event: Probability and Statistics Seminar, CIMAT
+title: An Introduction to causality
+event: MAC, Webinar on Applied Mathematics
 #event_url: https://example.org
-location: Guanajuato, Mexico
+location: Phnom Penh, Cambodia
 #summary: How to appropriate handle missing data through random forests.
 #abstract: ""
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2019-05-13"
+date: "2022-01-15"
 date_end: ""
 all_day: true
 
 # Schedule page publish date (NOT talk date).
-#publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2021-06-06T00:00:00Z"
 
 #authors: []
 #tags: []

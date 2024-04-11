@@ -1,14 +1,14 @@
 ---
-title: An Introduction to Causality
-event: MAC, Webinar on Applied Mathematics
+title: Random forests and autoencoders with missing data
+event: PhD Dissertation, CIMAT
 #event_url: https://example.org
-location: Virtual
+location: Guanajuato, Mexico
 #summary: How to appropriate handle missing data through random forests.
 #abstract: ""
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2022-01-15"
+date: "2021-06-07"
 date_end: ""
 all_day: true
 

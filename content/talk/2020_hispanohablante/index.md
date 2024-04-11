@@ -1,6 +1,6 @@
 ---
-title: Random Forests and Autoencoders with Missing Data
-event: PhD Dissertation, CIMAT
+title: Consistency of a random forest algorithm with missing entries
+event: Hispoanohablante Seminar, CIMAT
 #event_url: https://example.org
 location: Guanajuato, Mexico
 #summary: How to appropriate handle missing data through random forests.
@@ -8,12 +8,12 @@ location: Guanajuato, Mexico
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2021-06-07"
+date: "2020-07-12"
 date_end: ""
 all_day: true
 
 # Schedule page publish date (NOT talk date).
-publishDate: "2021-06-06T00:00:00Z"
+#publishDate: "2017-01-01T00:00:00Z"
 
 #authors: []
 #tags: []
