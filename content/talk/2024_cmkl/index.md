@@ -1,5 +1,5 @@
 ---
-title: A journey through Bayesian hierarchical models: Analyzing income and education in Thailand
+title: A journey through Bayesian hierarchical models, Analyzing income and education in Thailand
 event: CMKL Special Talk
 #event_url: https://example.org
 location: Bangkok, Thailand
