@@ -1,14 +1,14 @@
 ---
-title: Introduction to probabilistic graphical models and causal reasoning
-event: Probability and Statistics Seminar, CIMAT
+title: A journey through Bayesian hierarchical models: Analyzing income and education in Thailand
+event: CMKL Special Talk
 #event_url: https://example.org
-location: Guanajuato, Mexico
+location: Bangkok, Thailand
 #summary: How to appropriate handle missing data through random forests.
 #abstract: ""
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2024-01-31"
+date: "2024-04-24"
 date_end: ""
 all_day: true
 
