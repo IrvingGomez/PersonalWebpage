@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Irving Gómez Méndez (Win)
+name: Irving Gómez Méndez
 
 # Username (this should match the folder name)
 authors:
