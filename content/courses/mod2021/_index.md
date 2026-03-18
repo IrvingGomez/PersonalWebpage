@@ -68,28 +68,28 @@ I have tried to keep the original references inside code.
     February 12
     <ul>
       <li>
-	      <span class="inline-svg"> <img src="python-logo.svg"/>
+	      <span class="inline-svg"> <img src="Python-logo.svg"/>
           <a href="1_best_fit_line.py">
             Best fit of a line by least squares.
           </a>
 	      </span>
       </li>
       <li>
-	      <span class="inline-svg"> <img src="python-logo.svg"/>
+	      <span class="inline-svg"> <img src="Python-logo.svg"/>
           <a href="2_best_fit_parabola.py">
             Best fit of a parabola by least squares.
           </a>
 	      </span>
       </li>
       <li>
-	      <span class="inline-svg"> <img src="python-logo.svg"/>
+	      <span class="inline-svg"> <img src="Python-logo.svg"/>
           <a href="3_best_fit_trigonometric_function.py">
             Best fit of a trigonometric function by least squares.
           </a>
 	      </span>
       </li>
       <li>
-	      <span class="inline-svg"> <img src="python-logo.svg"/>
+	      <span class="inline-svg"> <img src="Python-logo.svg"/>
           <a href="4_best_fit_ellipse.py">
             Best fit of an ellipse by least squares.
           </a>
@@ -101,14 +101,14 @@ I have tried to keep the original references inside code.
     March 12
     <ul>
       <li>
-	      <span class="inline-svg"> <img src="python-logo.svg"/>
+	      <span class="inline-svg"> <img src="Python-logo.svg"/>
           <a href="5_best_fit_line_2.py">
             Best fit of a line by least squares with confidence regions.
           </a>
 	      </span>
       </li>
       <li>
-	      <span class="inline-svg"> <img src="python-logo.svg"/>
+	      <span class="inline-svg"> <img src="Python-logo.svg"/>
           <a href="9_maximizing_ gain_problem.py">
             Finding the best price to maximize the gain.
           </a>
@@ -120,14 +120,14 @@ I have tried to keep the original references inside code.
     March 19
     <ul>
       <li>
-	      <span class="inline-svg"> <img src="python-logo.svg"/>
+	      <span class="inline-svg"> <img src="Python-logo.svg"/>
           <a href="11_local_poly_regression.py">
             Local polinomial estimator.
           </a>
 	      </span>
       </li>
       <li>
-	      <span class="inline-svg"> <img src="python-logo.svg"/>
+	      <span class="inline-svg"> <img src="Python-logo.svg"/>
           <a href="12_robust_regression.py">
             Robust regression.
           </a>
@@ -139,21 +139,21 @@ I have tried to keep the original references inside code.
     March 26
     <ul>
       <li>
-	      <span class="inline-svg"> <img src="python-logo.svg"/>
+	      <span class="inline-svg"> <img src="Python-logo.svg"/>
           <a href="5_best_fit_line_2_with_objects.py">
             Best fit of a line by least squares with confidence regions, using python class.
           </a>
 	      </span>
       </li>
       <li>
-	      <span class="inline-svg"> <img src="python-logo.svg"/>
+	      <span class="inline-svg"> <img src="Python-logo.svg"/>
           <a href="6_Mahalanobis_distance.py">
             Mahalanobis distance.
           </a>
 	      </span>
       </li>
       <li>
-	      <span class="inline-svg"> <img src="python-logo.svg"/>
+	      <span class="inline-svg"> <img src="Python-logo.svg"/>
           <a href="7_leverage_points.py">
             Leverage points.
           </a>
@@ -165,7 +165,7 @@ I have tried to keep the original references inside code.
     April 23
     <ul>
       <li>
-	      <span class="inline-svg"> <img src="python-logo.svg"/>
+	      <span class="inline-svg"> <img src="Python-logo.svg"/>
           <a href="16_ridge_regression.py">
             Example of ridge regression with the prostate dataset.
           </a>

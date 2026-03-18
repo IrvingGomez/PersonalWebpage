@@ -1,5 +1,6 @@
 ---
 title: Variational Autoencoders with Missing Data
+summary: Earlier research on autoencoders and variational autoencoders for dimensionality reduction, reconstruction, and missing-data settings.
 tags:
 - Deep Learning
 - Visualization

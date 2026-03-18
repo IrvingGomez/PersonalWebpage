@@ -2,17 +2,17 @@
 name = "Dmitri"
 
 # Is theme light or dark?
-light = false
+light = true
 
 # Primary
-primary = "hsl(279, 63%, 55%)"
+primary = "#7A2BC2"
 
 # Menu
-menu_primary = "rgb(20, 22, 34)"
-menu_text = "rgba(255,255,255,0.6)"
-menu_text_active = "rgba(255,255,255,1)"
-menu_title = "#fff"
+menu_primary = "#f7fbff"
+menu_text = "#3a4a5d"
+menu_text_active = "#2d0b57"
+menu_title = "#2d0b57"
 
 # Home sections
-home_section_odd = "hsla(231, 15%, 18%, 1)"
-home_section_even = "hsla(231, 15%, 16%, 1)"
+home_section_odd = "#ffffff"
+home_section_even = "#faf6fe"

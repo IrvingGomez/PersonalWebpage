@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Irving Gómez Méndez
+name: Irving Gómez-Méndez
 
 # Username (this should match the folder name)
 authors:
@@ -10,69 +10,50 @@ authors:
 superuser: true
 
 # Role/position
-#role: Professor of Artificial Intelligence
+role: Assistant Professor of Artificial Intelligence
 
 # Organizations/Affiliations
-#organizations:
-#- name: Centro de Investigación en Matemáticas (CIMAT)
-#  url: "https://www.cimat.mx"
+organizations:
+- name: CMKL University
+  url: "https://www.cmkl.ac.th"
 
 # Short bio (displayed in user profile at end of posts)
-#bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: I work at the intersection of statistics, machine learning, causal reasoning, and interactive quantitative software.
 
 interests:
-- Computational Statistics
-- Nonparametric Statistics
-- Inference with Missing Data
+- Professional Tools for Statistics and Engineering
+- Statistics for Social Problems
+- Missing Data and Incomplete Information
+- Bayesian and Hierarchical Modeling
 - Causality and Causal Inference
-- Data Science and Machine Learning
 
 education:
   courses:
   - course: PhD in Probability and Statistics
-    institution: Centro de Investigación en Matemáticas
+    institution: Center for Research in Mathematics (CIMAT)
     year: 2021
   - course: MSc in Probability and Statistics
-    institution: Centro de Investigación en Matemáticas
+    institution: Center for Research in Mathematics (CIMAT)
     year: 2016
   - course: BSc in Mathematical Engineering
-    institution: Instituto Politécnico Nacional
+    institution: National Polytechnic Institute (IPN)
     year: 2014
 
-# Social/Academic Networking
-# For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:gomendez.irving@gmail.com'  # For a direct email link, use "mailto:test@example.org".
+  link: "mailto:gomendez.irving@gmail.com"
 - icon: linkedin
   icon_pack: fab
-  link: 'https://www.linkedin.com/in/irving-g%C3%B3mez-m%C3%A9ndez-3833b711a/'
-#- icon: google-scholar
-#  icon_pack: ai
-#  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-#- icon: github
-#  icon_pack: fab
-#  link: https://github.com/gcushen
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
+  link: "https://www.linkedin.com/in/irving-g%C3%B3mez-m%C3%A9ndez-3833b711a/"
+- icon: github
+  icon_pack: fab
+  link: "https://github.com/IrvingGomez"
 - icon: cv
   icon_pack: ai
-  link: "https://irvinggomez.com/files/CV_Irving.pdf"
-
-# Enter email to display Gravatar (if Gravatar enabled in Config)
-#email: ""
-
-# Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.  
-#user_groups:
-#- Researchers
-#- Visitors
+  link: "/files/CvIrvingAcademic.pdf"
 ---
 
-I am Assistant Professor at
-<a href="https://www.cmkl.ac.th/" target="_blank"> CMKL University</a>,
-teaching competencies at the B.Eng. in
-<a href="https://www.cmkl.ac.th/aice/bachelor/overview" target="_blank"> Artificial Intelligence and Computer Engineering (AiCE) program</a>.
+I am an Assistant Professor at <a href="https://www.cmkl.ac.th/" target="_blank" rel="noopener">CMKL University</a>, where I teach in the Artificial Intelligence and Computer Engineering (AiCE) program.
+
+I am also building Himmapan Lab as an initiative to create professional software for statistics, modeling, and engineering work. My background in mathematical engineering, probability and statistics, research, and teaching shapes the way I design quantitative products.

@@ -166,7 +166,7 @@ Codes and data for the course are available at the github repository:
     </span>
   </li>
   <li>
-    <span class="inline-svg"> <img src="python-logo.svg"/>
+    <span class="inline-svg"> <img src="Python-logo.svg"/>
       <a href="7_ridge_regression.py">
         Example of ridge regression with the prostate dataset.
       </a>
@@ -180,56 +180,56 @@ Codes and data for the course are available at the github repository:
     </span>
   </li>
   <li>
-    <span class="inline-svg"> <img src="python-logo.svg"/>
+    <span class="inline-svg"> <img src="Python-logo.svg"/>
       <a href="7_robust_regression.py">
         Example of robust regression.
       </a>
     </span>
   </li>
   <li>
-    <span class="inline-svg"> <img src="python-logo.svg"/>
+    <span class="inline-svg"> <img src="Python-logo.svg"/>
       <a href="8_splines.py">
         Example of cubic splines.
       </a>
     </span>
   </li>
   <li>
-    <span class="inline-svg"> <img src="python-logo.svg"/>
+    <span class="inline-svg"> <img src="Python-logo.svg"/>
       <a href="9_smooth_splines.py">
         Example of smoothed splines.
       </a>
     </span>
   </li>
   <li>
-    <span class="inline-svg"> <img src="python-logo.svg"/>
+    <span class="inline-svg"> <img src="Python-logo.svg"/>
       <a href="9_gam_example_wage.py">
         Example of a generalized additive model (GAM) with the wage dataset.
       </a>
     </span>
   </li>
   <li>
-    <span class="inline-svg"> <img src="python-logo.svg"/>
+    <span class="inline-svg"> <img src="Python-logo.svg"/>
       <a href="10_kde.py">
         Example a kernel density estimator.
       </a>
     </span>
   </li>
   <li>
-    <span class="inline-svg"> <img src="python-logo.svg"/>
+    <span class="inline-svg"> <img src="Python-logo.svg"/>
       <a href="11_local_polinomial_regression.py">
         Example of local polinomial regression.
       </a>
     </span>
   </li>
   <li>
-    <span class="inline-svg"> <img src="python-logo.svg"/>
+    <span class="inline-svg"> <img src="Python-logo.svg"/>
       <a href="12_other_regression_heart_disease.py">
         Using non ad-hoc methods in classification.
       </a>
     </span>
   </li>
   <li>
-    <span class="inline-svg"> <img src="python-logo.svg"/>
+    <span class="inline-svg"> <img src="Python-logo.svg"/>
       <a href="12_logistic_regression_heart_disease.py">
         Example of logistic regression using the heart disease dataset.
       </a>
@@ -243,7 +243,7 @@ Codes and data for the course are available at the github repository:
     </span>
   </li>
   <li>
-    <span class="inline-svg"> <img src="python-logo.svg"/>
+    <span class="inline-svg"> <img src="Python-logo.svg"/>
       <a href="13_logistic_regression_languages_classification.py">
         Example of logistic regression to classify languages.
       </a>
@@ -257,14 +257,14 @@ Codes and data for the course are available at the github repository:
     </span>
   </li>
   <li>
-    <span class="inline-svg"> <img src="python-logo.svg"/>
+    <span class="inline-svg"> <img src="Python-logo.svg"/>
       <a href="14_logistic_regression_irisdata.py">
         Example of logistic regression using the iris flower dataset.
       </a>
     </span>
   </li>
   <li>
-    <span class="inline-svg"> <img src="python-logo.svg"/>
+    <span class="inline-svg"> <img src="Python-logo.svg"/>
       <a href="15_logistic_regression_british_crime_survey.py">
         Example of logistic regression using a crime British survey.
       </a>
@@ -285,21 +285,21 @@ Codes and data for the course are available at the github repository:
     </span>
   </li>
   <li>
-    <span class="inline-svg"> <img src="python-logo.svg"/>
+    <span class="inline-svg"> <img src="Python-logo.svg"/>
       <a href="16_lda_breast_cancer.py">
         Example of LDA using the breast cancer dataset.
       </a>
     </span>
   </li>
   <li>
-    <span class="inline-svg"> <img src="python-logo.svg"/>
+    <span class="inline-svg"> <img src="Python-logo.svg"/>
       <a href="17_example_qda.py">
         Example of QDA using simulated data.
       </a>
     </span>
   </li>
   <li>
-    <span class="inline-svg"> <img src="python-logo.svg"/>
+    <span class="inline-svg"> <img src="Python-logo.svg"/>
       <a href="18_classification_vowels.py">
         Classification of English vowels with different methods.
       </a>
@@ -320,21 +320,21 @@ Codes and data for the course are available at the github repository:
     </span>
   </li>
   <li>
-    <span class="inline-svg"> <img src="python-logo.svg"/>
+    <span class="inline-svg"> <img src="Python-logo.svg"/>
       <a href="19_lda_as_reduction_technique.py">
         Example of LDA as a supervised reduction of dimensionality technique.
       </a>
     </span>
   </li>
   <li>
-    <span class="inline-svg"> <img src="python-logo.svg"/>
+    <span class="inline-svg"> <img src="Python-logo.svg"/>
       <a href="20_classification_knn_irisdata.py">
         Example of knn to classify the iris flower data.
       </a>
     </span>
   </li>
   <li>
-    <span class="inline-svg"> <img src="python-logo.svg"/>
+    <span class="inline-svg"> <img src="Python-logo.svg"/>
       <a href="21_regression_knn_bone_density.py">
         Example of knn in regression using the bones mineral density dataset.
       </a>
@@ -348,14 +348,14 @@ Codes and data for the course are available at the github repository:
     </span>
   </li>
   <li>
-    <span class="inline-svg"> <img src="python-logo.svg"/>
+    <span class="inline-svg"> <img src="Python-logo.svg"/>
       <a href="22_knn_MNIST.py">
         Example of knn to classify MNIST digits.
       </a>
     </span>
   </li>
   <li>
-    <span class="inline-svg"> <img src="python-logo.svg"/>
+    <span class="inline-svg"> <img src="Python-logo.svg"/>
       <a href="23_pca_swiss_bank.py">
         Example of PCA using the Swiss bank notes dataset.
       </a>
@@ -369,7 +369,7 @@ Codes and data for the course are available at the github repository:
     </span>
   </li>
   <li>
-    <span class="inline-svg"> <img src="python-logo.svg"/>
+    <span class="inline-svg"> <img src="Python-logo.svg"/>
       <a href="24_svd_images.py">
         Reconstruction of images using SVD.
       </a>
@@ -383,14 +383,14 @@ Codes and data for the course are available at the github repository:
     </span>
   </li>
   <li>
-    <span class="inline-svg"> <img src="python-logo.svg"/>
+    <span class="inline-svg"> <img src="Python-logo.svg"/>
       <a href="25_k_means.py">
         Example of k-means using simulated data.
       </a>
     </span>
   </li>
   <li>
-    <span class="inline-svg"> <img src="python-logo.svg"/>
+    <span class="inline-svg"> <img src="Python-logo.svg"/>
       <a href="26_k_means_segmentation.py">
         Segmentation of images using k-means.
       </a>

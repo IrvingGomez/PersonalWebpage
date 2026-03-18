@@ -1,6 +1,6 @@
 ---
 title: World Happines Report (WHR) 2017
-summary: Multivariate analysis of the data from the WHR 2017
+summary: Applied statistical analysis of the World Happiness Report, focused on well-being and its social drivers.
 toc: true
 
 tags:
@@ -29,7 +29,7 @@ It is common to find places that shows a map with the happiness score for each c
 World Happiness Report (WHR). However, the WHR has much more information than just the happiness score.
 This work is devoted to those underlying reasons that yields (or not) happiness.
 
-The original data is open and free. I keep a copy in <a href="https://irvinggomez/miscellanea/whr2017.csv">Miscellanea/Original data set</a>.
+The original data is open and free and can be obtained directly from the World Happiness Report sources.
 For this analysis I only used the data of the year 2016. The features "Democratic Quality", "Delivery Quality", "Gini Index",
 "Gini Index, average 2000-13" and all the features like "Most people can be trusted..." where not considered.
 
@@ -66,7 +66,7 @@ Remember that the integrated score is just a position in a 2-dimensional line in
 we can use the decoder part of the AE, decode all the countries with missing values for the year 2016 and use this reconstruction as the final imputation for our
 data set. I think that this imputation would be better than simply averaging the previous historical records, since the AE can take into account more complicated
 non-linear relationships between the countries. The final imputed data set can be found in 
-<a href="https://irvinggomez/miscellanea/Data_164_countries.csv">Miscellanea/Imputed data set</a>
+An imputed version of the data was created as part of this project.
 
 In a nutshell, this is the procedure that I used to impute the data:
 
@@ -86,7 +86,7 @@ In a nutshell, this is the procedure that I used to impute the data:
 </section>
 
 Enjoy the interactive maps, perhaps you would have new insights of the world and your country. I only show the map and histogram for some features,
-a map and histogram for the rest of features can be found in <a href="https://irvinggomez/miscellanea/">Miscellanea</a>
+Additional exploratory maps and histograms were produced as part of this project.
 
 Note: For some reason (independent to me) the map does not recognize some states like Kosovo, Somaliland or North Cyprus.
 

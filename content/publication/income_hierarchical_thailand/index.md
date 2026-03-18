@@ -43,7 +43,7 @@ To get the .bib format for the citation clic on the Cite button above.
 "
 
 # Summary. An optional shortened abstract.
-summary:
+summary: Bayesian hierarchical modeling of income, education, and poverty-related variables in Thailand.
 
 tags:
 

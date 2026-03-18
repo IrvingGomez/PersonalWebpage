@@ -1,55 +1,48 @@
 +++
 # Hero widget.
-widget = "hero"  # See https://sourcethemes.com/academic/docs/page-builder/
-headless = true  # This file represents a page section.
-active = false  # Activate this widget? true/false
-weight = 10  # Order that this section will appear.
+widget = "hero"
+headless = true
+active = true
+weight = 10
 
-title = "Academic"
-
-# Hero image (optional). Enter filename of an image in the `static/img/` folder.
-hero_media = "hero-academic.png"
+title = "Irving Gómez-Méndez"
 
 [design.background]
-  # Apply a background color, gradient, or image.
-  #   Uncomment (by removing `#`) an option to apply it.
-  #   Choose a light or dark text color by setting `text_color_light`.
-  #   Any HTML color name or Hex value is valid.
-
-  # Background color.
-  # color = "navy"
-  
-  # Background gradient.
-  gradient_start = "#4bb4e3"
-  gradient_end = "#2b94c3"
-  
-  # Background image.
-  # image = ""  # Name of image in `static/img/`.
-  # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
-
-  # Text color (true=light or false=dark).
+  gradient_start = "#57406f"
+  gradient_end = "#76608d"
   text_color_light = true
 
-# Call to action links (optional).
-#   Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.
-#   Remove a link/note by deleting a cta/note block.
 [cta]
-  url = "https://sourcethemes.com/academic/docs/install/"
-  label = "Get Started"
+  url = "#contact"
+  label = "Get in touch"
   icon_pack = "fas"
-  icon = "download"
-  
-[cta_alt]
-  url = "https://sourcethemes.com/academic/"
-  label = "View Documentation"
+  icon = "arrow-right"
 
-# Note. An optional note to show underneath the links.
-[cta_note]
-  label = '<a class="js-github-release" href="https://sourcethemes.com/academic/updates" data-repo="gcushen/hugo-academic">Latest release<!-- V --></a>'
+[cta_alt]
+  url = ""
+  label = ""
+
+[advanced]
+  css_class = "hero-portfolio"
 +++
 
-**The Best Way to Create the Website You Want from Markdown (or Jupyter/RStudio)**
+I am an Assistant Professor at CMKL University, where I work across statistical machine learning, missing data, Bayesian modeling, causal reasoning, research, and teaching.
 
-Build **Anything** with Widgets
+Alongside that, I founded Himmapan Lab as an initiative to create professional software for statistics, modeling, and engineering work.
 
-<span style="text-shadow: none;"><a class="github-button" href="https://github.com/gcushen/hugo-academic" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star this on GitHub">Star</a><script async defer src="https://buttons.github.io/buttons.js"></script></span>
+This initiative is grounded in my background in mathematical engineering, a PhD in Probability and Statistics, and years of work in research, teaching, and applied quantitative modeling.
+
+<div class="hero-metrics">
+  <div class="hero-metric">
+    <span class="hero-metric-label">Current focus</span>
+    <strong>Professional software for statistics and engineering</strong>
+  </div>
+  <div class="hero-metric">
+    <span class="hero-metric-label">Building</span>
+    <strong>Himmapan Lab product ecosystem</strong>
+  </div>
+  <div class="hero-metric">
+    <span class="hero-metric-label">Research themes</span>
+    <strong>Missing data, causality, hierarchical models</strong>
+  </div>
+</div>

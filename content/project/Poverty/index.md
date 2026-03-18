@@ -1,6 +1,6 @@
 ---
 title: Poverty in Mexico 2018
-summary: Analysis of poverty in Mexico using public datasets and development of a poverty index using autoencoders.
+summary: Applied statistics work on poverty measurement in Mexico using public datasets and a learned poverty index.
 toc: true
 
 tags:
@@ -156,7 +156,7 @@ In this graph I have taken the values of dystopia and utopia to build the color 
 
 ### Map of Mexico, colors considering Dystopia and Utopia
 
-A map of Mexico showing the AE poverty index, where the color gradient is based on utopia and utopia can be found here: <a href="https://irvinggomez.com/miscellanea/map_poverty_ae_mexico_with_topies.html">Map of poverty in_Mexico, colors considering Dystopia and Utopia.</a>
+A map of Mexico showing the AE poverty index, where the color gradient is based on dystopia and utopia, was produced as part of this project.
 
 ### AE, colors considering just Mexico
 
@@ -167,7 +167,7 @@ In this second graph I have used the AE poverty index of the states to create th
 
 ### Map of Mexico, colors considering just Mexico
 
-A map of Mexico showing the AE poverty index, where the color gradient is based on the Mexican statets can be found here: <a href="https://irvinggomez.com/miscellanea/map_poverty_ae_mexico_no_topies.html">Map of poverty in_Mexico, colors considering just Mexico.</a>
+A second map of Mexico showing the AE poverty index, where the color gradient is based only on the Mexican states, was also produced as part of this project.
 
 ### Use of PCA to explain the poverty index
 

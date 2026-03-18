@@ -1,5 +1,6 @@
 ---
 title: Random Forests with Missing Data
+summary: PhD-era work in R on random forests for regression and prediction when part of the input information is missing.
 tags:
 - Machine Learning
 - Visualization
