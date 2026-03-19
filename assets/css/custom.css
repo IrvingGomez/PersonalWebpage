@@ -328,11 +328,24 @@ a:focus {
 .lab-card,
 .teaching-card,
 .research-card {
+  position: relative;
+  overflow: hidden;
   background: rgba(255, 255, 255, 0.92);
   border: 1px solid var(--border-soft);
   border-radius: var(--radius-md);
   box-shadow: var(--shadow-soft);
   padding: 1.5rem;
+}
+
+.lab-card::before,
+.teaching-card::before,
+.research-card::before {
+  content: "";
+  position: absolute;
+  inset: 0 auto auto 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, var(--brand-purple-deep), var(--brand-purple), var(--brand-orange));
 }
 
 .journey-card .eyebrow,
@@ -368,20 +381,6 @@ a:focus {
   max-width: none;
   margin-bottom: 0.95rem;
   font-size: 1.05rem;
-}
-
-.lab-card {
-  position: relative;
-  overflow: hidden;
-}
-
-.lab-card::before {
-  content: "";
-  position: absolute;
-  inset: 0 auto auto 0;
-  width: 100%;
-  height: 4px;
-  background: linear-gradient(90deg, var(--brand-purple-deep), var(--brand-purple), var(--brand-orange));
 }
 
 .lab-logo-wrap {
@@ -737,7 +736,9 @@ a:focus {
 
   .hero-metrics,
   .journey-grid,
-  .lab-grid {
+  .lab-grid,
+  .teaching-grid,
+  .research-grid {
     grid-template-columns: 1fr;
   }
 
@@ -766,7 +767,9 @@ a:focus {
   .view-list-item,
   .media.stream-item,
   .journey-card,
-  .lab-card {
+  .lab-card,
+  .teaching-card,
+  .research-card {
     padding: 1.15rem;
   }
 
