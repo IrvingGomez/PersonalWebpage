@@ -53,7 +53,3 @@ social:
   icon_pack: ai
   link: "/files/CvIrvingAcademic.pdf"
 ---
-
-I am an Assistant Professor at <a href="https://www.cmkl.ac.th/" target="_blank" rel="noopener">CMKL University</a>, where I teach in the Artificial Intelligence and Computer Engineering (AiCE) program.
-
-I am also building Himmapan Lab as an initiative to create professional software for statistics, modeling, and engineering work. My background in mathematical engineering, probability and statistics, research, and teaching shapes the way I design quantitative products.
