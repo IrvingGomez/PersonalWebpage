@@ -53,3 +53,5 @@ social:
   icon_pack: ai
   link: "/files/CvIrvingAcademic.pdf"
 ---
+
+I work on problems where statistical reasoning, computation, and software design need to live together. My interests come together around a practical goal: building software that makes quantitative work more rigorous, more usable, and more exploratory.
