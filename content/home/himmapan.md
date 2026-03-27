@@ -18,7 +18,7 @@ subtitle = "Interactive software products for analysis, modeling, and problem so
 <div class="lab-grid">
   <div class="lab-card">
     <div class="lab-logo-wrap">
-      <img class="lab-logo" src="/img/logos/HimmapanLab.png" alt="Himmapan Lab logo">
+      <img class="lab-logo" src="/img/logos/HimmapanLab.webp" alt="Himmapan Lab logo">
     </div>
     <span class="eyebrow">Lab Direction</span>
     <h3>Himmapan Lab</h3>
