@@ -13,18 +13,6 @@ image:
   focal_point: Smart
 ---
 
-<nav class="section-nav">
-  <h2> Table of Contents </h2>
-  <ul>
-    <li><a href="#Visualizations">Visualizations</a></li>
-    <ul>
-      <li><a href="#Maps and Histograms">Maps and Histograms</a></li>
-      <li><a href="#Data Visualization in Latent Spaces">Data Visualization in Latent Spaces</a></li>
-    </ul>
-    <li><a href="#Some comments about the world">Some comments about the world</a></li>
-  </ul>
-</nav>
-
 <style>
   .happiness-control {
     max-width: 42rem;
@@ -207,56 +195,48 @@ image:
   }
 </style>
 
-It is common to find places that shows a map with the happiness score for each country find in the
-World Happiness Report (WHR). However, the WHR has much more information than just the happiness score.
-This work is devoted to those underlying reasons that yields (or not) happiness.
-
-The original data is open and free and can be obtained directly from the World Happiness Report sources.
-For this analysis I only used the data of the year 2016. The features "Democratic Quality", "Delivery Quality", "Gini Index",
-"Gini Index, average 2000-13" and all the features like "Most people can be trusted..." where not considered.
-
-For the analysis, two hypothetical countries were created, "utopia" and "dystopia". The former has the best values in the data set for every feature,
-while the latter has the worst values.
+- Data source: World Happiness Report, using only the year 2016.
+- Goal: understand the drivers behind happiness, not just the final score.
+- Reference points: two hypothetical countries, `"utopia"` and `"dystopia"`.
+- Interpretation: `utopia` takes the best observed value for every feature, while `dystopia` takes the worst.
 
 <section id="Imputation Process">
   <h2>Imputation Process</h2>
 </section>
 
-Many countries have missing values in several features for the year 2016, thhus an imputation
-procedure must be performed. As a first imputation I used the records of the previous years and averaged them to have an imputed value for those
-features that are missing. Unfortunately, there are some countries that do not have historical records, so this approach cannot be perform in those.
-Those countries with no historical records in the missing features where not considered in this first imputed data set.
+Many countries have missing values in 2016, so the project required a dedicated imputation strategy.
 
-For the countries with all the values of the year 2016 or in those where it was possible to impute the missing values from previous records,
-the data were standardized so every column has values between 0 and 1. Once the data has been standardized, I train an Autoencoder (AE)
-(a graphical schema of the AE is possible in the section <a href="#Data Visualization in Latent Spaces">Data Visualization in Latent Spaces</a>),
-and its encoder part was used to project the data into a non-linear space of dimension 2.
+**Why imputation was needed**
 
-With the data projected in the latent space of dimension 2, I found the line that best approximate the data using Principal Component Analysis (PCA).
-The hypothetical countries utopia
-and dystopia where not used to train the AE or to find the best linear representation of this latent space, but both of them were projected into this final
-linear representation. Note that this linear representation order the countries with utopia and dystopia been assigned to the edges, with this order I assign an integrated
-score to each country where utopia has a value equal to 10 and dystopia has a value equal to 0.
+- Several countries are missing one or more features in 2016.
+- First pass: use previous years and average historical records when they exist.
+- Limitation: countries without historical records cannot be handled in that first step.
+- Temporary decision: leave those countries aside until a second-stage model is available.
 
-At this point, I have a data set with the countries that have values in all the features or that have historical records to easely impute the missing values; and
-an integrated score was assigned to these countries.
-However, there are countries with no historical records, that I have kept apart of the analysis. The next step of the imputation process was to predict the
-integrated score of the latter group of countries. To do so, I constructed a Random Forests (RF), as it is proposed in my PhD dissertation, using the countries
-with an integrated score, but without imputing the missing values; then I predict the integrated score for the remain countries.
+**How the integrated score was built**
 
-Remember that the integrated score is just a position in a 2-dimensional line in the latent space of the AE. Now that all the countries have an integrated score,
-we can use the decoder part of the AE, decode all the countries with missing values for the year 2016 and use this reconstruction as the final imputation for our
-data set. I think that this imputation would be better than simply averaging the previous historical records, since the AE can take into account more complicated
-non-linear relationships between the countries. The final imputed data set can be found in 
-An imputed version of the data was created as part of this project.
+- Standardize the usable data so each feature lies between `0` and `1`.
+- Train an Autoencoder (AE) and use the encoder to project countries into a two-dimensional non-linear latent space.
+- Use Principal Component Analysis (PCA) in that latent space to define the main one-dimensional ordering.
+- Project `utopia` and `dystopia` onto that ordering after training.
+- Define an integrated score from `0` to `10`, where `dystopia = 0` and `utopia = 10`.
 
-In a nutshell, this is the procedure that I used to impute the data:
+**How the missing countries were recovered**
+
+- Train a Random Forest (RF) on countries that already have an integrated score.
+- Use that RF to estimate the score of countries with missing values and no historical records.
+- Feed the final scores through the decoder part of the AE.
+- Use the decoder reconstruction as the final imputation for the missing 2016 values.
+
+This approach is more informative than simply averaging historical values, because the AE can capture more complex non-linear relationships among countries. An imputed version of the data was created as part of this project.
+
+**Workflow summary**
 
 <ol>
- <li>Train an AE and use its encoder part.</li>
- <li>Use PCA in the latent space to asign an 'integrated score' to each country.</li>
- <li>Use a RF to estimate the 'integrated score' of the countries with missing values (as it is proposed in my PhD dissertation).</li>
- <li>Use the decoder part of the AE to impute the missing values.</li>
+ <li>Train an AE and use its encoder.</li>
+ <li>Use PCA in the latent space to assign an integrated score to each country.</li>
+ <li>Use a RF to estimate the integrated score of countries with missing values.</li>
+ <li>Use the AE decoder to reconstruct the missing features.</li>
 </ol>
 
 <section id="Visualizations">
@@ -687,9 +667,14 @@ do you have relatives or friends you can count on to help you whenever you need 
   <h3>Some comments about the world</h3>
 </section>
 
-We face a huge inequality all around the world, at the same time that Qatar enjoys a GDP of around 136,000 USD per capita, most of the world does not go over 20,000 USD
-and in Burundi it does not go up to 400 USD. Entire countries in America and Africa with a huge inequality in the household income. Countries without freedom and where
-the sadness and the anger are the common day. An entire world turn to red when it refers to the perception of corruption or the generosity.
-However, at the same time that we struggle with all these problems, there are countries that might lead the way to solve them.
-Like the extraordinary effort of countries like Ruanda or Somalia to fight against corruption, or an America colored with blue when it refers to happiness and enjoyment.
-And most of the world counting with someone in times of trouble.
+**Main takeaways**
+
+- Global inequality is enormous.
+- Qatar reaches a GDP per capita of roughly 136,000 USD, while much of the world remains below 20,000 USD, and Burundi does not reach 400 USD.
+- In parts of America and Africa, household income inequality is especially severe.
+- Some countries combine low freedom with high sadness and anger.
+- Large areas of the map turn red when we look at perceived corruption or generosity.
+- There are also more hopeful signals.
+- Countries such as Rwanda or Somalia stand out for their efforts against corruption.
+- Much of the Americas appears stronger in happiness and enjoyment.
+- Across much of the world, people still report that they have someone to count on in times of trouble.
