@@ -8,7 +8,9 @@
 
   {{ partial "navbar.html" . }}
 
-  {{ block "main" . }}{{ end }}
+  <main id="main-content">
+    {{ block "main" . }}{{ end }}
+  </main>
 
   {{ partial "site_js.html" . }}
 

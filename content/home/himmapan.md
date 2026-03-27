@@ -21,7 +21,7 @@ subtitle = "Interactive software products for analysis, modeling, and problem so
       <img class="lab-logo" src="/img/logos/HimmapanLab.webp" alt="Himmapan Lab logo" width="160" height="70" loading="lazy" decoding="async">
     </div>
     <span class="eyebrow">Lab Direction</span>
-    <h3>Himmapan Lab</h3>
+    <h2>Himmapan Lab</h2>
     <p>An ecosystem of interactive software products for quantitative and engineering work. It brings together product design, modeling, and computation to turn complex technical ideas into practical tools.</p>
     <div class="lab-meta">
       <span class="lab-pill">Engineering</span>
@@ -35,7 +35,7 @@ subtitle = "Interactive software products for analysis, modeling, and problem so
       <img class="lab-logo" src="/img/logos/ThotsakanStats.webp" alt="Thotsakan Statistics logo" width="160" height="70" loading="lazy" decoding="async">
     </div>
     <span class="eyebrow">Current Focus</span>
-    <h3>Thotsakan Statistics</h3>
+    <h2>Thotsakan Statistics</h2>
     <p>A software platform for probability and statistics work: exploring data, modeling randomness, testing ideas, and solving quantitative problems computationally. It is the clearest expression of my current direction: rigorous interactive software for real analytical work.</p>
     <div class="lab-meta">
       <span class="lab-pill">Probability</span>
@@ -50,7 +50,7 @@ subtitle = "Interactive software products for analysis, modeling, and problem so
       <img class="lab-logo" src="/img/logos/MaiyarapEq.webp" alt="Maiyarap Equations logo" width="160" height="70" loading="lazy" decoding="async">
     </div>
     <span class="eyebrow">Coming Soon</span>
-    <h3>Maiyarap Equations</h3>
+    <h2>Maiyarap Equations</h2>
     <p>A software environment for differential equations, dynamic systems, simulation, and computational exploration of how models behave in practice.</p>
     <div class="lab-meta">
       <span class="lab-pill">Differential Equations</span>
