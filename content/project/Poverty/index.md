@@ -51,6 +51,18 @@ math: true
     min-width: 0;
   }
 
+  .poverty-figure-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.5rem;
+    align-items: start;
+    margin: 1rem 0 1.75rem;
+  }
+
+  .poverty-figure-grid figure {
+    margin: 0;
+  }
+
   .poverty-control {
     max-width: 28rem;
     margin: 1rem 0 1.25rem;
@@ -120,6 +132,11 @@ math: true
       gap: 1rem;
     }
 
+    .poverty-figure-grid {
+      grid-template-columns: minmax(0, 1fr);
+      gap: 1rem;
+    }
+
     .poverty-ae-layout {
       grid-template-columns: minmax(0, 1fr);
       gap: 1rem;
@@ -127,7 +144,7 @@ math: true
   }
 </style>
 
-This page is a state-level exploration of Coneval's 2018 poverty data for Mexico. The raw data are public and available at <a href="https://www.coneval.org.mx/Medicion/MP/Paginas/Programas_BD_08_10_12_14_16_18.aspx">CONEVAL</a>.
+This page is a state-level exploration of Coneval's 2018 poverty data for Mexico. The raw data are public and available at <a href="https://www.coneval.org.mx/Medicion/MP/Paginas/Programas_BD_08_10_12_14_16_18.aspx">Coneval</a>.
 
 The page has three goals:
 
@@ -151,11 +168,9 @@ A short reference is available at <a href="https://en.wikipedia.org/wiki/Human_P
 <div class="poverty-history-panel">
 
 <h3>HPI-1</h3>
-
 <p>The HPI-1 is given by the formula:</p>
 
-<p>
-\[
+$$
 \mathrm{HPI\text{-}1}
 =
 \left[
@@ -164,8 +179,7 @@ A short reference is available at <a href="https://en.wikipedia.org/wiki/Human_P
 P_1^{\alpha} + P_2^{\alpha} + P_3^{\alpha}
 \right)
 \right]^{\frac{1}{\alpha}}
-\]
-</p>
+$$
 
 <p>where</p>
 
@@ -188,8 +202,7 @@ P_1^{\alpha} + P_2^{\alpha} + P_3^{\alpha}
 <h3>HPI-2</h3>
 <p>The HPI-2 is given by the formula:</p>
 
-<p>
-\[
+$$
 \mathrm{HPI\text{-}2}
 =
 \left[
@@ -198,8 +211,7 @@ P_1^{\alpha} + P_2^{\alpha} + P_3^{\alpha}
 P_1^{\alpha} + P_2^{\alpha} + P_3^{\alpha} + P_4^{\alpha}
 \right)
 \right]^{\frac{1}{\alpha}}
-\]
-</p>
+$$
 
 <p>where</p>
 
@@ -297,13 +309,15 @@ The combination of income poverty and social deprivation creates four broad situ
   <li> Category IV: income below the poverty line and with deprivation. </li>
 </ul>
 
+If we replace the basic thresholds with the extreme ones, we can isolate extreme poverty.
+
+<div class="poverty-figure-grid">
 {{<figure src="pobreza_1.png" title="The four categories.">}}
 
-If we replace the basic thresholds with the extreme ones, we can isolate extreme poverty:
-
 {{<figure src="pobreza_extrema.png" title="The four categories and extreme poverty.">}}
+</div>
 
-## The Analysis
+## My Analysis
 
 ### The autoencoder (AE) and the construction of a poverty index
 The starting point is simple: each state is represented by a 10-dimensional vector containing the average value of each indicator.
