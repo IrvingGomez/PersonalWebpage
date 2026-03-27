@@ -28,44 +28,6 @@ image:
     letter-spacing: 0.01em;
   }
 
-  .happiness-select {
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    width: 100%;
-    padding: 0.78rem 3rem 0.78rem 1rem;
-    border: 1px solid rgba(122, 43, 194, 0.28);
-    border-radius: 999px;
-    background-color: #faf6fe;
-    background-image:
-      linear-gradient(180deg, rgba(255,255,255,0.92) 0%, rgba(245,237,252,0.95) 100%),
-      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='none'%3E%3Cpath d='M5.25 7.5 10 12.25 14.75 7.5' stroke='%237A2BC2' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
-    background-clip: padding-box;
-    background-position: 0 0, right 1rem center;
-    background-repeat: repeat, no-repeat;
-    background-size: auto, 1rem;
-    color: #2d0b57;
-    font-size: 0.98rem;
-    font-weight: 500;
-    line-height: 1.4;
-    box-shadow: 0 6px 16px rgba(122, 43, 194, 0.08);
-    transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease, background-color 0.2s ease;
-    cursor: pointer;
-  }
-
-  .happiness-select:hover {
-    border-color: rgba(122, 43, 194, 0.44);
-    box-shadow: 0 10px 24px rgba(122, 43, 194, 0.12);
-    transform: translateY(-1px);
-  }
-
-  .happiness-select:focus {
-    outline: none;
-    border-color: #7A2BC2;
-    box-shadow: 0 0 0 0.2rem rgba(122, 43, 194, 0.14), 0 10px 24px rgba(122, 43, 194, 0.12);
-    background-color: #ffffff;
-  }
-
   .happiness-control small {
     display: block;
     margin-top: 0.45rem;
@@ -173,11 +135,6 @@ image:
   }
 
   @media screen and (max-width: 768px) {
-    .happiness-select {
-      font-size: 0.95rem;
-      padding-right: 2.8rem;
-    }
-
     .happiness-viz-grid {
       gap: 1rem;
     }

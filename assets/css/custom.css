@@ -226,6 +226,50 @@ a:focus {
   color: #fff;
 }
 
+.article-style select:not([multiple]):not([size]),
+.docs-article-container select:not([multiple]):not([size]) {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  display: inline-block;
+  width: auto;
+  min-width: 14rem;
+  max-width: 100%;
+  padding: 0.78rem 3rem 0.78rem 1rem;
+  border: 1px solid rgba(122, 43, 194, 0.28);
+  border-radius: 999px;
+  background-color: #faf6fe;
+  background-image:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.92) 0%, rgba(245, 237, 252, 0.95) 100%),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='none'%3E%3Cpath d='M5.25 7.5 10 12.25 14.75 7.5' stroke='%237A2BC2' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-clip: padding-box;
+  background-position: 0 0, right 1rem center;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, 1rem;
+  color: var(--brand-purple-deep);
+  font-size: 0.98rem;
+  font-weight: 500;
+  line-height: 1.4;
+  box-shadow: 0 6px 16px rgba(122, 43, 194, 0.08);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease, background-color 0.2s ease;
+  cursor: pointer;
+}
+
+.article-style select:not([multiple]):not([size]):hover,
+.docs-article-container select:not([multiple]):not([size]):hover {
+  border-color: rgba(122, 43, 194, 0.44);
+  box-shadow: 0 10px 24px rgba(122, 43, 194, 0.12);
+  transform: translateY(-1px);
+}
+
+.article-style select:not([multiple]):not([size]):focus,
+.docs-article-container select:not([multiple]):not([size]):focus {
+  outline: none;
+  border-color: var(--brand-purple);
+  box-shadow: 0 0 0 0.2rem rgba(122, 43, 194, 0.14), 0 10px 24px rgba(122, 43, 194, 0.12);
+  background-color: #ffffff;
+}
+
 .hero-metrics {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));

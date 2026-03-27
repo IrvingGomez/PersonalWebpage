@@ -14,7 +14,14 @@
   {{ end }}
   {{ end }}
 
-  {{ if not (in (slice "talk" "page") $page.Type) }}
+  {{ $show_date := false }}
+  {{ if eq $page.Type "publication" }}
+    {{ $show_date = not $page.Date.IsZero }}
+  {{ else }}
+    {{ $show_date = not $page.Lastmod.IsZero }}
+  {{ end }}
+
+  {{ if and $show_date (not (in (slice "talk" "page" "project") $page.Type)) }}
   <span class="article-date">
     {{ $date := $page.Lastmod.Format site.Params.date_format }}
     {{ if eq $page.Type "publication" }}
