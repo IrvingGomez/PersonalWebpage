@@ -14,6 +14,7 @@ external_link: ""
 
 image:
   focal_point: Smart
+math: true
 ---
 
 This is a project in collaboration with Jill-Jênn Vie from Inria-Lille, France.

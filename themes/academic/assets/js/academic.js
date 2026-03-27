@@ -125,27 +125,29 @@
   // Publication container.
   let $grid_pubs = $('#container-publications');
 
-  // Initialise Isotope.
-  $grid_pubs.isotope({
-    itemSelector: '.isotope-item',
-    percentPosition: true,
-    masonry: {
-      // Use Bootstrap compatible grid layout.
-      columnWidth: '.grid-sizer'
-    },
-    filter: function() {
-      let $this = $(this);
-      let searchResults = searchRegex ? $this.text().match( searchRegex ) : true;
-      let filterResults = filterValues ? $this.is( filterValues ) : true;
-      return searchResults && filterResults;
-    }
-  });
+  if ($grid_pubs.length && typeof $.fn.isotope === 'function') {
+    // Initialise Isotope.
+    $grid_pubs.isotope({
+      itemSelector: '.isotope-item',
+      percentPosition: true,
+      masonry: {
+        // Use Bootstrap compatible grid layout.
+        columnWidth: '.grid-sizer'
+      },
+      filter: function() {
+        let $this = $(this);
+        let searchResults = searchRegex ? $this.text().match( searchRegex ) : true;
+        let filterResults = filterValues ? $this.is( filterValues ) : true;
+        return searchResults && filterResults;
+      }
+    });
 
-  // Filter by search term.
-  let $quickSearch = $('.filter-search').keyup( debounce( function() {
-    searchRegex = new RegExp( $quickSearch.val(), 'gi' );
-    $grid_pubs.isotope();
-  }) );
+    // Filter by search term.
+    let $quickSearch = $('.filter-search').keyup( debounce( function() {
+      searchRegex = new RegExp( $quickSearch.val(), 'gi' );
+      $grid_pubs.isotope();
+    }) );
+  }
 
   // Debounce input to prevent spamming filter requests.
   function debounce( fn, threshold ) {
@@ -485,6 +487,10 @@
 
     // Filter projects.
     $('.projects-container').each(function(index, container) {
+      if (typeof $.fn.imagesLoaded !== 'function' || typeof $.fn.isotope !== 'function') {
+        return;
+      }
+
       let $container = $(container);
       let $section = $container.closest('section');
       let layout;
@@ -525,7 +531,7 @@
     });
 
     // Enable publication filter for publication index page.
-    if ($('.pub-filters-select')) {
+    if ($('.pub-filters-select').length && typeof $.fn.isotope === 'function') {
       filter_publications();
       // Useful for changing hash manually (e.g. in development):
       // window.addEventListener('hashchange', filter_publications, false);

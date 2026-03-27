@@ -6,6 +6,29 @@
   <meta name="generator" content="Source Themes Academic {{ site.Data.academic.version }}">
 
   {{ $scr := .Scratch }}
+  {{ $needs_fancybox := in .Content "data-fancybox=" }}
+  {{ $needs_isotope := and (eq .Kind "section") (eq .Section "publication") }}
+
+  {{ if or .IsHome (eq .Type "widget_page") }}
+    {{ $widget_page := "" }}
+    {{ if .IsHome }}
+      {{ $widget_page = "/home" }}
+    {{ else if .File }}
+      {{ $widget_page = .File.Path }}
+    {{ end }}
+    {{ with site.GetPage $widget_page }}
+      {{ range where (.Resources.ByType "page") ".Params.active" "!=" false }}
+        {{ $widget := or .Params.widget "blank" }}
+        {{ if eq $widget "projects" }}{{ $widget = "portfolio" }}{{ end }}
+        {{ if eq $widget "portfolio" }}
+          {{ $needs_isotope = true }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+
+  {{ $scr.Set "needs_fancybox" $needs_fancybox }}
+  {{ $scr.Set "needs_isotope" $needs_isotope }}
 
   {{/* Attempt to load superuser. */}}
   {{ $superuser_name := "" }}
@@ -57,7 +80,9 @@
     {{ $scr.Set "use_cdn" 1 }}
     {{ printf "<link rel=\"stylesheet\" href=\"%s\" integrity=\"%s\" crossorigin=\"anonymous\">" (printf $css.academicons.url $css.academicons.version) $css.academicons.sri | safeHTML }}
     {{ printf "<link rel=\"stylesheet\" href=\"%s\" integrity=\"%s\" crossorigin=\"anonymous\">" (printf $css.fontAwesome.url $css.fontAwesome.version) $css.fontAwesome.sri | safeHTML }}
+    {{ if $needs_fancybox }}
     {{ printf "<link rel=\"stylesheet\" href=\"%s\" integrity=\"%s\" crossorigin=\"anonymous\">" (printf $css.fancybox.url $css.fancybox.version) $css.fancybox.sri | safeHTML }}
+    {{ end }}
 
     {{/* Default to enabling highlighting, but allow the user to override it in .Params or site.Params.
          Use $scr to store "highlight_enabled", so that we can read it again in footer.html. */}}
