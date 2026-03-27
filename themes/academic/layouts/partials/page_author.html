@@ -30,8 +30,12 @@
     {{ if and site.Params.gravatar .Params.email }}
       <img class="portrait mr-3" src="https://s.gravatar.com/avatar/{{ md5 .Params.email }}?s=200')" alt="Avatar">
     {{ else if $avatar }}
-      {{ $avatar_image := $avatar.Fill "250x250 Center" }}
-      <img class="portrait mr-3" src="{{ $avatar_image.RelPermalink }}" alt="Avatar">
+      {{ $avatar_src := $avatar.RelPermalink }}
+      {{ if eq $avatar.MediaType.SubType "jpeg" }}
+        {{ $avatar_image := $avatar.Fill "250x250 Center" }}
+        {{ $avatar_src = $avatar_image.RelPermalink }}
+      {{ end }}
+      <img class="portrait mr-3" src="{{ $avatar_src }}" alt="Avatar" width="250" height="250">
     {{ end }}
 
     <div class="media-body">
