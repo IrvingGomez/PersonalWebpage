@@ -25,6 +25,180 @@ image:
   </ul>
 </nav>
 
+<style>
+  .happiness-control {
+    max-width: 42rem;
+    margin: 1.2rem 0 1rem;
+  }
+
+  .happiness-control label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #2d0b57;
+    font-weight: 600;
+    font-size: 0.95rem;
+    letter-spacing: 0.01em;
+  }
+
+  .happiness-select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 100%;
+    padding: 0.78rem 3rem 0.78rem 1rem;
+    border: 1px solid rgba(122, 43, 194, 0.28);
+    border-radius: 999px;
+    background-color: #faf6fe;
+    background-image:
+      linear-gradient(180deg, rgba(255,255,255,0.92) 0%, rgba(245,237,252,0.95) 100%),
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='none'%3E%3Cpath d='M5.25 7.5 10 12.25 14.75 7.5' stroke='%237A2BC2' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    background-clip: padding-box;
+    background-position: 0 0, right 1rem center;
+    background-repeat: repeat, no-repeat;
+    background-size: auto, 1rem;
+    color: #2d0b57;
+    font-size: 0.98rem;
+    font-weight: 500;
+    line-height: 1.4;
+    box-shadow: 0 6px 16px rgba(122, 43, 194, 0.08);
+    transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease, background-color 0.2s ease;
+    cursor: pointer;
+  }
+
+  .happiness-select:hover {
+    border-color: rgba(122, 43, 194, 0.44);
+    box-shadow: 0 10px 24px rgba(122, 43, 194, 0.12);
+    transform: translateY(-1px);
+  }
+
+  .happiness-select:focus {
+    outline: none;
+    border-color: #7A2BC2;
+    box-shadow: 0 0 0 0.2rem rgba(122, 43, 194, 0.14), 0 10px 24px rgba(122, 43, 194, 0.12);
+    background-color: #ffffff;
+  }
+
+  .happiness-control small {
+    display: block;
+    margin-top: 0.45rem;
+    color: rgba(58, 74, 93, 0.78);
+    line-height: 1.45;
+  }
+
+  .happiness-viz-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1.75fr) minmax(18rem, 1fr);
+    gap: 1.5rem;
+    align-items: flex-start;
+    margin: 1rem 0 1.75rem;
+  }
+
+  .happiness-viz-grid .map,
+  .happiness-viz-grid .histo {
+    min-width: 0;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .happiness-viz-grid .map {
+    grid-column: 1;
+  }
+
+  .happiness-viz-grid .histo {
+    grid-column: 2;
+  }
+
+  .happiness-viz-grid .plotly-graph-div,
+  .happiness-viz-grid .js-plotly-plot {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .latent-viz-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.5rem;
+    align-items: flex-start;
+    margin: 1rem 0 1.75rem;
+  }
+
+  .latent-viz-grid .view {
+    min-width: 0;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .latent-viz-grid .ae.view {
+    grid-column: 1 / -1;
+  }
+
+  .latent-viz-pair {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.5rem;
+    align-items: flex-start;
+  }
+
+  .latent-viz-pair > * {
+    min-width: 0;
+    width: 100%;
+  }
+
+  .latent-viz-pair > p {
+    display: contents;
+    margin: 0;
+  }
+
+  .latent-viz-grid .plotly-graph-div,
+  .latent-viz-grid .js-plotly-plot,
+  .latent-viz-pair .plotly-graph-div,
+  .latent-viz-pair .js-plotly-plot {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .latent-viz-pair figure {
+    margin: 0;
+  }
+
+  .latent-viz-pair img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .latent-schema-figure {
+    margin: 0;
+  }
+
+  .latent-schema-figure a,
+  .latent-schema-figure img {
+    display: block;
+  }
+
+  @media screen and (max-width: 768px) {
+    .happiness-select {
+      font-size: 0.95rem;
+      padding-right: 2.8rem;
+    }
+
+    .happiness-viz-grid {
+      gap: 1rem;
+    }
+
+    .happiness-viz-grid .map,
+    .happiness-viz-grid .histo {
+      grid-column: 1;
+    }
+
+    .latent-viz-grid,
+    .latent-viz-pair {
+      gap: 1rem;
+      grid-template-columns: minmax(0, 1fr);
+    }
+  }
+</style>
+
 It is common to find places that shows a map with the happiness score for each country find in the
 World Happiness Report (WHR). However, the WHR has much more information than just the happiness score.
 This work is devoted to those underlying reasons that yields (or not) happiness.
@@ -95,39 +269,52 @@ Note: For some reason (independent to me) the map does not recognize some states
 <!-- Script to say the function of the dropdwon button 'Select Variable' -->
 <script>
   $(document).ready(function(){
+    function resizeVisiblePlots() {
+      if (typeof Plotly === "undefined" || !Plotly.Plots || !Plotly.Plots.resize) {
+        return;
+      }
+
+      window.setTimeout(function() {
+        $(".happiness-viz-grid .map:visible .plotly-graph-div, .happiness-viz-grid .histo:visible .plotly-graph-div").each(function() {
+          Plotly.Plots.resize(this);
+        });
+      }, 80);
+    }
+
     $("#select_var").change(function(){
       $(this).find("option:selected").each(function(){
         var optionVar = $(this).attr("value");
-        $("#show_histogram").find("option:selected").each(function(){
-          var optionHisto = $(this).attr("value")
-          if(optionVar){
-            $(".map").not("." + optionVar).hide();
-            $(".explanation").not("." + optionVar).hide();
-            $(".histo").not("." + optionVar).hide();
-            $(".histo").not("." + optionHisto).hide();
-            $(".explanation" + "." + optionVar).show();
-            $(".map" + "." + optionVar).show();
-            $(".histo" + "." + optionVar + "." + optionHisto).show();
-          } else{
-            $(".explanation").hide();
-            $(".map").hide();
-            $(".histo").hide();
-          }
-        });
+        if(optionVar){
+          $(".explanation").hide();
+          $(".map").hide();
+          $(".histo").hide();
+          $(".explanation." + optionVar).show();
+          $(".map." + optionVar).show();
+          $(".histo." + optionVar).show();
+          resizeVisiblePlots();
+        } else{
+          $(".explanation").hide();
+          $(".map").hide();
+          $(".histo").hide();
+        }
       });
     }).change();
+
+    $(window).on("resize", resizeVisiblePlots);
   });
 </script>
 
 
 
-<!-- Dropdwon button 'Select Variable' -->
-<div>
-<select name="select_var" id="select_var">
-    <option value="ladder">Happiness score or subjective well-being</option>
-    <option value="social">Someone to count on in times of trouble (Social Support)</option>
-    <option value="corrupt">Perception of corruption</option>
-</select>
+<!-- Variable selector -->
+<div class="happiness-control">
+    <label for="select_var"><strong>Map variable</strong></label>
+    <select class="happiness-select" name="select_var" id="select_var">
+      <option value="ladder">Happiness score or subjective well-being</option>
+      <option value="social">Someone to count on in times of trouble (Social Support)</option>
+      <option value="corrupt">Perception of corruption</option>
+    </select>
+    <small>Switch between the three country-level measures used in the maps and histogram.</small>
 </div>
 
 <div class="ladder explanation">
@@ -147,6 +334,7 @@ do you have relatives or friends you can count on to help you whenever you need 
 </div>
 
 <!-- Map of Ladder in low resolution -->
+<div class="happiness-viz-grid">
 <div class="ladder low map">
   <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
@@ -200,37 +388,8 @@ do you have relatives or friends you can count on to help you whenever you need 
   </script>
 </div>
 
-<!-- Script to say the function of the dropdwon button 'Show Histogram' -->
-<script>
-  $(document).ready(function(){
-    $("#show_histogram").change(function(){
-      $(this).find("option:selected").each(function(){
-        var optionHisto = $(this).attr("value");
-	$("#select_var").find("option:selected").each(function(){
-	  var optionVar = $(this).attr("value");
-          if(optionHisto){
-  	    $(".histo").not("." + optionHisto).hide();
-	    $(".histo").not("." + optionVar).hide();
-	    $(".histo" + "." + optionHisto + "." + optionVar).show();
-          } else{
-	    $(".histo").hide();
-          }
-	});
-      });
-    }).change();
-  });
-</script>
-
-<!-- Dropdwon button 'Show Histogram' -->
-<div>
-<select name="show_histogram" id="show_histogram">
-    <option value="show">Show histogram</option>
-    <option value="hide">Hide histogram</option>
-</select>
-</div>
-
 <!-- Hitogram of Ladder -->
-<div class="ladder histo show">
+<div class="ladder histo">
   <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <div id="31cf412f-ada3-4aba-8b52-1b6e432a216b" class="plotly-graph-div" style="height:100%; width:100%;"></div>
@@ -248,7 +407,7 @@ do you have relatives or friends you can count on to help you whenever you need 
 </div>
 
 <!-- Hitogram of Social Support -->
-<div class="social histo show">
+<div class="social histo">
   <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <div id="f382d1bd-199d-4959-b1d7-3d34dee56805" class="plotly-graph-div" style="height:100%; width:100%;"></div>
@@ -266,7 +425,7 @@ do you have relatives or friends you can count on to help you whenever you need 
 </div>
 
 <!-- Hitogram of Corruption -->
-<div class="corrupt histo show">
+<div class="corrupt histo">
   <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <div id="ae546f4a-d007-49a9-8733-851329db12f2" class="plotly-graph-div" style="height:100%; width:100%;"></div>
@@ -282,6 +441,7 @@ do you have relatives or friends you can count on to help you whenever you need 
     };
   </script>
 </div>
+</div>
 
 <section id="Data Visualization in Latent Spaces">
   <h3>Data Visualization in Latent Spaces</h3>
@@ -289,30 +449,48 @@ do you have relatives or friends you can count on to help you whenever you need 
 
 <script>
   $(document).ready(function(){
+    function resizeVisibleLatentPlots() {
+      if (typeof Plotly === "undefined" || !Plotly.Plots || !Plotly.Plots.resize) {
+        return;
+      }
+
+      window.setTimeout(function() {
+        $(".latent-viz-grid .view:visible .plotly-graph-div").each(function() {
+          Plotly.Plots.resize(this);
+        });
+      }, 80);
+    }
+
     $("#select_view").change(function(){
       $(this).find("option:selected").each(function(){
         var optionValue = $(this).attr("value");
         if(optionValue){
           $(".view").not("." + optionValue).hide();
           $("." + optionValue).show();
+          resizeVisibleLatentPlots();
         } else{
-	  $(".map").hide();
+	  $(".view").hide();
         }
       });
     }).change();
+
+    $(window).on("resize", resizeVisibleLatentPlots);
   });
 </script>
 
-<!-- Dropdwon button 'Select Resolution of Map' -->
-<div>
-<select name="select_view" id="select_view">
-    <option value="pca_continent">Visualization: PCA (colored by continent)</option>
-    <option value="pca_score">Visualization: PCA (colored by integrated score)</option>
-    <option value="ae">Visualization: AE</option>
-    <option value="hide">Hide visualization</option>
-</select>
+<!-- Visualization selector -->
+<div class="happiness-control">
+    <label for="select_view"><strong>Latent-space view</strong></label>
+    <select class="happiness-select" name="select_view" id="select_view">
+      <option value="pca_continent">Visualization: PCA (colored by continent)</option>
+      <option value="pca_score">Visualization: PCA (colored by integrated score)</option>
+      <option value="ae">Visualization: AE</option>
+      <option value="hide">Hide visualization</option>
+    </select>
+    <small>Choose how to display the dimensionality-reduction view below.</small>
 </div>
 
+<div class="latent-viz-grid">
 <!-- PCA Plot -->
 <div class="pca_continent view ">
   <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
@@ -367,7 +545,8 @@ do you have relatives or friends you can count on to help you whenever you need 
 </div>
 
 <!-- Auto-Encoder -->
-<div class="ae view">
+<div class="ae view latent-viz-pair">
+  <div>
   <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <div id="e8784cf9-6052-499a-8ac3-23aba344e0ec" class="plotly-graph-div" style="height:100%; width:100%;"></div>
@@ -382,8 +561,15 @@ do you have relatives or friends you can count on to help you whenever you need 
       )
     };
   </script>
+  </div>
 
-  {{<figure src="AE_draw_happiness.png" title="Autoencoder schema">}}
+  <figure class="latent-schema-figure">
+    <a data-fancybox="" href="AE_draw_happiness.png" data-caption="Autoencoder schema">
+      <img src="AE_draw_happiness.png" alt="Autoencoder schema">
+    </a>
+    <figcaption>Autoencoder schema</figcaption>
+  </figure>
+</div>
 </div>
 
 <section id="Some comments about the world">
@@ -396,12 +582,3 @@ the sadness and the anger are the common day. An entire world turn to red when i
 However, at the same time that we struggle with all these problems, there are countries that might lead the way to solve them.
 Like the extraordinary effort of countries like Ruanda or Somalia to fight against corruption, or an America colored with blue when it refers to happiness and enjoyment.
 And most of the world counting with someone in times of trouble.
-
-
-
-
-
-
-
-
-
