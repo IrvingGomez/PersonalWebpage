@@ -1,0 +1,11 @@
+# Font style metadata
+name = "Local"
+
+# Optional Google font URL
+google_fonts = ""
+
+# Font families
+heading_font = "\"Palatino Linotype\", \"Book Antiqua\", Georgia"
+body_font = "\"Avenir Next\", \"Segoe UI\", \"Helvetica Neue\", Arial"
+nav_font = "\"Avenir Next\", \"Segoe UI\", \"Helvetica Neue\", Arial"
+mono_font = "\"SFMono-Regular\", Consolas, \"Liberation Mono\", Menlo, monospace"

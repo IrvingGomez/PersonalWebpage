@@ -49,8 +49,8 @@ social:
 - icon: github
   icon_pack: fab
   link: "https://github.com/IrvingGomez"
-- icon: cv
-  icon_pack: ai
+- icon: file-pdf
+  icon_pack: fas
   link: "/files/CvIrvingAcademic.pdf"
 ---
 

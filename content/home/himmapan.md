@@ -18,7 +18,7 @@ subtitle = "Interactive software products for analysis, modeling, and problem so
 <div class="lab-grid">
   <div class="lab-card">
     <div class="lab-logo-wrap">
-      <img class="lab-logo" src="/img/logos/HimmapanLab.webp" alt="Himmapan Lab logo">
+      <img class="lab-logo" src="/img/logos/HimmapanLab.webp" alt="Himmapan Lab logo" width="160" height="70" loading="lazy" decoding="async">
     </div>
     <span class="eyebrow">Lab Direction</span>
     <h3>Himmapan Lab</h3>
@@ -32,7 +32,7 @@ subtitle = "Interactive software products for analysis, modeling, and problem so
   </div>
   <div class="lab-card">
     <div class="lab-logo-wrap">
-      <img class="lab-logo" src="/img/logos/ThotsakanStats.webp" alt="Thotsakan Statistics logo">
+      <img class="lab-logo" src="/img/logos/ThotsakanStats.webp" alt="Thotsakan Statistics logo" width="160" height="70" loading="lazy" decoding="async">
     </div>
     <span class="eyebrow">Current Focus</span>
     <h3>Thotsakan Statistics</h3>
@@ -47,7 +47,7 @@ subtitle = "Interactive software products for analysis, modeling, and problem so
   </div>
   <div class="lab-card">
     <div class="lab-logo-wrap">
-      <img class="lab-logo" src="/img/logos/MaiyarapEq.webp" alt="Maiyarap Equations logo">
+      <img class="lab-logo" src="/img/logos/MaiyarapEq.webp" alt="Maiyarap Equations logo" width="160" height="70" loading="lazy" decoding="async">
     </div>
     <span class="eyebrow">Coming Soon</span>
     <h3>Maiyarap Equations</h3>
