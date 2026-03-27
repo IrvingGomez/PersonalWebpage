@@ -32,7 +32,7 @@ subtitle = "Interactive software products for analysis, modeling, and problem so
   </div>
   <div class="lab-card">
     <div class="lab-logo-wrap">
-      <img class="lab-logo" src="/img/logos/ThotsakanStats.png" alt="Thotsakan Statistics logo">
+      <img class="lab-logo" src="/img/logos/ThotsakanStats.webp" alt="Thotsakan Statistics logo">
     </div>
     <span class="eyebrow">Current Focus</span>
     <h3>Thotsakan Statistics</h3>
@@ -47,7 +47,7 @@ subtitle = "Interactive software products for analysis, modeling, and problem so
   </div>
   <div class="lab-card">
     <div class="lab-logo-wrap">
-      <img class="lab-logo" src="/img/logos/MaiyarapEq.png" alt="Maiyarap Equations logo">
+      <img class="lab-logo" src="/img/logos/MaiyarapEq.webp" alt="Maiyarap Equations logo">
     </div>
     <span class="eyebrow">Coming Soon</span>
     <h3>Maiyarap Equations</h3>
