@@ -287,11 +287,12 @@ a:focus {
   margin-bottom: 0.45rem;
 }
 
-.hero-metric strong {
+.hero-metric-value {
   display: block;
   color: #fffdf8;
   font-size: 1rem;
   line-height: 1.45;
+  font-weight: 400;
 }
 
 .about-portfolio .portrait-title h2 {

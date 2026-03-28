@@ -35,14 +35,14 @@ This initiative is grounded in my background in mathematical engineering, a PhD 
 <div class="hero-metrics">
   <div class="hero-metric">
     <span class="hero-metric-label">Current focus</span>
-    <strong>Professional software for statistics and engineering</strong>
+    <span class="hero-metric-value">Professional software for statistics and engineering</span>
   </div>
   <div class="hero-metric">
     <span class="hero-metric-label">Building</span>
-    <strong>Himmapan Lab product ecosystem</strong>
+    <span class="hero-metric-value">Himmapan Lab product ecosystem</span>
   </div>
   <div class="hero-metric">
     <span class="hero-metric-label">Research themes</span>
-    <strong>Missing data, causality, hierarchical models</strong>
+    <span class="hero-metric-value">Missing data, causality, hierarchical models</span>
   </div>
 </div>
